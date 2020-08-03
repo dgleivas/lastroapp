@@ -1,25 +1,42 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
+import Acompanhamento from "../views/Acompanhamento.vue";
+import Analise from "../views/Analise.vue";
+import Orcamento from "../views/Orcamento.vue";
+import aContent from "../views/acompanhamento/aContent.vue";
 
 Vue.use(VueRouter);
-
 const routes = [
   {
     path: "/",
     name: "Home",
-    component: Home
+    redirect: "/acompanhamento"
   },
   {
-    path: "/about",
-    name: "About",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/About.vue")
+    path: "/analise",
+    name: "Analise",
+    component: Analise,
+    props: true
+  },
+  {
+    path: "/acompanhamento",
+    name: "Acompanhamento",
+    component: Acompanhamento,
+    props: true,
+    children: [{
+      path: ":subrota",
+      name: "ConteudoAcompanhamento",
+      component: aContent,
+      props: true
+    }]
+  },
+  {
+    path: "/orcamento",
+    name: "Orcamento",
+    component: Orcamento,
+    props: true
   }
-];
+]
 
 const router = new VueRouter({
   mode: "history",
