@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg bg-primary bg-gradient">
     <div class="container-fluid">
       <div>
-        <ul class="navbar-nav mr-auto pt-2 pb-2">
+        <ul class="navbar-nav mr-auto">
           <li class="nav-item mr-3">
             <router-link :to="{ name: 'Analise' }" exact>Analises</router-link>
           </li>
@@ -28,6 +28,7 @@ export default {};
 }
 a {
   color: white;
+  font-size: 18px;
   padding: 8px;
   text-align: center;
   text-decoration: none;

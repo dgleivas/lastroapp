@@ -1,8 +1,8 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Acompanhamento from "../views/Acompanhamento.vue";
-import Analise from "../views/Analise.vue";
-import Orcamento from "../views/Orcamento.vue";
+import Acompanhamento from "../components/Acompanhamento.vue";
+import Analise from "../components/Analise.vue";
+import Orcamento from "../components/Orcamento.vue";
 import aContent from "../views/acompanhamento/aContent.vue";
 
 Vue.use(VueRouter);

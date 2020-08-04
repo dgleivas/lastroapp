@@ -1,10 +1,10 @@
 <template>
   <div class="conteudo">
     <div class="row">
-      <div class="col-6 col-md-2 bg-light border">
+      <div class="col-auto bg-light border">
         <aSidebar></aSidebar>
       </div>
-      <div class="col-md-10 bg-light border">
+      <div class="col-10">
         <router-view></router-view>
       </div>
     </div>
@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import aSidebar from "./acompanhamento/aSidebar";
+import aSidebar from "../views/acompanhamento/aSidebar";
 
 export default {
   name: "Acompanhamento",
