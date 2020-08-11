@@ -7,16 +7,16 @@
 </template>
 
 <script>
-import adashboard from "./content/aDashboard";
-import acarteiras from "./content/aCarteiras";
-import aextrato from "./content/aExtrato";
-import aproventos from "./content/aProventos";
-import arentabilidade from "./content/aRentabilidade";
-import aaportes from "./content/aAportes";
-import aresgates from "./content/aResgates";
-import aconta from "./content/aConta";
-import aajuda from "./content/aAjuda";
-import asair from "./content/aSair";
+import adashboard from "./content/aDashboard"
+import acarteiras from "./content/aCarteiras"
+import aextrato from "./content/aExtrato"
+import aproventos from "./content/aProventos"
+import arentabilidade from "./content/aRentabilidade"
+import aaportes from "./content/aAportes"
+import aresgates from "./content/aResgates"
+import aconta from "./content/aConta"
+import aajuda from "./content/aAjuda"
+import asair from "./content/aSair"
 
 export default {
   data() {

@@ -1,41 +1,47 @@
-import Vue from "vue";
-import VueRouter from "vue-router";
-import Acompanhamento from "../components/Acompanhamento.vue";
-import Analise from "../components/Analise.vue";
-import Orcamento from "../components/Orcamento.vue";
-import aContent from "../views/acompanhamento/aContent.vue";
+import Vue from "vue"
+import VueRouter from "vue-router"
 
-Vue.use(VueRouter);
+Vue.use(VueRouter)
+
 const routes = [
   {
     path: "/",
+    name: "Login",
+    component: () => import (/* webpackChunkName: "Analise" */ "../components/Login.vue"),
+  },
+  {
+    path: "/home",
     name: "Home",
-    redirect: "/acompanhamento"
-  },
-  {
-    path: "/analise",
-    name: "Analise",
-    component: Analise,
-    props: true
-  },
-  {
-    path: "/acompanhamento",
-    name: "Acompanhamento",
-    component: Acompanhamento,
     props: true,
-    children: [{
-      path: ":subrota",
-      name: "ConteudoAcompanhamento",
-      component: aContent,
-      props: true
-    }]
+    component: () => import (/* webpackChunkName: "Analise" */ "../components/Home.vue"),
+    children: [
+      {
+        path: "/analise",
+        name: "Analise",
+        component: () => import (/* webpackChunkName: "Analise" */ "../components/Analise.vue"),
+        props: true
+      },
+      {
+        path: "/acompanhamento",
+        name: "Acompanhamento",
+        component: () => import (/* webpackChunkName: "Acompanhamento" */ "../components/Acompanhamento.vue"),
+        props: true,
+        children: [{
+          path: ":subrota",
+          name: "ConteudoAcompanhamento",
+          component: () => import (/* webpackChunkName: "ConteudoAcompanhamento" */ "../views/acompanhamento/aContent.vue"),
+          props: true
+        }]
+      },
+      {
+        path: "/orcamento",
+        name: "Orcamento",
+        component: () => import (/* webpackChunkName: "Orcamento" */ "../components/Orcamento.vue"),
+        props: true
+      },
+    ]
+
   },
-  {
-    path: "/orcamento",
-    name: "Orcamento",
-    component: Orcamento,
-    props: true
-  }
 ]
 
 const router = new VueRouter({

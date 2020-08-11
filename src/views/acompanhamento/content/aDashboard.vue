@@ -8,7 +8,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  mounted() {
+    console.log(this.$firebase);
+  }
+};
 </script>
 
 <style>
