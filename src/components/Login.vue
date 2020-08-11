@@ -26,8 +26,15 @@
       </div>
 
       <div class="mx-3">
-        <button class="btn btn-primary btn-lg btn-block">
-          <i class="fas fa-lock"></i> Entrar
+        <button class="btn btn-primary btn-lg btn-block" :disabled="loading">
+          <template v-if="loading">
+            <i class="fas fa-circle-notch fa-spin"></i>
+            Entrando...
+          </template>
+          <template v-else>
+            <i class="fas fa-lock"></i>
+            Entrar
+          </template>
         </button>
       </div>
     </div>
@@ -38,19 +45,34 @@
 export default {
   data: () => {
     return {
+      loading: false,
       email: "",
       password: ""
     };
   },
   methods: {
     async doLogin() {
-      const { email, password }  = this
-       await this.$firebase.auth().signInWithEmailAndPassword(email,password).then((res)=>{
-         console.log(res)
-      }).catch((err) => {
-        console.log(err)
-      })
+      this.loading = true
+      const { email, password } = this;
+      await this.$firebase
+        .auth()
+        .signInWithEmailAndPassword(email, password)
+        .then(res => {
+          window.uid = res.user.uid;
+          this.$router.push({ name: "Home" });
+        })
+        .catch(err => {
+          console.log(err);
+        });
+        this.loading = false
     }
+  },
+  beforeRouteEnter(to, from, next){
+    next(vm =>{
+      if(window.uid){
+        vm.$router.push({name: "Home"})
+      }
+    })
   }
 };
 </script>

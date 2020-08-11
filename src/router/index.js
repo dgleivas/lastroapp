@@ -7,36 +7,36 @@ const routes = [
   {
     path: "/",
     name: "Login",
-    component: () => import (/* webpackChunkName: "Analise" */ "../components/Login.vue"),
+    component: () => import(/* webpackChunkName: "Analise" */ "../components/Login.vue"),
   },
   {
     path: "/home",
     name: "Home",
     props: true,
-    component: () => import (/* webpackChunkName: "Analise" */ "../components/Home.vue"),
+    component: () => import(/* webpackChunkName: "Analise" */ "../components/Home.vue"),
     children: [
       {
-        path: "/analise",
+        path: "/home/analise",
         name: "Analise",
-        component: () => import (/* webpackChunkName: "Analise" */ "../components/Analise.vue"),
+        component: () => import(/* webpackChunkName: "Analise" */ "../components/Analise.vue"),
         props: true
       },
       {
-        path: "/acompanhamento",
+        path: "/home/acompanhamento",
         name: "Acompanhamento",
-        component: () => import (/* webpackChunkName: "Acompanhamento" */ "../components/Acompanhamento.vue"),
+        component: () => import(/* webpackChunkName: "Acompanhamento" */ "../components/Acompanhamento.vue"),
         props: true,
         children: [{
           path: ":subrota",
           name: "ConteudoAcompanhamento",
-          component: () => import (/* webpackChunkName: "ConteudoAcompanhamento" */ "../views/acompanhamento/aContent.vue"),
+          component: () => import(/* webpackChunkName: "ConteudoAcompanhamento" */ "../views/acompanhamento/aContent.vue"),
           props: true
         }]
       },
       {
-        path: "/orcamento",
+        path: "/home/orcamento",
         name: "Orcamento",
-        component: () => import (/* webpackChunkName: "Orcamento" */ "../components/Orcamento.vue"),
+        component: () => import(/* webpackChunkName: "Orcamento" */ "../components/Orcamento.vue"),
         props: true
       },
     ]
@@ -49,5 +49,14 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes
 });
+
+router.beforeEach((to, from, next) => {
+  if (!window.uid && to.name != "Login") {
+    next({ name: "Login" })
+  } else {
+    next()
+  }
+
+})
 
 export default router;

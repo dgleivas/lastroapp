@@ -14,6 +14,9 @@ export default {
     Footer,
     MenuHeader
   },
+  created(){
+    this.$router.push({name: "Acompanhamento"})
+  }
 }
 </script>
 
