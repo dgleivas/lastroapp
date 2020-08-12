@@ -16,13 +16,13 @@ const routes = [
     component: () => import(/* webpackChunkName: "Analise" */ "../components/Home.vue"),
     children: [
       {
-        path: "/home/analise",
+        path: "analise",
         name: "Analise",
         component: () => import(/* webpackChunkName: "Analise" */ "../components/Analise.vue"),
         props: true
       },
       {
-        path: "/home/acompanhamento",
+        path: "acompanhamento",
         name: "Acompanhamento",
         component: () => import(/* webpackChunkName: "Acompanhamento" */ "../components/Acompanhamento.vue"),
         props: true,
@@ -34,7 +34,7 @@ const routes = [
         }]
       },
       {
-        path: "/home/orcamento",
+        path: "orcamento",
         name: "Orcamento",
         component: () => import(/* webpackChunkName: "Orcamento" */ "../components/Orcamento.vue"),
         props: true

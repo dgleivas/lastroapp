@@ -15,7 +15,7 @@
           </li>
           <li class="nav-item mb-2">
             <router-link :to="{ name:'ConteudoAcompanhamento', params: { subrota: 'aextrato'} }">
-              <i class="fas fa-file-invoice-dollar"></i> Extratos
+              <i class="far fa-list-alt"></i> Extratos
             </router-link>
           </li>
           <li class="nav-item mb-2">
@@ -56,10 +56,8 @@
               <i class="far fa-question-circle"></i> Ajuda
             </router-link>
           </li>
-          <li class="nav-item mb-4">
-            <router-link :to="{ name:'ConteudoAcompanhamento', params: { subrota: 'asair'} }">
-              <i class="fas fa-sign-out-alt"></i> Sair
-            </router-link>
+          <li class="nav-item mb-4 ml-15">
+            <aSair></aSair>
           </li>
         </ul>
       </div>
@@ -68,7 +66,12 @@
 </template>
 
 <script>
-export default {};
+import aSair from "./content/aSair";
+export default {
+  components: {
+    aSair
+  }
+};
 </script>
 
 <style scoped>
