@@ -37,4 +37,7 @@ a {
 a:hover {
   font-weight: bold;
 }
+a:active {
+  color: #000080;
+}
 </style>

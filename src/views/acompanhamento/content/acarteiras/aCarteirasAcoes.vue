@@ -13,7 +13,8 @@
           <th class="col">Cotação Inicial</th>
           <th class="col">Cotação Atual</th>
           <th class="col border-right">Resultado (%)</th>
-          <th class="col">Resultado ultimo dia</th>
+          <th class="col border-right">Resultado ultimo dia</th>
+          <th class="col" colspan="2">Action</th>
         </tr>
       </thead>
       <tbody>
@@ -27,7 +28,13 @@
           <td>21,30</td>
           <td>25,76</td>
           <td class="border-right">19,0%</td>
-          <td>-7,91</td>
+          <td class="border-right">-7,91</td>
+          <td>
+            <i class="fas fa-edit text-success fa-2x"></i>
+          </td>
+          <td>
+            <i class="fas fa-trash-alt text-danger fa-2x"></i>
+          </td>
         </tr>
       </tbody>
       <tfoot>
@@ -40,7 +47,13 @@
           <td>21,30</td>
           <td>25,76</td>
           <td class="border-right">19,0%</td>
-          <td>-7,91</td>
+          <td class="border-right">-7,91</td>
+          <td>
+            <i class="fas fa-edit text-success fa-2x"></i>
+          </td>
+          <td>
+            <i class="fas fa-trash-alt text-danger fa-2x"></i>
+          </td>
         </tr>
       </tfoot>
     </table>
@@ -52,5 +65,4 @@ export default {};
 </script>
 
 <style>
-
 </style>

@@ -35,15 +35,17 @@
               <i class="fas fa-piggy-bank"></i> Aportes
             </router-link>
           </li>
-          <li class="nav-item mb-2">
+          <li class="nav-item">
             <router-link :to="{ name:'ConteudoAcompanhamento', params: { subrota: 'aresgates'} }">
               <i class="fas fa-hand-holding-usd"></i> Resgates
             </router-link>
           </li>
-          <li class="nav-item mt-5 font-weight-bold">
-            Configurações
-            <i class="fas fa-user-cog"></i>
-          </li>
+        </ul>
+        <p class="nav-item mt-5 font-weight-bold">
+          Configurações
+          <i class="fas fa-user-cog"></i>
+        </p>
+        <ul class="nav flex-column">
           <li class="nav-item mb-2">
             <router-link :to="{ name:'ConteudoAcompanhamento', params: { subrota: 'aconta'} }">
               <i class="far fa-address-card"></i> Conta
@@ -54,7 +56,7 @@
               <i class="far fa-question-circle"></i> Ajuda
             </router-link>
           </li>
-          <li class="nav-item mb-2">
+          <li class="nav-item mb-4">
             <router-link :to="{ name:'ConteudoAcompanhamento', params: { subrota: 'asair'} }">
               <i class="fas fa-sign-out-alt"></i> Sair
             </router-link>
@@ -71,11 +73,15 @@ export default {};
 
 <style scoped>
 a {
-  color:black;
+  color: black;
   font-size: 14px;
   text-decoration: none;
 }
-a:hover {
+li:hover {
+  background-color: white;
   font-weight: bold;
+}
+a:active {
+  color: red;
 }
 </style>

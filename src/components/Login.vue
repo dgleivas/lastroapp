@@ -46,8 +46,8 @@ export default {
   data: () => {
     return {
       loading: false,
-      email: "",
-      password: ""
+      email: "denis.leivas@gmail.com",
+      password: "123123"
     };
   },
   methods: {

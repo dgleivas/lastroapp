@@ -1,6 +1,6 @@
 <template>
   <div class="mt-4">
-    <p class="font-weight-bold">Ações</p>
+    <p class="font-weight-bold">Fundos Imobiliários</p>
     <table class="table table-striped table-hover">
       <thead>
         <tr class="table-dark text-center">
@@ -12,7 +12,8 @@
           <th class="col">Media 3 meses (R$)</th>
           <th class="col border-right">Media 3 meses (%)</th>
           <th class="col">Acum. Ano (R$)</th>
-          <th class="col">Acum. Ano (%)</th>
+          <th class="col border-right">Acum. Ano (%)</th>
+          <th class="col" colspan="2">Action</th>
         </tr>
       </thead>
       <tbody>
@@ -25,7 +26,13 @@
           <td>21,30</td>
           <td class="border-right">19,0%</td>
           <td>-7,91</td>
-          <td>-7,91</td>
+          <td class="border-right">-7,91</td>
+          <td>
+            <i class="fas fa-edit text-success fa-2x"></i>
+          </td>
+          <td>
+            <i class="fas fa-trash-alt text-danger fa-2x"></i>
+          </td>
         </tr>
       </tbody>
       <tfoot>
@@ -38,7 +45,13 @@
           <td>21,30</td>
           <td class="border-right">19,0%</td>
           <td>-7,91</td>
-          <td>-7,91</td>
+          <td class="border-right">-7,91</td>
+          <td>
+            <i class="fas fa-edit text-success fa-2x"></i>
+          </td>
+          <td>
+            <i class="fas fa-trash-alt text-danger fa-2x"></i>
+          </td>
         </tr>
       </tfoot>
     </table>
@@ -50,5 +63,4 @@ export default {};
 </script>
 
 <style>
-
 </style>
