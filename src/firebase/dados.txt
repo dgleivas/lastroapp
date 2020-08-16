@@ -1,0 +1,6048 @@
+     await db
+        .collection("ativos")
+        .doc("Y428J671O245J672")
+        .set({ ativo: "ADHM3", empresa: "ADVANCED-DH ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W186J744Q705G625")
+        .set({ ativo: "ADHM9", empresa: "ADVANCED-DH ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("R146B936P131H766")
+        .set({ ativo: "ADHM1", empresa: "ADVANCED-DH ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X704D538C302B227")
+        .set({ ativo: "TIET3", empresa: "AES TIETÊ ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("A708K157H464S687")
+        .set({ ativo: "TIET4", empresa: "AES TIETÊ PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("P868U955F994M813")
+        .set({ ativo: "AFLT3", empresa: "AFLUENTE ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("F396W922J931O414")
+        .set({
+          ativo: "AGVE6L",
+          empresa: "AGRO INDUSTRIAL DE CEREA... PNB",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("X791W276H334X368")
+        .set({
+          ativo: "AGVE5L",
+          empresa: "AGRO INDUSTRIAL DE CEREA... PNA",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("C339L437Q705B324")
+        .set({
+          ativo: "AIPN5L",
+          empresa: "AGROINDUSTRIAL E PASTORI... PNA",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("Q830Y488M676P796")
+        .set({ ativo: "ARSA5L", empresa: "AGROMASSA PNA PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X119Y970V118K516")
+        .set({
+          ativo: "AGBH5L",
+          empresa: "AGROPECUARIA BELO HORIZO... PNA",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("B626E175W791O944")
+        .set({
+          ativo: "AGSR5L",
+          empresa: "AGROPECUARIA SANTA ROSA PNA",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("N722L418C835W309")
+        .set({
+          ativo: "AGSA5L",
+          empresa: "AGROPECUARIA SERRA AZUL PNA",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("K347D936Q874B160")
+        .set({ ativo: "ALEF3B", empresa: "ALEF ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("H778P356D346K260")
+        .set({ ativo: "RPAD3", empresa: "ALFA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("U690U535X318W289")
+        .set({ ativo: "RPAD5", empresa: "ALFA PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("H199U827U661A309")
+        .set({ ativo: "RPAD6", empresa: "ALFA PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("S677J568D314B383")
+        .set({
+          ativo: "ALPK3",
+          empresa: "ALLPARK EMPREENDIMENTOS ... ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("H857U382G995W461")
+        .set({ ativo: "APER9", empresa: "ALPER ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I902Y445Y457J926")
+        .set({ ativo: "APER3", empresa: "ALPER ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X736L229M584D267")
+        .set({ ativo: "APER1", empresa: "ALPER ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Y565U192B410G937")
+        .set({
+          ativo: "ALMZ5L",
+          empresa: "ALUMAZON COMPONENTES AMA... PNA",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("C896G943O874E207")
+        .set({
+          ativo: "ALMN4L",
+          empresa: "ALUMINIO EXTRUDADO BRASI... PN",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("Z549G319W530T526")
+        .set({ ativo: "ALUP4", empresa: "ALUPAR PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("A310W241Z980O473")
+        .set({ ativo: "ALUP3", empresa: "ALUPAR ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Q715Y210S925I898")
+        .set({ ativo: "AZGT5L", empresa: "AMAZON GOLF PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("O795U916W436X263")
+        .set({ ativo: "ABEV3", empresa: "AMBEV S/A ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I220Q415M859O811")
+        .set({
+          ativo: "AMBP3",
+          empresa: "AMBIPAR PARTICIPACOES E ... ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("E284J712O232U215")
+        .set({ ativo: "CBEE3", empresa: "AMPLA ENERG ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("B863Z939B904G564")
+        .set({
+          ativo: "CANT3B",
+          empresa: "ANDRADE GUTIERREZ PARTIC... ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("T215T447S272A255")
+        .set({
+          ativo: "CANT3",
+          empresa: "ANDRADE GUTIERREZ PARTIC... ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("O624V980U548O643")
+        .set({
+          ativo: "CANT4B",
+          empresa: "ANDRADE GUTIERREZ PARTIC... PN",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("A488B516E883R684")
+        .set({
+          ativo: "CANT4",
+          empresa: "ANDRADE GUTIERREZ PARTIC... PN",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("O453O650V371G564")
+        .set({ ativo: "SAIS5L", empresa: "ANGELICA PNA PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("C200L586V237Y290")
+        .set({ ativo: "ANIM3", empresa: "ANIMA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("U431I669J390W899")
+        .set({ ativo: "APAK5L", empresa: "APIACAS PNA PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("H392H588D372H665")
+        .set({ ativo: "ARZZ3", empresa: "AREZZO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("B762X311E897R394")
+        .set({ ativo: "ATMP3", empresa: "ATMA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N778A673J559Y215")
+        .set({ ativo: "ATOM3", empresa: "ATOMPAR ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("R138M806W320F459")
+        .set({ ativo: "AZEV4", empresa: "AZEVEDO PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V407H828G948Y285")
+        .set({ ativo: "AZEV3", empresa: "AZEVEDO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("P130K849M852B944")
+        .set({ ativo: "AZUL4", empresa: "AZUL PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("P587X936Z451G384")
+        .set({ ativo: "BTOW1", empresa: "B2W DIGITAL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("R185V561M241S717")
+        .set({ ativo: "BTOW3", empresa: "B2W DIGITAL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("E135N831C116Y291")
+        .set({
+          ativo: "B3SA3",
+          empresa: "B3 SA - BRASIL BOLSA BAL... ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("U245V200J238A686")
+        .set({ ativo: "BAHI9", empresa: "BAHEMA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("E300U554S134N780")
+        .set({ ativo: "BAHI3", empresa: "BAHEMA EDUCAÇÃO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W347W727V973Z325")
+        .set({ ativo: "BMGB4", empresa: "BMG PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("R555U723E910H834")
+        .set({ ativo: "BPAC12", empresa: "BTG PACTUAL PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("E865H260E681U905")
+        .set({ ativo: "BPAC9", empresa: "BTG PACTUAL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("G304H712S466V746")
+        .set({ ativo: "BPAC5", empresa: "BTG PACTUAL PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N288U252K465U852")
+        .set({ ativo: "BPAC3", empresa: "BTG PACTUAL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Z259N383E326G353")
+        .set({ ativo: "BIDI1", empresa: "BANCO INTER ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("S158B572O626Y517")
+        .set({ ativo: "BIDI4", empresa: "BANCO INTER PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("O874E805E121C608")
+        .set({ ativo: "BIDI12", empresa: "BANCO INTER", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T468A138V771X778")
+        .set({ ativo: "BIDI3", empresa: "BANCO INTER ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W325O685L675I804")
+        .set({ ativo: "BIDI2", empresa: "BANCO INTER PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("E489G308H281B477")
+        .set({ ativo: "BPAN10", empresa: "BANCO PAN PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("P582W789J393C954")
+        .set({ ativo: "BPAN4", empresa: "BANCO PAN PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L286G265M831C359")
+        .set({ ativo: "SANB3", empresa: "SANTANDER BR ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("U133H745R226M776")
+        .set({ ativo: "SANB4", empresa: "SANTANDER BR PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W792D242T363C799")
+        .set({ ativo: "BEES4", empresa: "BANESTES PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("K665D323S348L794")
+        .set({ ativo: "BEES3", empresa: "BANESTES ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("F591F109G441G512")
+        .set({ ativo: "BDLL3", empresa: "BARDELLA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("E734P388W407N940")
+        .set({ ativo: "BDLL4", empresa: "BARDELLA PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("A571V237M904N413")
+        .set({ ativo: "BTTL3", empresa: "BATTISTELLA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W818Q120O895X407")
+        .set({ ativo: "BALM4", empresa: "BAUMER PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W555K771L563G146")
+        .set({ ativo: "BALM3", empresa: "BAUMER ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W123J651M924G507")
+        .set({ ativo: "BBML3", empresa: "BBM LOGÍSTICA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Y422D102H833Z442")
+        .set({ ativo: "BBSE3", empresa: "BB SEGURIDADE ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V534L100X590J674")
+        .set({ ativo: "ABCB4", empresa: "ABC BRASIL PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X707L243K709N872")
+        .set({ ativo: "BRIV4", empresa: "ALFA INVEST PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N610Z115I430T547")
+        .set({ ativo: "BRIV3", empresa: "ALFA INVEST ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M968T461O343H268")
+        .set({ ativo: "BAZA3", empresa: "AMAZONIA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L457T340U639Z244")
+        .set({ ativo: "BBDC3", empresa: "BRADESCO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T860H701C470L270")
+        .set({ ativo: "BBDC4", empresa: "BRADESCO PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("O945G717V206J999")
+        .set({ ativo: "BBAS11", empresa: "BANCO DO BRASIL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L298E257V854Z358")
+        .set({ ativo: "BBAS12", empresa: "BANCO DO BRASIL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V290Z805F512T947")
+        .set({ ativo: "BBAS3", empresa: "BANCO DO BRASIL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("C304M165G491P729")
+        .set({ ativo: "BPAR3", empresa: "BANCO BANPARÁ ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("H840Q665V721I663")
+        .set({ ativo: "BRSR6", empresa: "BANRISUL PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V222G906E546R279")
+        .set({ ativo: "BRSR5", empresa: "BANRISUL PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("G423L322E562S110")
+        .set({ ativo: "BRSR3", empresa: "BANRISUL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("J190N438K306U879")
+        .set({ ativo: "BGIP4", empresa: "BANESE PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("G448G520F846X109")
+        .set({ ativo: "BGIP3", empresa: "BANESE ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("P880Q459B786V185")
+        .set({ ativo: "FNCN3", empresa: "BCO FINANSINOS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("A746B256A233L511")
+        .set({ ativo: "IDVL3", empresa: "INDUSVAL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("G105U972E766G667")
+        .set({ ativo: "IDVL4", empresa: "INDUSVAL PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("S986K100J999X301")
+        .set({ ativo: "BMEB3", empresa: "BANCO MERCANTIL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("K678N917O253T358")
+        .set({ ativo: "BMEB4", empresa: "BANCO MERCANTIL PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("D767K961H588D709")
+        .set({ ativo: "BMIN4", empresa: "MERC INVEST PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I944E649W309K237")
+        .set({ ativo: "BMIN3", empresa: "MERC INVEST ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("B395P356N600H441")
+        .set({ ativo: "BNBR3", empresa: "BANCO NORDESTE ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("B920R485Q289P926")
+        .set({ ativo: "PINE1", empresa: "PINE ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T338N782G857W820")
+        .set({ ativo: "PINE4", empresa: "PINE PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("P514S914U701W705")
+        .set({ ativo: "PINE9", empresa: "PINE ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I642P884R394Q756")
+        .set({ ativo: "PINE3", empresa: "PINE ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("D963U599G272O900")
+        .set({ ativo: "PINE2", empresa: "PINE PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I826V132F892N964")
+        .set({ ativo: "PINE10", empresa: "PINE PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V660M400C482Y989")
+        .set({ ativo: "BDRX11", empresa: "BDRX", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("H348F419A797F444")
+        .set({
+          ativo: "BETP3B",
+          empresa: "BETAPART PARTICIPACOES ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("W804I216M708Z932")
+        .set({ ativo: "BMKS3", empresa: "BIC MONARK ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Q190Q870F749F624")
+        .set({ ativo: "BIOM1", empresa: "BIOMM ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("S582X622P393J151")
+        .set({ ativo: "BIOM11", empresa: "BIOMM ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("B797E797Z936A345")
+        .set({ ativo: "BIOM3", empresa: "BIOMM ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V987C831W823C489")
+        .set({ ativo: "BIOM9", empresa: "BIOMM ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("F381K684N902B239")
+        .set({ ativo: "BSEV3", empresa: "BIOSEV ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("G977V756K859Y780")
+        .set({
+          ativo: "BKBR3",
+          empresa: "BURGUER KING BRASIL ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("T842H145M696M620")
+        .set({ ativo: "BOBR4", empresa: "BOMBRIL PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X427A668V533C572")
+        .set({ ativo: "BOBR3", empresa: "BOMBRIL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("H718G230L231U781")
+        .set({ ativo: "BRML3", empresa: "BR MALLS PAR ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("K652X892L165X903")
+        .set({ ativo: "BRPR3", empresa: "BR PROPERT ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T311J562J840Q344")
+        .set({
+          ativo: "BCIA12",
+          empresa: "BRADESCO REAL ESTATE POR...",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("B524R833P112F886")
+        .set({ ativo: "BRAP3", empresa: "BRADESPAR ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("K895W917C886I781")
+        .set({ ativo: "BRAP4", empresa: "BRADESPAR PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("F745T198I743C305")
+        .set({ ativo: "BBRK3", empresa: "BR BROKERS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("F983V355J758U559")
+        .set({ ativo: "IRBR9", empresa: "BRASIL RESSEGUROS", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("J111H409B282H878")
+        .set({ ativo: "IRBR1", empresa: "IRB BRASIL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("A481B397P983W760")
+        .set({ ativo: "IRBR3", empresa: "IRB BRASIL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("O721Z861Q828A705")
+        .set({ ativo: "AGRO3", empresa: "BRASIL AGRO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("U706H486R612W444")
+        .set({ ativo: "BRKM5", empresa: "BRASKEM PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V570Y743A818E814")
+        .set({ ativo: "BRKM3", empresa: "BRASKEM ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I621W680Z721T789")
+        .set({ ativo: "BRKM6", empresa: "BRASKEM PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("B846L731P395B317")
+        .set({ ativo: "BSLI3", empresa: "BRB BANCO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("O704F870Z298C777")
+        .set({ ativo: "BSLI4", empresa: "BRB BANCO PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Y689Y992K403S229")
+        .set({ ativo: "BRFS3", empresa: "BRF S/A ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("A398A411Y535Z967")
+        .set({ ativo: "BRQB3", empresa: "BRQ ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Y221I629F155E894")
+        .set({ ativo: "CEAB3", empresa: "C&A ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("A675E411B676F121")
+        .set({
+          ativo: "CABI3B",
+          empresa: "CABINDA PARTICIPACOES ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("G433V142C466R680")
+        .set({
+          ativo: "CACO3B",
+          empresa: "CACONDE PARTICIPACOES ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("S252O282O482W747")
+        .set({
+          ativo: "CAIA3B",
+          empresa: "CAIANDA PARTICIPACOES ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("M471F871L581E657")
+        .set({ ativo: "CAMB3", empresa: "CAMBUCI ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L133N444I724H336")
+        .set({ ativo: "CAMB4", empresa: "CAMBUCI PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("G981L619F437H754")
+        .set({ ativo: "CAML3", empresa: "CAMIL ALIMENTOS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("F359H156Q183E976")
+        .set({ ativo: "ACML4L", empresa: "CAMILA PN PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("C994R208H484N864")
+        .set({
+          ativo: "CPTP3B",
+          empresa: "CAPITALPART PARTICIPACOES ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("L672Y259R401X805")
+        .set({ ativo: "CRFB3", empresa: "CARREFOUR ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("C776B815I283T424")
+        .set({ ativo: "CCRO3", empresa: "CCR ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("G118E535B610G199")
+        .set({ ativo: "CCXC3", empresa: "CCX CARVAO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I654H433N824G548")
+        .set({ ativo: "ENMA5B", empresa: "CEMAR PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("G918V160Z660X656")
+        .set({ ativo: "ENMA3B", empresa: "CEMAR ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("J812P375Z867J923")
+        .set({ ativo: "ENMA6B", empresa: "CEMAR PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L213I840L871M977")
+        .set({
+          ativo: "EQMA6B",
+          empresa: "CEMAR-CIA ENERGETICA DO ... PNB",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("D743C384U652P554")
+        .set({
+          ativo: "EQMA5B",
+          empresa: "CEMAR-CIA ENERGETICA DO ... PNA",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("N785W747U315L849")
+        .set({
+          ativo: "EQMA3B",
+          empresa: "CEMAR-CIA ENERGETICA DO ... ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("X165V893N461V227")
+        .set({ ativo: "MAPT3", empresa: "CEMPE ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("C456U368H948S730")
+        .set({ ativo: "MAPT4", empresa: "CEMPE PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("E126P407I374G693")
+        .set({ ativo: "CCNO5L", empresa: "CENO NORTE PNA PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("O751P426T891G689")
+        .set({
+          ativo: "CTNR11L",
+          empresa: "CENTENOR EMPREENDIMENTOS PNE",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("T967X287P634Q827")
+        .set({ ativo: "ELET3", empresa: "ELETROBRAS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W543Z384T379Q962")
+        .set({ ativo: "ELET1", empresa: "ELETROBRAS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Y693S424F862Q297")
+        .set({ ativo: "ELET5", empresa: "ELETROBRAS PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("E565S873X314F367")
+        .set({ ativo: "ELET11", empresa: "ELETROBRAS PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("C904L904C556D180")
+        .set({ ativo: "ELET6", empresa: "ELETROBRAS PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Y248M849U533Z207")
+        .set({ ativo: "CLSC4", empresa: "CELESC PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("F721R656Z914X879")
+        .set({ ativo: "CLSC3", empresa: "CELESC ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V149D159U483K850")
+        .set({ ativo: "AALR3", empresa: "ALLIAR ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("G851A185A911U193")
+        .set({ ativo: "MCRJ11B", empresa: "CEPAC MCRJ CPA MB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I583P611G222W413")
+        .set({ ativo: "CTBA11BL", empresa: "CEPAC - CTBA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("E346C214Y226K311")
+        .set({ ativo: "CTBA11B", empresa: "CEPAC-CTBA CPA MB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M953W652N547G121")
+        .set({ ativo: "CESP5", empresa: "CESP PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("H694G558M584A720")
+        .set({ ativo: "CESP3", empresa: "CESP ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("O770Y793A177C310")
+        .set({ ativo: "CESP6", empresa: "CESP PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("H893F258S546D777")
+        .set({ ativo: "PCAR3", empresa: "PÃO DE AÇUCAR ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X936C175G279W642")
+        .set({ ativo: "PCAR4", empresa: "P.ACUCAR-CBD PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V914L986Y163F592")
+        .set({ ativo: "CASN3", empresa: "CASAN ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W926U134C817L557")
+        .set({ ativo: "CASN4", empresa: "CASAN PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Y650I213Q885F346")
+        .set({ ativo: "CASN1", empresa: "CASAN ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L433M416F528V668")
+        .set({ ativo: "CASN2", empresa: "CASAN PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Y904L578S516R496")
+        .set({ ativo: "CEGR3", empresa: "CEG ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("O824J345K998S576")
+        .set({ ativo: "CEEB6", empresa: "COELBA PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("U280O823F805Z550")
+        .set({ ativo: "CEEB5", empresa: "COELBA PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("D783Z616D450G456")
+        .set({ ativo: "CEEB3", empresa: "COELBA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("P719L223J759P967")
+        .set({ ativo: "CEBR5", empresa: "CEB PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("A775S474Z810T847")
+        .set({ ativo: "CEBR3", empresa: "CEB ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M278U172T931A213")
+        .set({ ativo: "CEBR6", empresa: "CEB PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M302A739A510P855")
+        .set({ ativo: "COCE6", empresa: "COELCE PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M499I318F393D852")
+        .set({ ativo: "COCE3", empresa: "COELCE ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M183N893F522K978")
+        .set({ ativo: "COCE5", empresa: "COELCE PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("D397G115X842B130")
+        .set({ ativo: "CMIG3", empresa: "CEMIG ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L305K895D759U908")
+        .set({ ativo: "CMIG4", empresa: "CEMIG PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("O597X824Q856N235")
+        .set({ ativo: "CEPE6", empresa: "CELPE PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("A213S934B153P407")
+        .set({ ativo: "CEPE5", empresa: "CELPE PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("H771E461K593P992")
+        .set({ ativo: "CEPE3", empresa: "CELPE ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("U569G144N461Q477")
+        .set({ ativo: "CSRN3", empresa: "COSERN ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M685I141H943N420")
+        .set({ ativo: "CSRN6", empresa: "COSERN PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V720V881Z183U535")
+        .set({ ativo: "CSRN5", empresa: "COSERN PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I564V694L923P660")
+        .set({ ativo: "CEED3", empresa: "CEEE-D ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W807Q113O389Q270")
+        .set({ ativo: "CEED4", empresa: "CEEE-D PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("D839M166K860L449")
+        .set({ ativo: "FESA4", empresa: "FERBASA PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("K861F550T590F277")
+        .set({ ativo: "FESA3", empresa: "FERBASA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X657L325R532W850")
+        .set({ ativo: "CEDO3", empresa: "CEDRO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("G195X514F281F870")
+        .set({ ativo: "CEDO4", empresa: "CEDRO PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("K175R488R737S855")
+        .set({ ativo: "CGAS5", empresa: "COMGÁS PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M255M268P471R767")
+        .set({ ativo: "CGAS3", empresa: "COMGÁS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T580B514W624F370")
+        .set({ ativo: "HBTS5", empresa: "HABITASUL PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("B621N326L836O974")
+        .set({ ativo: "HBTS3", empresa: "HABITASUL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T505K902L150R893")
+        .set({ ativo: "HBTS6", empresa: "HABITASUL PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("C436C917Y563Y467")
+        .set({ ativo: "HGTX3", empresa: "CIA HERING ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N409V757U263J704")
+        .set({ ativo: "CATA4", empresa: "IND CATAGUAS PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("R260R684D387G772")
+        .set({ ativo: "CATA3", empresa: "IND CATAGUAS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("O778W757W342U731")
+        .set({ ativo: "LCAM3", empresa: "LOCAMERICA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N127I227K521F849")
+        .set({ ativo: "MSPA3", empresa: "MELHOR SP ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("S119Y411H957V986")
+        .set({ ativo: "MSPA4", empresa: "MELHOR SP PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("J847X301Y836O737")
+        .set({ ativo: "CPLE6", empresa: "COPEL PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("A565Y348G289I446")
+        .set({ ativo: "CPLE5", empresa: "COPEL PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("B974E645G222H911")
+        .set({ ativo: "CPLE3", empresa: "COPEL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N571M145L395Z605")
+        .set({ ativo: "PEAB4", empresa: "PAR AL BAHIA PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L114Y177Y588N584")
+        .set({ ativo: "PEAB3", empresa: "PAR AL BAHIA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("P792Y631V289V829")
+        .set({ ativo: "SAPR3", empresa: "SANEPAR ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("B483Q637M154T649")
+        .set({ ativo: "SAPR4", empresa: "SANEPAR PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("H168I368K624C759")
+        .set({ ativo: "CSMG3", empresa: "COPASA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("K207G706M808Z810")
+        .set({ ativo: "CSAB3", empresa: "SEG AL BAHIA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("O525Y939E264R125")
+        .set({ ativo: "CSAB4", empresa: "SEG AL BAHIA PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W260Z776R690R488")
+        .set({ ativo: "CSNA3", empresa: "SID NACIONAL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Y394V399F344J871")
+        .set({ ativo: "CTNM4", empresa: "COTEMINAS PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("B924H807A784F681")
+        .set({ ativo: "CTNM3", empresa: "COTEMINAS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M552Y676A196R851")
+        .set({ ativo: "CTSA4", empresa: "SANTANENSE PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("D527T412T860G830")
+        .set({ ativo: "CTSA3", empresa: "SANTANENSE ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("J221H185Q314P124")
+        .set({ ativo: "CTSA8", empresa: "SANTANENSE PND", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Q693D694D581B887")
+        .set({ ativo: "TRPL3", empresa: "ISA CTEEP ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("C901R131N125J423")
+        .set({ ativo: "TRPL4", empresa: "ISA CTEEP PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N704Q104O752Y469")
+        .set({ ativo: "VALE3", empresa: "VALE ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Y534B436O960R965")
+        .set({
+          ativo: "CIAG6L",
+          empresa: "CIAGRA CIA AGROPASTORIAL... PNB",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("U296I192B813K161")
+        .set({ ativo: "CIEL3", empresa: "CIELO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("H995Z719O636K645")
+        .set({ ativo: "CMSA3", empresa: "CIMS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("E227G661Z759G732")
+        .set({ ativo: "CMSA4", empresa: "CIMS PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("D139J237Y522M639")
+        .set({ ativo: "CNSY3", empresa: "CINESYSTEM ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("S102A410N398L407")
+        .set({ ativo: "COGN3", empresa: "COGNA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("S120V947S148O252")
+        .set({ ativo: "TF703", empresa: "COMMON STOCK ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("F492S981G812Y107")
+        .set({ ativo: "TF693", empresa: "COMMON STOCK ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M994A569J270Q150")
+        .set({ ativo: "TF713", empresa: "COMMON STOCK ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T341I235T499M842")
+        .set({ ativo: "TF694", empresa: "COMMON STOCK ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("B381U869T716V891")
+        .set({ ativo: "TF704", empresa: "COMMON STOCK ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("K708M869P487N205")
+        .set({ ativo: "TF724", empresa: "COMMON STOCK ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("G604D393W437H949")
+        .set({ ativo: "TF714", empresa: "COMMON STOCK ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("D563W215P868B605")
+        .set({ ativo: "TF723", empresa: "COMMON STOCK ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("E780Q454O677O180")
+        .set({ ativo: "GPAR3", empresa: "CELGPAR ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("R226X917G931T330")
+        .set({ ativo: "GPAR1", empresa: "CELGPAR ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I324T860A454Y178")
+        .set({ ativo: "SBSP3", empresa: "SABESP ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("J834A840T617E959")
+        .set({ ativo: "EEEL4", empresa: "CEEE-GT PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I961H739B744E197")
+        .set({ ativo: "EEEL3", empresa: "CEEE-GT ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M202Y760K120P816")
+        .set({
+          ativo: "CRTE3B",
+          empresa: "CONCESSIONARIA RIO TERES... ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("U227W905J122H991")
+        .set({
+          ativo: "CRTE5B",
+          empresa: "CONCESSIONARIA RIO TERES... PNA",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("U997G952D388F139")
+        .set({ ativo: "ODER4", empresa: "ODERICH PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Z813K667A565M721")
+        .set({ ativo: "ODER3", empresa: "ODERICH ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M705P509A883V577")
+        .set({ ativo: "BRGE11", empresa: "ALFA CONSORCIO PNE", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I850W733D697C570")
+        .set({ ativo: "BRGE12", empresa: "ALFA CONSORCIO PNF", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Q739D703H204H871")
+        .set({ ativo: "BRGE5", empresa: "ALFA CONSORCIO PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("D516B411E406H551")
+        .set({ ativo: "BRGE3", empresa: "ALFA CONSORCIO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V738X357R678S995")
+        .set({ ativo: "BRGE8", empresa: "ALFA CONSORCIO PND", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M469Z562V554F989")
+        .set({ ativo: "BRGE7", empresa: "ALFA CONSORCIO PNC", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("D116W488O290S333")
+        .set({ ativo: "BRGE6", empresa: "ALFA CONSORCIO PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("E467F493X385K799")
+        .set({
+          ativo: "CALI3",
+          empresa: "CONSTRUTORA ADOLFO L ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("L603Q653D688A928")
+        .set({
+          ativo: "CALI4",
+          empresa: "CONSTRUTORA ADOLFO L PN",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("R365L559I802H943")
+        .set({ ativo: "TEND3", empresa: "TENDA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L147Y953Y236L176")
+        .set({ ativo: "CORR3", empresa: "COR RIBEIRO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("R531X835Y223Q746")
+        .set({ ativo: "CORR4", empresa: "COR RIBEIRO PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("B416F448V609I688")
+        .set({ ativo: "RLOG3", empresa: "COSAN LOG ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T928C970F649S426")
+        .set({ ativo: "CSAN3", empresa: "COSAN ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("F753B807T145W806")
+        .set({ ativo: "CPFE3", empresa: "CPFL ENERGIA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("D913H643U149Z526")
+        .set({ ativo: "CPRE3L", empresa: "CPFL RENOVÁVEL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I912Z201X459K809")
+        .set({ ativo: "CPRE3", empresa: "CPFL RENOVÁVEL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("O434B812D437N929")
+        .set({ ativo: "CRDE3", empresa: "CR2 ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("J877Q812P806H276")
+        .set({ ativo: "CARD3", empresa: "CSU CARDSYSTEM ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W266L512D319O954")
+        .set({
+          ativo: "CTCA3",
+          empresa: "CTC CENTRO DE TECNOLOGIA... ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("V678K710F786Z950")
+        .set({ ativo: "CVCB1", empresa: "CVC BRASIL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("D322H277K211S530")
+        .set({ ativo: "CVCB3", empresa: "CVC BRASIL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X713A535J856J336")
+        .set({ ativo: "CYRE3", empresa: "CYRELA REALT ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("K942B713R656K976")
+        .set({
+          ativo: "CCPR3",
+          empresa: "CYRELA COMMERCIAL PROP ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("L380T740A770S747")
+        .set({
+          ativo: "DMVF3",
+          empresa: "D1000 VAREJO FARMA PARTI... ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("U364J338L433D616")
+        .set({ ativo: "DASA1", empresa: "DASA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Z728O601I376P837")
+        .set({ ativo: "DASA3", empresa: "DASA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("B438U776M165H946")
+        .set({ ativo: "PNVL4", empresa: "DIMED PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X485T599J985U616")
+        .set({ ativo: "PNVL3", empresa: "DIMED ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W362X988K401W518")
+        .set({ ativo: "DIRR3", empresa: "DIRECIONAL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Q628H342J255Q734")
+        .set({ ativo: "DOHL4", empresa: "DOHLER PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("P782J514D852T470")
+        .set({ ativo: "DOHL3", empresa: "DOHLER ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Z857R883L884W833")
+        .set({
+          ativo: "CRVD5L",
+          empresa: "DON CAROLINA PNA PNA",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("C686Y389U125F569")
+        .set({ ativo: "DTCY4", empresa: "DTCOM PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("U716Y616M144R235")
+        .set({ ativo: "DTCY3", empresa: "DTCOM ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("R509T181K273S884")
+        .set({ ativo: "DTCY1", empresa: "DTCOM ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W748F691C545S851")
+        .set({ ativo: "DTEX3", empresa: "DURATEX ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N970O166D226E323")
+        .set({ ativo: "OULG12B", empresa: "E OULG11 B", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N781D367J241D807")
+        .set({ ativo: "ECOR3", empresa: "ECORODOVIAS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N592W945K617B427")
+        .set({ ativo: "ENBR3", empresa: "ENERGIAS BR ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Y398L505A674H915")
+        .set({ ativo: "EALT4", empresa: "AÇO ALTONA PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Q779H116L723Z631")
+        .set({ ativo: "EALT3", empresa: "AÇO ALTONA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N893D443V462O734")
+        .set({ ativo: "ELEK4L", empresa: "ELEKEIROZ PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("U323K212B980X280")
+        .set({ ativo: "ELEK4", empresa: "ELEKEIROZ PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V438T427W754D562")
+        .set({ ativo: "ELEK3L", empresa: "ELEKEIROZ ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X562L285S632B853")
+        .set({ ativo: "ELEK3", empresa: "ELEKEIROZ ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("F600H742Q270U147")
+        .set({ ativo: "ELEK11L", empresa: "ELEKEIROZ ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("D209P214H954K602")
+        .set({ ativo: "ELEK12L", empresa: "ELEKEIROZ PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("K635I375T650P243")
+        .set({ ativo: "EKTR4", empresa: "ELEKTRO PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V758P944H524J381")
+        .set({ ativo: "EKTR3", empresa: "ELEKTRO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X495N745T840U599")
+        .set({ ativo: "LIPR3", empresa: "ELETROPAR ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("R179Z444Z463G289")
+        .set({ ativo: "ETRO3B", empresa: "ELETRON ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N336R636O200H284")
+        .set({ ativo: "ELPL3L", empresa: "ELETROPAULO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("D927S755C435O593")
+        .set({ ativo: "ELPL3", empresa: "ELETROPAULO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("R861U870K115Y669")
+        .set({ ativo: "EMAE4", empresa: "EMAE PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Z664A268L512A676")
+        .set({ ativo: "EMAE3", empresa: "EMAE ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T929J292U152F381")
+        .set({ ativo: "EMBR3", empresa: "EMBRAER ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T616C777X338C296")
+        .set({ ativo: "ECPR4", empresa: "ENCORPAR PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Z122R407J344F959")
+        .set({ ativo: "ECPR3", empresa: "ENCORPAR ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Q448C282E508O320")
+        .set({ ativo: "ENAT3", empresa: "ENAUTA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("S770M815C497B795")
+        .set({ ativo: "ENMT3", empresa: "ENERGISA MT ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T851H778C627R368")
+        .set({ ativo: "ENMT2", empresa: "ENERGISA MT PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T165W739P162O168")
+        .set({ ativo: "ENMT1", empresa: "ENERGISA MT ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("B421J409T155W403")
+        .set({ ativo: "ENMT4", empresa: "ENERGISA MT PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("P578C663T310X713")
+        .set({ ativo: "ENGI12", empresa: "ENERGISA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Q391W581S883J201")
+        .set({ ativo: "ENGI3", empresa: "ENERGISA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W174L241C372S938")
+        .set({ ativo: "ENGI4", empresa: "ENERGISA PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("R719Q644L200O693")
+        .set({ ativo: "ENEV3", empresa: "ENEVA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Y146K548Z687D698")
+        .set({ ativo: "EGIE3", empresa: "ENGIE BRASIL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("A820T936X153E919")
+        .set({ ativo: "EQPA5", empresa: "EQTL PARA PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N919T702X748V798")
+        .set({ ativo: "EQPA3", empresa: "EQTL PARA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("U566T264H231E702")
+        .set({ ativo: "EQPA7", empresa: "EQTL PARA PNC", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I873Q223X546L679")
+        .set({ ativo: "EQPA6", empresa: "EQTL PARA PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("O303E806Z888G902")
+        .set({ ativo: "EQTL3", empresa: "EQUATORIAL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W702C594Q824F819")
+        .set({ ativo: "CELP3", empresa: "CELPA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Z393D268S885P514")
+        .set({ ativo: "CELP6", empresa: "CELPA PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W981R126X449T735")
+        .set({ ativo: "CELP7", empresa: "CELPA PNC", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("C930J207N876E379")
+        .set({ ativo: "CELP5", empresa: "CELPA PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Z380D613B622R417")
+        .set({ ativo: "ETER9", empresa: "ETERNIT ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Q184S504S923T370")
+        .set({ ativo: "ETER3", empresa: "ETERNIT ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T829L314I847Z317")
+        .set({ ativo: "ETER1", empresa: "ETERNIT ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("H466M754Z488J498")
+        .set({ ativo: "EUCA4", empresa: "EUCATEX PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("A382L619M712E765")
+        .set({ ativo: "EUCA3", empresa: "EUCATEX ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("G982H995L978M946")
+        .set({ ativo: "EVEN3", empresa: "EVEN ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T909K691U982D463")
+        .set({ ativo: "BAUH4", empresa: "EXCELSIOR PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T858C275W667U958")
+        .set({ ativo: "BAUH3", empresa: "EXCELSIOR ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M957G782X437C429")
+        .set({ ativo: "EZTC3", empresa: "EZTEC ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("P561Q575H446L893")
+        .set({
+          ativo: "OUFF12",
+          empresa: "FD DE INV IMOBLIARIO OUR...",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("G865V734O555Y197")
+        .set({
+          ativo: "TGAR12",
+          empresa: "FD INAV IM ATIV RE COTAS",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("K112A698R501F904")
+        .set({
+          ativo: "RECT12",
+          empresa: "FDO INV IMOB FII UBS BR ...",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("A171T296A558A163")
+        .set({
+          ativo: "VSPT3",
+          empresa: "FERROVIA CENTRO ATL ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("Y713I687L864J656")
+        .set({
+          ativo: "VSPT4",
+          empresa: "FERROVIA CENTRO ATL PN",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("B192N237G922T798")
+        .set({ ativo: "FHER3", empresa: "FER HERINGER ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N365N231I380N165")
+        .set({
+          ativo: "FMSA6L",
+          empresa: "FIACAO ALGODAO MOCO SA F... PNB",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("S352T726N351Q367")
+        .set({
+          ativo: "BCFF12",
+          empresa: "FIBRA CIA SECURIT DE CRE...",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("Z810B922Y459F477")
+        .set({
+          ativo: "CPTS12B",
+          empresa: "FII CAPI SEC CI MB",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("H663J522X286H499")
+        .set({ ativo: "HGCR12", empresa: "FII CSHG CRI CI", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("R915J545F425C523")
+        .set({ ativo: "VRTA12", empresa: "FII FATOR VE", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M254A987T868L108")
+        .set({ ativo: "HCTR12", empresa: "FII HECTARE CI", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("G471U501C559Q641")
+        .set({ ativo: "HSML12", empresa: "FII HSI MALLCI", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X447W476Z125T815")
+        .set({ ativo: "MXRF12", empresa: "FII MAXI REN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T923M175Z315F926")
+        .set({ ativo: "MGFF12", empresa: "FII MONGNO CI", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("F960V914X821W191")
+        .set({ ativo: "PORD12", empresa: "FII POLO CRI CI", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("K849K493S121H811")
+        .set({
+          ativo: "RBCO12",
+          empresa: "FII R INCOMEDM BRAZIL ST...",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("D735E386Q636L147")
+        .set({
+          ativo: "RBFF12",
+          empresa: "FII RB CAPITAL DESENVOLV...",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("E819X334G781Z836")
+        .set({ ativo: "RBRP12", empresa: "FII RBR PROPCI", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("P978B274K198J922")
+        .set({ ativo: "RBRF12", empresa: "FII RBRALPHACI", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N580Q539G519W976")
+        .set({ ativo: "UBSR12", empresa: "FII UBS CI", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N630U651D671U219")
+        .set({ ativo: "UBSR16", empresa: "FII UBS CI", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Z768A694O557H506")
+        .set({
+          ativo: "VGIP12",
+          empresa: "FII VALORA CRI INDICE DE...",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("K228F738Y738Y115")
+        .set({ ativo: "VILG12", empresa: "FII VINCILOGCI EB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Z889F549U368O978")
+        .set({ ativo: "VISC13", empresa: "FII VINVI SCCI", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I992E327M642F783")
+        .set({ ativo: "XPCI12", empresa: "FII XP CREDITO", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Y227Z201H445U171")
+        .set({ ativo: "XPHT14", empresa: "FII XP HOT CI", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("U297O826F671S935")
+        .set({ ativo: "XPIN12", empresa: "FII XP INDL CI ER", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N751W404Z796J354")
+        .set({ ativo: "CRIV3", empresa: "ALFA FINANC ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W578H830A629G349")
+        .set({ ativo: "CRIV4", empresa: "ALFA FINANC PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("B778N324S864A357")
+        .set({ ativo: "FLRY3", empresa: "FLEURY ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("A165P765M715D798")
+        .set({
+          ativo: "FLEX3",
+          empresa: "FLEX GESTAO DE RELACIONA... ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("O468N561A464M174")
+        .set({ ativo: "FLYC5L", empresa: "FLY ACAI PNA PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("E126I507C147U299")
+        .set({ ativo: "FJTA3", empresa: "FORJA TAURUS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W649D435W511Q137")
+        .set({ ativo: "FJTA4", empresa: "FORJA TAURUS PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L276L605Q852T203")
+        .set({
+          ativo: "FNAG5L",
+          empresa: "FRANGO NORTE PNA PNA",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("A509K886E442H674")
+        .set({ ativo: "FRAS3", empresa: "FRAS-LE ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("R603X191I437S824")
+        .set({ ativo: "FVIT5L", empresa: "FRUTIVITA PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("B153W487B392B230")
+        .set({ ativo: "GFSA3", empresa: "GAFISA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M986N327Y511G291")
+        .set({ ativo: "GFSA1", empresa: "GAFISA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I295P567J959K552")
+        .set({ ativo: "GFSA11", empresa: "GAFISA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("G459Y312O875I581")
+        .set({ ativo: "GFSA12", empresa: "GAFISA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X251P719Q308A375")
+        .set({ ativo: "GFSA9", empresa: "GAFISA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("C302A437R396P749")
+        .set({
+          ativo: "OPGM3B",
+          empresa: "GAMA PARTICIPACOES ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("W672E635T391X961")
+        .set({ ativo: "GPSA5L", empresa: "GAMELEIRA PNA PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Y521U159W183O192")
+        .set({ ativo: "GESA7L", empresa: "GEMASA PNC PNC", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Y148E214J792N444")
+        .set({ ativo: "GSHP3", empresa: "GENERAL SHOP ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Z596E227F271H618")
+        .set({ ativo: "GGBR4", empresa: "GERDAU PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("C825U178W825A730")
+        .set({ ativo: "GGBR3", empresa: "GERDAU ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X379I155Y424B215")
+        .set({ ativo: "GOLL11", empresa: "GOL PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("A245G607X511T632")
+        .set({ ativo: "GOLL4", empresa: "GOL PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("P188D791A351P764")
+        .set({ ativo: "GOLL12", empresa: "GOL PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("H611N880H757J909")
+        .set({ ativo: "GPCP4", empresa: "GPC PART PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I713K687Y477Z667")
+        .set({ ativo: "GPCP3", empresa: "GPC PART ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("H439M172N181A284")
+        .set({ ativo: "CGRA4", empresa: "GRAZZIOTIN PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L686N873N867I945")
+        .set({ ativo: "CGRA3", empresa: "GRAZZIOTIN ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("U394L722S817J398")
+        .set({ ativo: "GRND3", empresa: "GRENDENE ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("J244W628P595K350")
+        .set({
+          ativo: "SOMA3",
+          empresa: "GRUPO DE MODA SOMA ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("C879O404M858R390")
+        .set({ ativo: "CNTO3", empresa: "CENTAURO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L371P331Z431U800")
+        .set({ ativo: "GSOM3", empresa: "GRUPO SOMA S.A", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V361X610S728Q474")
+        .set({ ativo: "GUAR3", empresa: "GUARARAPES ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("D477N302X173M987")
+        .set({ ativo: "HAGA3", empresa: "HAGA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Q180R800A177J538")
+        .set({ ativo: "HAGA4", empresa: "HAGA PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Z464I793Z851R143")
+        .set({ ativo: "HAPV3", empresa: "HAPVIDA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L237P902A349D888")
+        .set({ ativo: "HBOR3", empresa: "HELBOR ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("B102U672H102P567")
+        .set({ ativo: "HETA4", empresa: "HERCULES PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("P324J653M246B114")
+        .set({ ativo: "HETA3", empresa: "HERCULES ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L776L224D685B461")
+        .set({ ativo: "HOOT3", empresa: "HOTEIS OTHON ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I596V537Z646A558")
+        .set({ ativo: "HOOT4", empresa: "HOTEIS OTHON PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("R982G945K777T829")
+        .set({ ativo: "HCCR4L", empresa: "HOTEL CAICARA PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("U151H835F406R259")
+        .set({ ativo: "HYPE3", empresa: "HYPERA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Y672J994H123T783")
+        .set({ ativo: "JBDU4", empresa: "J B DUARTE PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("K514F998G342Y572")
+        .set({ ativo: "JBDU3", empresa: "J B DUARTE ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("O566R437V974B757")
+        .set({ ativo: "ROMI3", empresa: "INDS ROMI ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("K442R175H768Q972")
+        .set({ ativo: "INEP4", empresa: "INEPAR PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X213S808K272U495")
+        .set({ ativo: "INEP3", empresa: "INEPAR ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L686W136M927R514")
+        .set({
+          ativo: "INGA4L",
+          empresa: "INGA AGROFLORESTAL PN",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("U164S860S564P993")
+        .set({ ativo: "SLCT3B", empresa: "INNCORP ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W350J921F193D193")
+        .set({ ativo: "PARD3", empresa: "IHPARDINI ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M257H166X489E396")
+        .set({
+          ativo: "INNT3",
+          empresa: "INTER CONSTRUTORA ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("Z397F420H381T917")
+        .set({ ativo: "GNDI3", empresa: "INTERMEDICA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("C511U676K576R791")
+        .set({ ativo: "MEAL3", empresa: "IMC S/A ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L564V747Q514X284")
+        .set({ ativo: "FIGE4", empresa: "INVEST BEMGE PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("A607B485F909I678")
+        .set({ ativo: "FIGE3", empresa: "INVEST BEMGE ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("R638A509D671Q427")
+        .set({
+          ativo: "IVPR3B",
+          empresa: "INVESTS PARTICIPACOES IN... ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("D995F365A803P584")
+        .set({
+          ativo: "IVPR4B",
+          empresa: "INVESTS PARTICIPACOES IN... PN",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("V539R415Y975R621")
+        .set({ ativo: "MYPK3", empresa: "IOCHP-MAXION ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("E101I969M230S209")
+        .set({ ativo: "RANI3", empresa: "CELULOSE IRANI ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("G771A954X941S158")
+        .set({ ativo: "RANI4", empresa: "CELULOSE IRANI PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("B473J566P790J512")
+        .set({
+          ativo: "IGSA5L",
+          empresa: "IRRIGACAO SANTO ANDRE SA... PNA",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("S484J568N809K848")
+        .set({
+          ativo: "ISEE11",
+          empresa: "ISE INDICE SUSTENTABILID...",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("F305J870Y911M358")
+        .set({
+          ativo: "ICO211",
+          empresa: "ISHARES CARBON EFFICIENT",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("C430M684T449R776")
+        .set({ ativo: "ITUB4", empresa: "ITAU UNIBANCO PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("E395J556Y397H601")
+        .set({ ativo: "ITUB3", empresa: "ITAU UNIBANCO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L657G736D978N291")
+        .set({ ativo: "ITSA3", empresa: "ITAUSA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("H306D262O218U873")
+        .set({ ativo: "ITSA4", empresa: "ITAUSA PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("E973Q992I924S529")
+        .set({
+          ativo: "JAHY5L",
+          empresa: "JAHYR SEIXAS GONCALVES A... PNA",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("T441L654H523L109")
+        .set({ ativo: "JBSS3", empresa: "JBS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("O436F678F209G458")
+        .set({ ativo: "JPSA3", empresa: "JEREISSATI ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Z213R524M487L108")
+        .set({ ativo: "JHSF3", empresa: "JHSF PART ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V939B500R900B579")
+        .set({ ativo: "JFEN3", empresa: "JOAO FORTES ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("O479N942A175Y125")
+        .set({ ativo: "JOPA4", empresa: "JOSAPAR PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M602Y312K534Q689")
+        .set({ ativo: "JOPA3", empresa: "JOSAPAR ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("H205S869S242O114")
+        .set({ ativo: "JSLG3", empresa: "JSL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V625U319E637W158")
+        .set({ ativo: "CTKA3", empresa: "KARSTEN ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V808C484Q587X687")
+        .set({ ativo: "CTKA4", empresa: "KARSTEN PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("R361G391G742B746")
+        .set({ ativo: "KEPL3", empresa: "KEPLER WEBER ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("E141D481E191E220")
+        .set({ ativo: "KEPL11", empresa: "KEPLER WEBER", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I260I899S721U799")
+        .set({ ativo: "KLBN4", empresa: "KLABIN PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("D781L226J573L841")
+        .set({ ativo: "KLBN3", empresa: "KLABIN ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("R977S392E911M586")
+        .set({ ativo: "LMED3", empresa: "LIFEMED ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M293X178V600P731")
+        .set({ ativo: "LIGT3", empresa: "LIGHT ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Q225I608H318C395")
+        .set({ ativo: "LINX3", empresa: "LINX ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I948W135I964K869")
+        .set({ ativo: "LIQO3", empresa: "LIQ ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L818Y845W589J475")
+        .set({ ativo: "LIQO1", empresa: "LIQ ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("E948J142X195J742")
+        .set({ ativo: "LTEL5B", empresa: "LITEL PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("C746H376P330F173")
+        .set({
+          ativo: "LTEL3B",
+          empresa: "LITEL PARTICIPACOES ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("Q848K688Y111M534")
+        .set({
+          ativo: "LTLA3B",
+          empresa: "LITELA PARTICIPACOES ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("P534E237O990E641")
+        .set({ ativo: "RENT3", empresa: "LOCALIZA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N320I882H968F292")
+        .set({ ativo: "LWSA3", empresa: "LOCAWEB ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("H572I127P229C142")
+        .set({ ativo: "LOGG3", empresa: "LOG COMMERCIAL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("J665K638M590Y158")
+        .set({ ativo: "LOGN3", empresa: "LOG IN ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M410N247B919K756")
+        .set({ ativo: "LAME4", empresa: "LOJAS AMERICANAS PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("B651B404K689D646")
+        .set({ ativo: "LAME9", empresa: "LOJAS AMERIC ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("E654H877U367L240")
+        .set({ ativo: "LAME10", empresa: "LOJAS AMERIC PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N540O990V854U687")
+        .set({ ativo: "LAME3", empresa: "LOJAS AMERICANAS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L779B988K330Y345")
+        .set({ ativo: "LAME2", empresa: "LOJAS AMERIC PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("O933K875E137F525")
+        .set({ ativo: "LAME1", empresa: "LOJAS AMERIC ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("H500X285T438T239")
+        .set({ ativo: "AMAR3", empresa: "LOJAS MARISA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I466I104E356J509")
+        .set({
+          ativo: "LJQQ3",
+          empresa: "LOJAS QUERO-QUERO ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("X438A416N860N431")
+        .set({ ativo: "LREN3", empresa: "LOJAS RENNER ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W579L903U950R306")
+        .set({ ativo: "LPSB3", empresa: "LOPES BRASIL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("A175D740P743T476")
+        .set({ ativo: "LUPA3", empresa: "LUPATECH ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("U342Z103S996N386")
+        .set({ ativo: "LUPA11", empresa: "LUPATECH ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W370Z147P318P242")
+        .set({ ativo: "MDIA3", empresa: "M.DIAS BRANCO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("C521A551N401N117")
+        .set({ ativo: "MSRO3", empresa: "MAESTRO LOCADORA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W973H502K524X722")
+        .set({ ativo: "MGLU3", empresa: "MAGAZINE LUIZA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X619V828C792V766")
+        .set({ ativo: "LEVE3", empresa: "METAL LEVE ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W536F149I604J208")
+        .set({ ativo: "MGEL4", empresa: "MANGELS PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("J240S810N290M430")
+        .set({ ativo: "MGEL3", empresa: "MANGELS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T783V341C199V385")
+        .set({ ativo: "ESTR3", empresa: "ESTRELA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("R609D373M826Y821")
+        .set({ ativo: "ESTR4", empresa: "ESTRELA PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("G699L517O765X975")
+        .set({ ativo: "POMO3", empresa: "MARCOPOLO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W500Y254Q195F762")
+        .set({ ativo: "POMO4", empresa: "MARCOPOLO PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M494D599N331C732")
+        .set({ ativo: "MRFG3", empresa: "MARFRIG ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("U641B121Z268K675")
+        .set({ ativo: "MAXV6L", empresa: "MAXVINIL PNB PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("D734N528S325J649")
+        .set({ ativo: "MAXV7L", empresa: "MAXVINIL PNB PNC", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("E679D739E468M720")
+        .set({ ativo: "MEND6", empresa: "MENDES JR PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W296M362J313D382")
+        .set({ ativo: "MEND5", empresa: "MENDES JR PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L982E254I665W656")
+        .set({ ativo: "MEND3", empresa: "MENDES JR ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T705Q873B373I907")
+        .set({
+          ativo: "MERC4",
+          empresa: "MERCANTIL DO BRASIL PN",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("V862P322H228Z204")
+        .set({
+          ativo: "MERC3",
+          empresa: "MERCANTIL DO BRASIL ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("P892C575Q574O667")
+        .set({ ativo: "FRIO3", empresa: "METALFRIO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W500S382U192F396")
+        .set({ ativo: "MTIG3", empresa: "METAL IGUAÇU ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("P857E382E342M835")
+        .set({ ativo: "MTIG4", empresa: "METAL IGUAÇU PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("R119H751B335M840")
+        .set({ ativo: "GOAU3", empresa: "GERDAU MET ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X375I690P352L500")
+        .set({ ativo: "GOAU4", empresa: "GERDAU MET PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("H524K286I714S544")
+        .set({ ativo: "RSUL4", empresa: "RIO SULENSE PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M587U413R856O877")
+        .set({ ativo: "RSUL3", empresa: "RIO SULENSE ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I159A177D822A963")
+        .set({ ativo: "MTSA3", empresa: "METISA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("A218T993O240X955")
+        .set({ ativo: "MTSA4", empresa: "METISA PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M546V933G922B194")
+        .set({ ativo: "MLCX11", empresa: "MIDLARGE CAP", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("H621T348A937C159")
+        .set({ ativo: "MILS3", empresa: "MILLS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N258G306D372C330")
+        .set({ ativo: "MMAQ4", empresa: "MINASMAQUINAS PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("K402R227H428N408")
+        .set({ ativo: "MMAQ3", empresa: "MINASMAQUINAS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("G680O575S453U100")
+        .set({ ativo: "BEEF11", empresa: "MINERVA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M461G330T855K947")
+        .set({ ativo: "BEEF3", empresa: "MINERVA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W389O811D337A149")
+        .set({ ativo: "MNPR3", empresa: "MINUPAR ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("F466D765T963I337")
+        .set({
+          ativo: "MTRE",
+          empresa: "MITRE REALTY EMPREENDIMENTOS E PARTICIPACOES LTDA",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("S165W104I873O747")
+        .set({ ativo: "MTRE3", empresa: "MITRE REALTY ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X966C868G413E808")
+        .set({ ativo: "MMXM11", empresa: "MMX MINER", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T879B391I207D781")
+        .set({ ativo: "MMXM3", empresa: "MMX MINER ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("J634H135N216C185")
+        .set({ ativo: "MOAR3", empresa: "MONT ARANHA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("E106O845T565P902")
+        .set({ ativo: "MDNE3", empresa: "MOURA DUBEAUX ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L980U607K925B243")
+        .set({ ativo: "MOVI3", empresa: "MOVIDA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V694S989O968X808")
+        .set({ ativo: "MRSA6B", empresa: "MRS LOGISTICA PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("J682O460J608W970")
+        .set({ ativo: "MRSA3B", empresa: "MRS LOGISTICA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("C693R383V334H205")
+        .set({ ativo: "MRSA5B", empresa: "MRS LOGISTICA PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("R226J245G210X374")
+        .set({ ativo: "MRVE3", empresa: "MRV ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("O185N547X928S792")
+        .set({ ativo: "MULT3", empresa: "MULTIPLAN ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("K757P143C408I163")
+        .set({ ativo: "MNDL3", empresa: "MUNDIAL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("B132J128P427Y715")
+        .set({ ativo: "NAFG4L", empresa: "NADIR FIGUEI PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("R760H536Q356L123")
+        .set({ ativo: "NAFG11L", empresa: "NADIR FIGUEI ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I210R561E726W644")
+        .set({ ativo: "NAFG3L", empresa: "NADIR FIGUEI ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("O694W810N458W628")
+        .set({ ativo: "NAFG4", empresa: "NADIR FIGUEIREDO PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("K428C538Y500O496")
+        .set({ ativo: "NAFG3", empresa: "NADIR FIGUEIREDO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("K868P582K595O123")
+        .set({ ativo: "NAFG12L", empresa: "NADIR FIGUEI PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("E108V681T426Q608")
+        .set({ ativo: "NTCO1", empresa: "NATURA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("G844W644X824W730")
+        .set({ ativo: "NTCO9", empresa: "NATURA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("D697C255V498R434")
+        .set({ ativo: "NTCO9L", empresa: "NATURA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("F655N452T903G704")
+        .set({ ativo: "NTCO3", empresa: "NATURA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("J553O605L482C242")
+        .set({ ativo: "NEOE3", empresa: "NEOENERGIA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V487J591J415B624")
+        .set({ ativo: "NORD3", empresa: "NORDON MET ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N230N339B256V395")
+        .set({ ativo: "NRTQ3", empresa: "NORTEC QUIMICA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M513A572A941Q381")
+        .set({ ativo: "NUTR3", empresa: "NUTRIPLANT ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("F734O861W979L408")
+        .set({ ativo: "ODPV3", empresa: "ODONTOPREV ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L310S240F126E355")
+        .set({ ativo: "DMMO3", empresa: "DOMMO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N319A566U361X608")
+        .set({ ativo: "DMMO11", empresa: "DOMMO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Y776O556B489U473")
+        .set({ ativo: "OIBR4", empresa: "OI PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V726F886G955K980")
+        .set({ ativo: "OIBR3", empresa: "OI ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W608P256K931K683")
+        .set({ ativo: "OMGE3", empresa: "OMEGA GER ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M507E997J938U991")
+        .set({
+          ativo: "OPHE3B",
+          empresa: "OPPORTUNITY ENERGIA PART... ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("A412D505N355G893")
+        .set({ ativo: "OSXB3", empresa: "OSX BRASIL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Q174Y125U806E707")
+        .set({ ativo: "OFSA3", empresa: "OUROFINO S/A ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("G628Q851F202W598")
+        .set({ ativo: "PDTC", empresa: "PADTEC ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X265A862C664D288")
+        .set({ ativo: "PDTC3", empresa: "PADTEC ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("K393R525M860H145")
+        .set({ ativo: "PATI9L", empresa: "PANATLANTICA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L286I918D737G501")
+        .set({ ativo: "PATI10", empresa: "PANATLANTICA PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("J838M410M407B572")
+        .set({ ativo: "PATI4", empresa: "PANATLANTICA PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I685G796N498U329")
+        .set({ ativo: "PATI9", empresa: "PANATLANTICA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("D341Q914J393W169")
+        .set({ ativo: "PATI10L", empresa: "PANATLANTICA PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("G469W332K270W544")
+        .set({ ativo: "PATI3", empresa: "PANATLANTICA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W596O799O734O688")
+        .set({ ativo: "PMAM3", empresa: "PARANAPANEMA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("K911R127U371F698")
+        .set({
+          ativo: "PPHT5L",
+          empresa: "PAULISTA PRAIA HOTEL PNA",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("O734Y586N672X501")
+        .set({ ativo: "PTBL3", empresa: "PORTOBELLO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V750F752Z415M276")
+        .set({ ativo: "PDGR3", empresa: "PDG REALT ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Z595K397A823N357")
+        .set({
+          ativo: "PDGD5L",
+          empresa: "PEDRA GRANDEPNA PNA",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("D182E364J122X980")
+        .set({ ativo: "PRIO3", empresa: "PETRORIO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("B173S235K675B489")
+        .set({ ativo: "BRDT3", empresa: "PETROBRAS BR ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N884Q379N507V601")
+        .set({ ativo: "PETR3", empresa: "PETROBRAS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M996W868W458P479")
+        .set({ ativo: "PETR4", empresa: "PETROBRAS PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("U359O227B927T422")
+        .set({ ativo: "PTNT4", empresa: "PETTENATI PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X385T296G486T829")
+        .set({ ativo: "PTNT3", empresa: "PETTENATI ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("J480Z478H985V873")
+        .set({ ativo: "PNGU5L", empresa: "PINGUS PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N614B917K448R435")
+        .set({ ativo: "PLAS3", empresa: "PLASCAR PART ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("A273I972T718N227")
+        .set({ ativo: "PLAS11", empresa: "PLASCAR PART ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("B679X715C291N597")
+        .set({ ativo: "PPAR3", empresa: "POLPAR ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("P607C705Q206K828")
+        .set({ ativo: "FRTA3", empresa: "POMIFRUTAS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("K237Z484B392J727")
+        .set({ ativo: "PSSA3", empresa: "PORTO SEGURO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("D811T981T148L756")
+        .set({ ativo: "PSVM11", empresa: "PORTO SUDESTE", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("D272H678K783M101")
+        .set({ ativo: "POSI3", empresa: "POSITIVO TEC ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("H860X862O523D919")
+        .set({ ativo: "PTCA3", empresa: "PRATICA PNR M2 ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M338S122E397P590")
+        .set({ ativo: "PTCA11", empresa: "PRATICA PNR M2 PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("O141U139J796G208")
+        .set({
+          ativo: "PMSP13B",
+          empresa: "PREFEITURA MUNICIPAL SAO...",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("D342D648Q239B425")
+        .set({ ativo: "PMSP12BL", empresa: "CEPAC - PMSP", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T562H651K212E243")
+        .set({
+          ativo: "PMSP11B",
+          empresa: "PREFEITURA MUNICIPAL SAO...",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("W647W468P227O968")
+        .set({
+          ativo: "PMSP12B",
+          empresa: "PREFEITURA MUNICIPAL SAO...",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("Y905Q705B383W608")
+        .set({ ativo: "PRNR3", empresa: "PRINER ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V858X631V649W848")
+        .set({
+          ativo: "PRMN3B",
+          empresa: "PRODUTORES ENERGETICOS M... ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("E525G868H925N713")
+        .set({ ativo: "PFRM3", empresa: "PROFARMA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T681V308V319N818")
+        .set({
+          ativo: "PRPT3B",
+          empresa: "PROMPT PARTICIPACOES ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("T628N226H494F413")
+        .set({ ativo: "QUAL3", empresa: "QUALICORP ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("D950Q534F346G564")
+        .set({ ativo: "QUSW3", empresa: "QUALITY SOFTWARE ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("E805H616Y774P172")
+        .set({ ativo: "RADL3", empresa: "RAIA DROGASIL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L456N771Q550O618")
+        .set({ ativo: "RAPT3", empresa: "RANDON PART ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T265G478Q596H732")
+        .set({ ativo: "RAPT4", empresa: "RANDON PART PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N287G392F343K527")
+        .set({ ativo: "RBRY13", empresa: "RBR PRIVATE CR", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("F995X663O236I318")
+        .set({ ativo: "RCSL4", empresa: "RECRUSUL PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Y954Q336N601J640")
+        .set({ ativo: "RCSL3", empresa: "RECRUSUL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("R832E374J465T334")
+        .set({ ativo: "REDE1", empresa: "REDE ENERGIA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Q810G207N672A298")
+        .set({ ativo: "REDE3", empresa: "REDE ENERGIA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L366X284R543K104")
+        .set({ ativo: "RPMG3", empresa: "PET MANGUINH ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L939U636L438V449")
+        .set({ ativo: "RNEW4", empresa: "RENOVA PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("A428U243W743P506")
+        .set({ ativo: "RNEW3", empresa: "RENOVA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("H704G325J367P282")
+        .set({ ativo: "LLIS3", empresa: "LE LIS BLANC ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("J864T589W501M657")
+        .set({ ativo: "RCTA6L", empresa: "RIO CARTADO PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("F998C188G193E182")
+        .set({ ativo: "GEPA3", empresa: "GER PARANAP ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W693L115Q463Z479")
+        .set({ ativo: "GEPA4", empresa: "GER PARANAP PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("D797E889S842M731")
+        .set({ ativo: "RIPC6L", empresa: "RIOPEC PNC PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("S996U202E749W991")
+        .set({ ativo: "RIPC8L", empresa: "RIOPEC PNC PND", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("C547F973V910Q211")
+        .set({ ativo: "RIPC7L", empresa: "RIOPEC PNC PNC", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N651C576Z361R844")
+        .set({ ativo: "RDNI3", empresa: "RNI ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L437M557R561M792")
+        .set({
+          ativo: "RCST6L",
+          empresa: "ROCHA SANTOS AGROIND PNB",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("Q508W828K438D213")
+        .set({ ativo: "RSID3", empresa: "ROSSI RESID ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W622C106S842N237")
+        .set({
+          ativo: "FRRN5B",
+          empresa: "RUMO MALHA NORTE PNA",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("U991D452H581C881")
+        .set({
+          ativo: "FRRN6B",
+          empresa: "RUMO MALHA NORTE PNB",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("A747O479M193F144")
+        .set({
+          ativo: "FRRN3B",
+          empresa: "RUMO MALHA NORTE ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("Z782N239S854Y910")
+        .set({ ativo: "RAIL3", empresa: "RUMO S.A ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Q702O438W617R993")
+        .set({ ativo: "SNSY3", empresa: "SANSUY ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I762H978Y503U813")
+        .set({ ativo: "SNSY6", empresa: "SANSUY PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L125T745C701Q739")
+        .set({ ativo: "SNSY5", empresa: "SANSUY PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Y109S423M939E860")
+        .set({ ativo: "STBP3", empresa: "SANTOS BRASIL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X505D392E928U229")
+        .set({ ativo: "SCAR3", empresa: "SÃO CARLOS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("K859H147I306R642")
+        .set({
+          ativo: "CTVL5L",
+          empresa: "SAO FRANCISCO TEXTIL PNA",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("Q406Z475R417N424")
+        .set({ ativo: "SMTO3", empresa: "SÃO MARTINHO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("U162X393B213I358")
+        .set({ ativo: "ALPA4", empresa: "ALPARGATAS PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("O260B974V590N975")
+        .set({ ativo: "ALPA3", empresa: "ALPARGATAS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W587B307I644R227")
+        .set({ ativo: "AHEB13", empresa: "SPTURIS PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Z508F520J242Z106")
+        .set({ ativo: "AHEB5", empresa: "SP TURISMO PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X934I816K626I586")
+        .set({ ativo: "AHEB6", empresa: "SP TURISMO PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("S987H136J923N984")
+        .set({ ativo: "AHEB11", empresa: "SPTURIS PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I285C783R594H486")
+        .set({ ativo: "AHEB1", empresa: "SPTURIS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("F816I565T685Q176")
+        .set({ ativo: "AHEB3", empresa: "SP TURISMO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V353I984I481L695")
+        .set({ ativo: "SLED12", empresa: "SARAIVA LIVR", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L285R838F810B525")
+        .set({ ativo: "SLED11", empresa: "SARAIVA LIVR", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L701P210M820F588")
+        .set({ ativo: "SLED4", empresa: "SARAIVA LIVR PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("K314B809R430M518")
+        .set({ ativo: "SLED1", empresa: "SARAIVA LIVR ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L964G919H321D914")
+        .set({ ativo: "SLED3", empresa: "SARAIVA LIVR ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V618G948G898F688")
+        .set({ ativo: "SLED2", empresa: "SARAIVA LIVR PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("H331Y115J542D716")
+        .set({ ativo: "SLED13", empresa: "SARAIVA LIVR", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X677B377A790X393")
+        .set({
+          ativo: "PSEG4",
+          empresa: "SAUIPE SA (EX PARSEG PAR... PN",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("L499H889O377O167")
+        .set({
+          ativo: "PSEG3",
+          empresa: "SAUIPE SA (EX PARSEG PAR... ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("O719I820H440T427")
+        .set({ ativo: "SHUL4", empresa: "SCHULZ PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("R238Q268R261Y998")
+        .set({ ativo: "SHUL3", empresa: "SCHULZ ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W985D705L190I883")
+        .set({ ativo: "SEER3", empresa: "SER EDUCACIONAL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("A657E864P614Y638")
+        .set({
+          ativo: "SRAG5L",
+          empresa: "SERMAR AGRO PNA PNA",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("B861N597A436M354")
+        .set({ ativo: "APTI4", empresa: "ALIPERTI PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I482Z926P999T826")
+        .set({ ativo: "APTI3", empresa: "ALIPERTI ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("C794U167M729V767")
+        .set({
+          ativo: "SNOP5L",
+          empresa: "SINOP AGRO QUIMICA PNA",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("J388Z945R487L870")
+        .set({ ativo: "SQIA3", empresa: "SINQIA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T820B140M678R963")
+        .set({ ativo: "SLCE3", empresa: "SLC AGRICOLA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V664L457L523K816")
+        .set({ ativo: "SMLL11", empresa: "SMALL CAP", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("O898I929H187N998")
+        .set({ ativo: "SMFT6", empresa: "SMART FIT PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("K574E775F824T721")
+        .set({ ativo: "SMFT3", empresa: "SMARTFIT ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("J666E266P297K467")
+        .set({ ativo: "SMFT13", empresa: "SMART FIT PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("C255H804W409X546")
+        .set({ ativo: "SMLS3", empresa: "SMILES ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T282J584O568S634")
+        .set({ ativo: "ALSO3", empresa: "ALIANSCE SONAE ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("K304H768L112O602")
+        .set({ ativo: "SOND5", empresa: "SONDOTECNICA PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X577C203O170E421")
+        .set({ ativo: "SOND3", empresa: "SONDOTECNICA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("H985U184J753L582")
+        .set({ ativo: "SOND6", empresa: "SONDOTECNICA PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Y533I612E195Q352")
+        .set({ ativo: "SPRI6", empresa: "SPRINGER PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("E879L928P973J261")
+        .set({ ativo: "SPRI3", empresa: "SPRINGER ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X298R821M322S134")
+        .set({ ativo: "SPRI5", empresa: "SPRINGER PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T192Z293B471A395")
+        .set({ ativo: "SGPS3", empresa: "SPRINGS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N625F889H518S817")
+        .set({ ativo: "STTR3", empresa: "STARA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T975X923D951D806")
+        .set({
+          ativo: "STKF3",
+          empresa: "STATKRAFT ENERGIAS RENOV... ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("J870P532P788B810")
+        .set({ ativo: "OPSE3B", empresa: "SUDESTE ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("E890K576V115K431")
+        .set({
+          ativo: "SUIA4L",
+          empresa: "SUINOS AVES NORDESTE SA ... PN",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("V567C610N940K454")
+        .set({
+          ativo: "OPTS3B",
+          empresa: "SUL 116 PARTICIPACOES ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("V305G187Q795F286")
+        .set({ ativo: "SULA3", empresa: "SUL AMERICA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M293W181K238X936")
+        .set({ ativo: "SULA4", empresa: "SUL AMERICA PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W393L759P705Y491")
+        .set({ ativo: "NEMO3", empresa: "SUZANO HOLD ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W796C189G398S210")
+        .set({ ativo: "NEMO5", empresa: "SUZANO HOLD PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("P377S432K974X557")
+        .set({ ativo: "NEMO6", empresa: "SUZANO HOLD PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("P490U903U110O139")
+        .set({ ativo: "SUZB3", empresa: "SUZANO PAPEL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("U234C144I445K949")
+        .set({ ativo: "SHOW3", empresa: "TIME FOR FUN ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("B532D128V498N322")
+        .set({ ativo: "TASA3", empresa: "FORJA TAURUS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("K181Y732U561T515")
+        .set({ ativo: "TASA15", empresa: "FORJA TAURUS PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Z178T508P654E310")
+        .set({ ativo: "TASA4", empresa: "FORJA TAURUS PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("E805T297C366H814")
+        .set({ ativo: "TASA17", empresa: "FORJA TAURUS PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Q743C777Y458Y885")
+        .set({ ativo: "TASA13", empresa: "FORJA TAURUS PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("D241W200P908H728")
+        .set({ ativo: "TAUR4", empresa: "TAURUS ARMAS PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X345C704V329A118")
+        .set({ ativo: "TAUR", empresa: "TAURUS ARMAS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("F657R827W860G201")
+        .set({ ativo: "FJTA15", empresa: "FORJA TAURUS PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N416O264B684G357")
+        .set({ ativo: "FJTA17", empresa: "FORJA TAURUS PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("H915L551K922P728")
+        .set({ ativo: "FJTA13", empresa: "FORJA TAURUS PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Y809W986Y981H273")
+        .set({
+          ativo: "TXBZ5L",
+          empresa: "TBM TEXTIL BEZERRA MENEZ... PNA",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("X827M717O169T301")
+        .set({
+          ativo: "TTEX5L",
+          empresa: "TECELAGEM TEXITA PNA",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("E301B435J863U587")
+        .set({ ativo: "TECN3", empresa: "TECHNOS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Q480Z227Y247P758")
+        .set({ ativo: "TCSA3", empresa: "TECNISA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("H480Q656X165V810")
+        .set({ ativo: "TCNO4", empresa: "TECNOSOLO PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T915K636P975R551")
+        .set({ ativo: "TCNO3", empresa: "TECNOSOLO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("P747I731U902M655")
+        .set({ ativo: "TGMA3", empresa: "TEGMA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("H828N132S486D811")
+        .set({ ativo: "TEKA4", empresa: "TEKA PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("K583D314E323D904")
+        .set({ ativo: "TEKA3", empresa: "TEKA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V984K747W413X107")
+        .set({ ativo: "TKNO4", empresa: "TEKNO PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("D772H882R645I932")
+        .set({ ativo: "TKNO3", empresa: "TEKNO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("O864N185T379F424")
+        .set({ ativo: "TELB4", empresa: "TELEBRAS PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("B274Y594P984B118")
+        .set({ ativo: "TELB2", empresa: "TELEBRAS PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("E754B745Y960K655")
+        .set({ ativo: "TELB1", empresa: "TELEBRAS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("O219W633Q726O496")
+        .set({ ativo: "TELB3", empresa: "TELEBRAS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Y806E299F852W966")
+        .set({ ativo: "VIVT4", empresa: "TELEF BRASIL PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("G994M566B855M143")
+        .set({ ativo: "VIVT3", empresa: "TELEF BRASIL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M363I469A334X763")
+        .set({
+          ativo: "MNZC3B",
+          empresa: "TERMINAL GARAGEM MENEZES... ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("S432P400N155R293")
+        .set({ ativo: "TBCC4L", empresa: "TERRA BRAVIA PN PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("M250W628K535W356")
+        .set({ ativo: "TESA3", empresa: "TERRA SANTA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("R963U951P817E503")
+        .set({ ativo: "TESA12", empresa: "TERRA SANTA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V278Z209C492H566")
+        .set({ ativo: "TXRX4", empresa: "TEX RENAUX PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("C460F379J764Y516")
+        .set({ ativo: "TXRX3", empresa: "TEX RENAUX ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X659Z588X344Y521")
+        .set({ ativo: "TIMP3", empresa: "TIM ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("O731M920C922B249")
+        .set({ ativo: "TOTS3", empresa: "TOTVS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N100M505B661G140")
+        .set({ ativo: "TPIS3", empresa: "TRIUNFO PART ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("A355C221P963K335")
+        .set({
+          ativo: "TCTN5L",
+          empresa: "TRANSCONTINENTAL HOTEIS ... PNA",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("A720Q981F570I789")
+        .set({ ativo: "TAEE3", empresa: "TAESA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X479L902V200S816")
+        .set({ ativo: "TAEE4", empresa: "TAESA PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("N299U787U484V643")
+        .set({ ativo: "LUXM4", empresa: "TREVISA PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V291Q923Y105Y262")
+        .set({ ativo: "LUXM3", empresa: "TREVISA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("U865N806S944X669")
+        .set({ ativo: "TRIS3", empresa: "TRISUL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("O434G195G363B627")
+        .set({ ativo: "CRPG5", empresa: "CRISTAL PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V631P561J951N892")
+        .set({ ativo: "CRPG3", empresa: "CRISTAL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Y310U395Q458X247")
+        .set({ ativo: "CRPG6", empresa: "CRISTAL PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L427X649P148M476")
+        .set({ ativo: "TUPY3", empresa: "TUPY ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I619K480Z709K132")
+        .set({ ativo: "UGPA3", empresa: "ULTRAPAR ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X176W754D436J613")
+        .set({ ativo: "UCAS3", empresa: "UNICASA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T645R667G209U722")
+        .set({ ativo: "UNIP5", empresa: "UNIPAR PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("X930I156Y455L452")
+        .set({ ativo: "UNIP6", empresa: "UNIPAR PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("B365W810H771X241")
+        .set({ ativo: "UNIP3", empresa: "UNIPAR ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("S890D733N969N366")
+        .set({
+          ativo: "UPKP3B",
+          empresa: "UPTICK PARTICIPACOES ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("T181K594X842A569")
+        .set({ ativo: "USIM6", empresa: "USIMINAS PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Q381C644F542R465")
+        .set({ ativo: "USIM3", empresa: "USIMINAS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("F442A425R651X151")
+        .set({ ativo: "USIM5", empresa: "USIMINAS PNA", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("F577Q604Y210T348")
+        .set({ ativo: "UTIL11", empresa: "UTILITIES", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("V105C106P678C732")
+        .set({ ativo: "VLBN6L", empresa: "VALE BONITO PNB", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Q129D204M276O152")
+        .set({ ativo: "VLID3", empresa: "VALID ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W537S164E954P608")
+        .set({ ativo: "VVAR3", empresa: "VIA VAREJO ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("G222E911N799K268")
+        .set({ ativo: "VIVA3", empresa: "VIVARA ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T365Z295W845P874")
+        .set({ ativo: "VIVR3", empresa: "VIVER ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("I639A233B687B113")
+        .set({ ativo: "VIVR1", empresa: "VIVER ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("G357G737G701D727")
+        .set({ ativo: "VULC3", empresa: "VULCABRAS ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("E589K679L674B871")
+        .set({ ativo: "WEGE3", empresa: "WEG ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("A741X540N997X385")
+        .set({ ativo: "MWET4", empresa: "WETZEL PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("P916B998S242W487")
+        .set({ ativo: "MWET3", empresa: "WETZEL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L515X432D103K323")
+        .set({ ativo: "WHRL4", empresa: "WHIRLPOOL PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("Y878D398N338Z436")
+        .set({ ativo: "WHRL3", empresa: "WHIRLPOOL ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("S617Q371O125J714")
+        .set({ ativo: "WIZS3", empresa: "WIZ S.A ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("D605T521X901X554")
+        .set({ ativo: "WLMM4", empresa: "WLM PN", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("R897Z862O923Z968")
+        .set({ ativo: "WLMM3", empresa: "WLM ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("L136U187I350V821")
+        .set({
+          ativo: "XVTE5L",
+          empresa: "XAVANTE AGRO PNA PNA",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("O263Y254O900E105")
+        .set({
+          ativo: "XING5L",
+          empresa: "XINGUARA IND PNA PNA",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("Z828V715O369I960")
+        .set({ ativo: "XPLG12", empresa: "XP LOG FII COTAS", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("T198J973H823L867")
+        .set({ ativo: "XPML13", empresa: "XP MALLS FD INV", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("W975L312N936J652")
+        .set({ ativo: "YDUQ3", empresa: "ESTACIO PART ON", tipo: "Ações" });
+      await db
+        .collection("ativos")
+        .doc("O794N607L380W710")
+        .set({
+          ativo: "QVQP3B",
+          empresa: "524 PARTICIPACOES ON",
+          tipo: "Ações"
+        });
+      await db
+        .collection("ativos")
+        .doc("T727T954E836C792")
+        .set({
+          ativo: "ABCP11",
+          empresa: "GRAND PLAZA SHOPPING",
+          tipo: "Fundo Imobiliário",
+          administradora: "RIO BRAVO"
+        });
+      await db
+        .collection("ativos")
+        .doc("X217C709Q868T667")
+        .set({
+          ativo: "AFCR11",
+          empresa: "AF INVEST RECEBÍVEIS IMOBILIÁRIOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "CM CAPITAL MARKETS"
+        });
+      await db
+        .collection("ativos")
+        .doc("C122N594C689D894")
+        .set({
+          ativo: "AFOF11",
+          empresa: "ALIANZA FOFII",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("R288Q653E719K584")
+        .set({
+          ativo: "AIEC11",
+          empresa: "AUTONOMY EDIFÍCIOS CORPORATIVOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "MODAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("X183H986P411R384")
+        .set({
+          ativo: "ALMI11",
+          empresa: "TORRE ALMIRANTE",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("C885U623X696T431")
+        .set({
+          ativo: "ALZR11",
+          empresa: "ALIANZA TRUST RENDA IMOBILIÁRIA",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("F254N147R213J155")
+        .set({
+          ativo: "ANCR11B",
+          empresa: "ANCAR IC",
+          tipo: "Fundo Imobiliário",
+          administradora: "GERAÇÃO FUTURO"
+        });
+      await db
+        .collection("ativos")
+        .doc("A199D915M174A852")
+        .set({
+          ativo: "AQLL11",
+          empresa: "ÁQUILLA",
+          tipo: "Fundo Imobiliário",
+          administradora: "ÍNDIGO INVESTIMENTOS"
+        });
+      await db
+        .collection("ativos")
+        .doc("S193U797I666S314")
+        .set({
+          ativo: "ARCT11",
+          empresa: "RIZA ARCTIUM REAL ESTATE",
+          tipo: "Fundo Imobiliário",
+          administradora: "VÓRTX"
+        });
+      await db
+        .collection("ativos")
+        .doc("F975F966K273P762")
+        .set({
+          ativo: "ARFI11B",
+          empresa: "AQ3 RENDA",
+          tipo: "Fundo Imobiliário",
+          administradora: "FOCO DTVM"
+        });
+      await db
+        .collection("ativos")
+        .doc("C127V195M646L660")
+        .set({
+          ativo: "ARRI11",
+          empresa: "ÁTRIO REIT RECEBÍVEIS IMOBILIÁRIOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "OLIVEIRA TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("B774G727S488S981")
+        .set({
+          ativo: "ATCR11",
+          empresa: "HAZ FII",
+          tipo: "Fundo Imobiliário",
+          administradora: "GRADUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("R429Z754Y486O421")
+        .set({
+          ativo: "ATSA11",
+          empresa: "HEDGE ATRIUM SHOPPING SANTO ANDRÉ",
+          tipo: "Fundo Imobiliário",
+          administradora: "HEDGE INVESTMENTS"
+        });
+      await db
+        .collection("ativos")
+        .doc("Y649Z423Q873S825")
+        .set({
+          ativo: "BARI11",
+          empresa: "BARIGUI RENDIMENTOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "OLIVEIRA TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("K351Q438W442P932")
+        .set({
+          ativo: "BBFI11B",
+          empresa: "BB PROGRESSIVO",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("Q520U267P328M428")
+        .set({
+          ativo: "BBIM11",
+          empresa: "BB RECEBÍVEIS IMOBILIÁRIOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BB GESTAO DE RECURSOS DTVM"
+        });
+      await db
+        .collection("ativos")
+        .doc("M503U191L702O101")
+        .set({
+          ativo: "BBPO11",
+          empresa: "BB PROGRESSIVO II",
+          tipo: "Fundo Imobiliário",
+          administradora: "VOTORANTIM ASSET"
+        });
+      await db
+        .collection("ativos")
+        .doc("T174W256C427N643")
+        .set({
+          ativo: "BBRC11",
+          empresa: "BB RENDA CORPORATIVA",
+          tipo: "Fundo Imobiliário",
+          administradora: "VOTORANTIM ASSET"
+        });
+      await db
+        .collection("ativos")
+        .doc("Y153M810O545P844")
+        .set({
+          ativo: "BBVJ11",
+          empresa: "CIDADE JARDIM CONTINENTAL TOWER",
+          tipo: "Fundo Imobiliário",
+          administradora: "HEDGE INVESTMENTS"
+        });
+      await db
+        .collection("ativos")
+        .doc("P961I422V773V401")
+        .set({
+          ativo: "BCFF11",
+          empresa: "BTG PACTUAL FUNDO DE FUNDOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("R223O424I670A847")
+        .set({
+          ativo: "BCIA11",
+          empresa: "BRADESCO CARTEIRA IMOBILIÁRIA ATIVA",
+          tipo: "Fundo Imobiliário",
+          administradora: "BANCO BRADESCO"
+        });
+      await db
+        .collection("ativos")
+        .doc("O244L448T145V300")
+        .set({
+          ativo: "BCRI11",
+          empresa: "BANESTES RECEBÍVEIS IMOBILIÁRIOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("U237S952K732R244")
+        .set({
+          ativo: "BICR11",
+          empresa: "INTER TÍTULOS IMOBILIÁRIOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "INTER DTVM"
+        });
+      await db
+        .collection("ativos")
+        .doc("K461H511C377H309")
+        .set({
+          ativo: "BJRC11",
+          empresa: "JS REAL ESTATE RECEBÍVEIS IMOBILIÁRIOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BANCO J. SAFRA"
+        });
+      await db
+        .collection("ativos")
+        .doc("I857H660P958F963")
+        .set({
+          ativo: "BLCP11",
+          empresa: "BLUECAP RENDA LOGÍSTICA",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("J248S143M278Y696")
+        .set({
+          ativo: "BLMO11",
+          empresa: "BLUEMACAW OFFICE FUND II",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("W145L812X651D921")
+        .set({
+          ativo: "BMII11",
+          empresa: "BRASÍLIO MACHADO",
+          tipo: "Fundo Imobiliário",
+          administradora: "RIO BRAVO"
+        });
+      await db
+        .collection("ativos")
+        .doc("K715B122U111D425")
+        .set({
+          ativo: "BMLC11B",
+          empresa: "BM BRASCAN LAJES CORPORATIVAS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("A356Q845H288X720")
+        .set({
+          ativo: "BNFS11",
+          empresa: "BANRISUL NOVAS FRONTEIRAS",
+          tipo: "Fundo Imobiliário",
+          administradora: "OLIVEIRA TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("T422X407K154F422")
+        .set({
+          ativo: "BPFF11",
+          empresa: "BRASIL PLURAL ABSOLUTO FUNDO DE FUNDOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "GENIAL INVESTIMENTOS"
+        });
+      await db
+        .collection("ativos")
+        .doc("N383X578J237E550")
+        .set({
+          ativo: "BPMA11",
+          empresa: "BRIO PRIME MALLS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("K228G732G198S951")
+        .set({
+          ativo: "BPML11",
+          empresa: "BTG PACTUAL SHOPPINGS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("L436I235Y160W961")
+        .set({
+          ativo: "BPRP11",
+          empresa: "BRLPROP",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("Q352Y669D375H587")
+        .set({
+          ativo: "BRCO11",
+          empresa: "BRESCO LOGÍSTICA",
+          tipo: "Fundo Imobiliário",
+          administradora: "OLIVEIRA TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("U371M188J132H891")
+        .set({
+          ativo: "BRCR11",
+          empresa: "BTG PACTUAL CORPORATE OFFICE FUND",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("W413G815Q738Z191")
+        .set({
+          ativo: "BREV11",
+          empresa: "BRAZIL REAL ESTATE VICTORY FUND I",
+          tipo: "Fundo Imobiliário",
+          administradora: "BR-CAPITAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("E236W728L619E136")
+        .set({
+          ativo: "BRHT11B",
+          empresa: "BR HOTEIS",
+          tipo: "Fundo Imobiliário",
+          administradora: "ELITE CCVM"
+        });
+      await db
+        .collection("ativos")
+        .doc("K166Q855H405W455")
+        .set({
+          ativo: "BRIM11",
+          empresa: "BRIO REAL ESTATE II",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("F118U524U953D266")
+        .set({
+          ativo: "BTCR11",
+          empresa: "BTG PACTUAL CRÉDITO IMOBILIÁRIO",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("Q605B896F815O213")
+        .set({
+          ativo: "BTLG11",
+          empresa: "BTG PACTUAL LOGÍSTICA",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("L800G798J211J298")
+        .set({
+          ativo: "BTSG11",
+          empresa: "BTSP I",
+          tipo: "Fundo Imobiliário",
+          administradora: "INTER"
+        });
+      await db
+        .collection("ativos")
+        .doc("I132T648J897S788")
+        .set({
+          ativo: "BVAR11",
+          empresa: "BRASIL VAREJO",
+          tipo: "Fundo Imobiliário",
+          administradora: "RIO BRAVO"
+        });
+      await db
+        .collection("ativos")
+        .doc("A366L609Q453I834")
+        .set({
+          ativo: "BZLI11",
+          empresa: "BRAZIL REALTY",
+          tipo: "Fundo Imobiliário",
+          administradora: "FOCO DTVM"
+        });
+      await db
+        .collection("ativos")
+        .doc("Y928A286J952T670")
+        .set({
+          ativo: "CARE11",
+          empresa: "BRAZILIAN GRAVEYARDDEATH CARE",
+          tipo: "Fundo Imobiliário",
+          administradora: "PLANNER"
+        });
+      await db
+        .collection("ativos")
+        .doc("H581A763W158O593")
+        .set({
+          ativo: "CBOP11",
+          empresa: "CASTELLO BRANCO OFFICE PARK",
+          tipo: "Fundo Imobiliário",
+          administradora: "CREDIT SUISSE"
+        });
+      await db
+        .collection("ativos")
+        .doc("B625S784G810M298")
+        .set({
+          ativo: "CEOC11",
+          empresa: "CEO CYRELA COMMERCIAL PROPERTIES",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("G387E291D216L285")
+        .set({
+          ativo: "CJFI11",
+          empresa: "CJ FII",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("L850P883Y652Y947")
+        .set({
+          ativo: "CNES11",
+          empresa: "CENESP",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("R610G968V732F788")
+        .set({
+          ativo: "CPFF11",
+          empresa: "CAPITÂNIA REIT FOF",
+          tipo: "Fundo Imobiliário",
+          administradora: "VÓRTX"
+        });
+      await db
+        .collection("ativos")
+        .doc("T761V509C779X977")
+        .set({
+          ativo: "CPTS11",
+          empresa: "CAPITÂNIA SECURITIES II",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("O134J528O770B674")
+        .set({
+          ativo: "CRFF11",
+          empresa: "CAIXA RIO BRAVO FUNDO DE FUNDOS II",
+          tipo: "Fundo Imobiliário",
+          administradora: "CAIXA ECONOMICA FEDERAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("W710A514D210K812")
+        .set({
+          ativo: "CTXT11",
+          empresa: "CENTRO TÊXTIL INTERNACIONAL",
+          tipo: "Fundo Imobiliário",
+          administradora: "RIO BRAVO"
+        });
+      await db
+        .collection("ativos")
+        .doc("U810K131E772B698")
+        .set({
+          ativo: "CVBI11",
+          empresa: "VBI CRI",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("H636W402A760B511")
+        .set({
+          ativo: "CXCE11B",
+          empresa: "CAIXA CEDAE",
+          tipo: "Fundo Imobiliário",
+          administradora: "CAIXA ECONOMICA FEDERAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("S239T201U736M236")
+        .set({
+          ativo: "CXRI11",
+          empresa: "CAIXA RIO BRAVO FUNDO DE FUNDOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "CAIXA ECONOMICA FEDERAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("R790G711P533R761")
+        .set({
+          ativo: "CXTL11",
+          empresa: "CAIXA TRX LOGÍSTICA RENDA",
+          tipo: "Fundo Imobiliário",
+          administradora: "CAIXA ECONOMICA FEDERAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("D620Z378X636J397")
+        .set({
+          ativo: "DAMT11B",
+          empresa: "DIAMANTE",
+          tipo: "Fundo Imobiliário",
+          administradora: "BANCO MODAL S.A."
+        });
+      await db
+        .collection("ativos")
+        .doc("P387O136N860H674")
+        .set({
+          ativo: "DLMT11",
+          empresa: "DEL MONTE AJAX",
+          tipo: "Fundo Imobiliário",
+          administradora: "PLANNER"
+        });
+      await db
+        .collection("ativos")
+        .doc("F864S800F641I419")
+        .set({
+          ativo: "DMAC11",
+          empresa: "MAC FII",
+          tipo: "Fundo Imobiliário",
+          administradora: "OLIVEIRA TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("M590S674A241S108")
+        .set({
+          ativo: "DOMC11",
+          empresa: "REAG RENDA IMOBILIÁRIA",
+          tipo: "Fundo Imobiliário",
+          administradora: "MONETAR DTVM"
+        });
+      await db
+        .collection("ativos")
+        .doc("A644C808L921Y626")
+        .set({
+          ativo: "DOVL11B",
+          empresa: "DOVEL",
+          tipo: "Fundo Imobiliário",
+          administradora: "BNY MELLON"
+        });
+      await db
+        .collection("ativos")
+        .doc("T173I716G728S340")
+        .set({
+          ativo: "DRIT11B",
+          empresa: "MULTIGESTÃO RENDA COMERCIAL",
+          tipo: "Fundo Imobiliário",
+          administradora: "BANCO DAYCOVAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("I286J387H100N107")
+        .set({
+          ativo: "EDFO11B",
+          empresa: "EDIFÍCIO OURINVEST",
+          tipo: "Fundo Imobiliário",
+          administradora: "OLIVEIRA TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("X541G128Y605K874")
+        .set({
+          ativo: "EDGA11",
+          empresa: "EDIFÍCIO GALERIA",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("B677L548G336U989")
+        .set({
+          ativo: "ELDO11B",
+          empresa: "ELDORADO",
+          tipo: "Fundo Imobiliário",
+          administradora: "RIO BRAVO"
+        });
+      await db
+        .collection("ativos")
+        .doc("E228S217T287X841")
+        .set({
+          ativo: "ERPA11",
+          empresa: "EUROPA 105",
+          tipo: "Fundo Imobiliário",
+          administradora: "OLIVEIRA TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("X275B687F195Q166")
+        .set({
+          ativo: "ESTQ11",
+          empresa: "POLO ESTOQUE II",
+          tipo: "Fundo Imobiliário",
+          administradora: "OLIVEIRA TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("N136V351A977I369")
+        .set({
+          ativo: "EURO11",
+          empresa: "EUROPAR",
+          tipo: "Fundo Imobiliário",
+          administradora: "COINVALORES"
+        });
+      await db
+        .collection("ativos")
+        .doc("F276V376N651D222")
+        .set({
+          ativo: "FAED11",
+          empresa: "ANHANGUERA EDUCACIONAL",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("Y355G368B370D699")
+        .set({
+          ativo: "FAMB11B",
+          empresa: "EDIFÍCIO ALMIRANTE BARROSO",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("J825U843J878B933")
+        .set({
+          ativo: "FATN11",
+          empresa: "ATHENA I",
+          tipo: "Fundo Imobiliário",
+          administradora: "BR-CAPITAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("Q223O579O640U245")
+        .set({
+          ativo: "FCAS11",
+          empresa: "EDIFÍCIO CASTELO",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("G994Z603G461O580")
+        .set({
+          ativo: "FCFL11",
+          empresa: "CAMPUS FARIA LIMA",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("M875L461G958Q628")
+        .set({
+          ativo: "FEXC11",
+          empresa: "BTG PACTUAL FUNDO DE CRI",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("T435N690U428S721")
+        .set({
+          ativo: "FIGS11",
+          empresa: "GENERAL SHOPPING ATIVO E RENDA",
+          tipo: "Fundo Imobiliário",
+          administradora: "HEDGE INVESTMENTS"
+        });
+      await db
+        .collection("ativos")
+        .doc("S876A208G187H173")
+        .set({
+          ativo: "FIIB11",
+          empresa: "INDUSTRIAL DO BRASIL",
+          tipo: "Fundo Imobiliário",
+          administradora: "COINVALORES"
+        });
+      await db
+        .collection("ativos")
+        .doc("Z730R374D859R314")
+        .set({
+          ativo: "FIIP11B",
+          empresa: "RB CAPITAL RENDA I",
+          tipo: "Fundo Imobiliário",
+          administradora: "OLIVEIRA TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("A444Q947K876L435")
+        .set({
+          ativo: "FINF11",
+          empresa: "INFRA REAL ESTATE",
+          tipo: "Fundo Imobiliário",
+          administradora: "PLANNER"
+        });
+      await db
+        .collection("ativos")
+        .doc("J178S955D526P878")
+        .set({
+          ativo: "FISC11",
+          empresa: "SC 401",
+          tipo: "Fundo Imobiliário",
+          administradora: "BR-CAPITAL DTVM"
+        });
+      await db
+        .collection("ativos")
+        .doc("C255C302V615Q499")
+        .set({
+          ativo: "FISD11",
+          empresa: "SÃO DOMINGOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "FOCO DTVM"
+        });
+      await db
+        .collection("ativos")
+        .doc("A387H356R879M378")
+        .set({
+          ativo: "FIVN11",
+          empresa: "VIDA NOVA",
+          tipo: "Fundo Imobiliário",
+          administradora: "OLIVEIRA TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("C267S189I723L573")
+        .set({
+          ativo: "FLCR11",
+          empresa: "FARIA LIMA CAPITAL RECEBÍVEIS IMOBILIÁRIOS I",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("N780J780G721C481")
+        .set({
+          ativo: "FLMA11",
+          empresa: "CONTINENTAL SQUARE FARIA LIMA",
+          tipo: "Fundo Imobiliário",
+          administradora: "BR-CAPITAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("O773U833Q757E194")
+        .set({
+          ativo: "FLRP11",
+          empresa: "FLORIPA SHOPPING",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("A298B109I511Y803")
+        .set({
+          ativo: "FMOF11",
+          empresa: "MEMORIAL OFFICE",
+          tipo: "Fundo Imobiliário",
+          administradora: "COINVALORES"
+        });
+      await db
+        .collection("ativos")
+        .doc("P500N462H213T998")
+        .set({
+          ativo: "FOFT11",
+          empresa: "HEDGE TOP FOFII 2",
+          tipo: "Fundo Imobiliário",
+          administradora: "HEDGE INVESTMENTS"
+        });
+      await db
+        .collection("ativos")
+        .doc("T713J848E104P434")
+        .set({
+          ativo: "FPAB11",
+          empresa: "PROJETO ÁGUA BRANCA",
+          tipo: "Fundo Imobiliário",
+          administradora: "COINVALORES"
+        });
+      await db
+        .collection("ativos")
+        .doc("O121C586X636N752")
+        .set({
+          ativo: "FPNG11",
+          empresa: "PEDRA NEGRA RENDA IMOBILIÁRIA",
+          tipo: "Fundo Imobiliário",
+          administradora: "BR-CAPITAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("Y676J453A961U627")
+        .set({
+          ativo: "FTCE11B",
+          empresa: "OPPORTUNITY",
+          tipo: "Fundo Imobiliário",
+          administradora: "BANCO OPPORTUNITY"
+        });
+      await db
+        .collection("ativos")
+        .doc("E676Z835W199D989")
+        .set({
+          ativo: "FTMJ11",
+          empresa: "TMJ FII",
+          tipo: "Fundo Imobiliário",
+          administradora: "GRADUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("T590Y177V503J126")
+        .set({
+          ativo: "FVBI11",
+          empresa: "FUNDO VBI FL 4440",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("B868J694X394D803")
+        .set({
+          ativo: "FVPQ11",
+          empresa: "VIA PARQUE",
+          tipo: "Fundo Imobiliário",
+          administradora: "RIO BRAVO"
+        });
+      await db
+        .collection("ativos")
+        .doc("E588U690Z732Q298")
+        .set({
+          ativo: "GCFF11",
+          empresa: "GALAPAGOS FUNDO DE FUNDOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("F581K367Y431T711")
+        .set({
+          ativo: "GESE11",
+          empresa: "GENERAL SEVERIANO",
+          tipo: "Fundo Imobiliário",
+          administradora: "OLIVEIRA TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("T853I330X731Z427")
+        .set({
+          ativo: "GGRC11",
+          empresa: "GGR COVEPI",
+          tipo: "Fundo Imobiliário",
+          administradora: "CM CAPITAL MARKETS"
+        });
+      await db
+        .collection("ativos")
+        .doc("H121O936X702V368")
+        .set({
+          ativo: "GRLV11",
+          empresa: "CSHG GR LOUVEIRA",
+          tipo: "Fundo Imobiliário",
+          administradora: "CREDIT SUISSE"
+        });
+      await db
+        .collection("ativos")
+        .doc("W811G843V743B113")
+        .set({
+          ativo: "GSFI11",
+          empresa: "GENERAL SHOPPING E OUTLETS",
+          tipo: "Fundo Imobiliário",
+          administradora: "PLANNER"
+        });
+      await db
+        .collection("ativos")
+        .doc("X742P975E528W626")
+        .set({
+          ativo: "GTWR11",
+          empresa: "GREEN TOWERS",
+          tipo: "Fundo Imobiliário",
+          administradora: "VOTORANTIM ASSET"
+        });
+      await db
+        .collection("ativos")
+        .doc("W106C152O216O298")
+        .set({
+          ativo: "GWIC11",
+          empresa: "GWI CONDOMÍNIOS LOGÍSTICOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("T476X282A180E943")
+        .set({
+          ativo: "HAAA11",
+          empresa: "HEDGE AAA",
+          tipo: "Fundo Imobiliário",
+          administradora: "HEDGE INVESTMENTS"
+        });
+      await db
+        .collection("ativos")
+        .doc("Y590V606A692M758")
+        .set({
+          ativo: "HABT11",
+          empresa: "HABITAT II",
+          tipo: "Fundo Imobiliário",
+          administradora: "VÓRTX"
+        });
+      await db
+        .collection("ativos")
+        .doc("R664K922V861A820")
+        .set({
+          ativo: "HBRH11",
+          empresa: "MULTI RENDA URBANA",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("P515C328D515R250")
+        .set({
+          ativo: "HBTT11",
+          empresa: "HABITAT I",
+          tipo: "Fundo Imobiliário",
+          administradora: "VÓRTX"
+        });
+      await db
+        .collection("ativos")
+        .doc("K527Q739U983J891")
+        .set({
+          ativo: "HCRI11",
+          empresa: "HOSPITAL DA CRIANÇA",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("E683N937M293N644")
+        .set({
+          ativo: "HCTR11",
+          empresa: "HECTARE CE",
+          tipo: "Fundo Imobiliário",
+          administradora: "VÓRTX"
+        });
+      await db
+        .collection("ativos")
+        .doc("T980C111N208L461")
+        .set({
+          ativo: "HFOF11",
+          empresa: "HEDGE TOP FOFII 3",
+          tipo: "Fundo Imobiliário",
+          administradora: "HEDGE INVESTMENTS"
+        });
+      await db
+        .collection("ativos")
+        .doc("F904F239L816Q709")
+        .set({
+          ativo: "HGBS11",
+          empresa: "HEDGE BRASIL SHOPPING",
+          tipo: "Fundo Imobiliário",
+          administradora: "HEDGE INVESTMENTS"
+        });
+      await db
+        .collection("ativos")
+        .doc("E479W967C845M529")
+        .set({
+          ativo: "HGCR11",
+          empresa: "CSHG RECEBÍVEIS IMOBILIÁRIOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "CREDIT SUISSE"
+        });
+      await db
+        .collection("ativos")
+        .doc("D752A576G629W326")
+        .set({
+          ativo: "HGFF11",
+          empresa: "CSHG IMOBILIÁRIO FOF",
+          tipo: "Fundo Imobiliário",
+          administradora: "CREDIT SUISSE"
+        });
+      await db
+        .collection("ativos")
+        .doc("V957M218V279Y388")
+        .set({
+          ativo: "HGLG11",
+          empresa: "CSHG LOGÍSTICA",
+          tipo: "Fundo Imobiliário",
+          administradora: "CREDIT SUISSE"
+        });
+      await db
+        .collection("ativos")
+        .doc("S732V272X696J808")
+        .set({
+          ativo: "HGPO11",
+          empresa: "CSHG PRIME OFFICES",
+          tipo: "Fundo Imobiliário",
+          administradora: "CREDIT SUISSE"
+        });
+      await db
+        .collection("ativos")
+        .doc("M754F577X534C838")
+        .set({
+          ativo: "HGRE11",
+          empresa: "CSHG REAL ESTATE",
+          tipo: "Fundo Imobiliário",
+          administradora: "CREDIT SUISSE"
+        });
+      await db
+        .collection("ativos")
+        .doc("A856Z252D269I466")
+        .set({
+          ativo: "HGRU11",
+          empresa: "CSHG RENDA URBANA",
+          tipo: "Fundo Imobiliário",
+          administradora: "CREDIT SUISSE"
+        });
+      await db
+        .collection("ativos")
+        .doc("Z891N101K569E238")
+        .set({
+          ativo: "HLOG11",
+          empresa: "HEDGE LOGÍSTICA",
+          tipo: "Fundo Imobiliário",
+          administradora: "HEDGE INVESTMENTS"
+        });
+      await db
+        .collection("ativos")
+        .doc("D514T622W384R866")
+        .set({
+          ativo: "HMOC11",
+          empresa: "HEDGE SHOPPING PRAÇA DA MOÇA",
+          tipo: "Fundo Imobiliário",
+          administradora: "HEDGE INVESTMENTS"
+        });
+      await db
+        .collection("ativos")
+        .doc("O871G866Q387V737")
+        .set({
+          ativo: "HOSI11",
+          empresa: "HOUSI",
+          tipo: "Fundo Imobiliário",
+          administradora: "VÓRTX"
+        });
+      await db
+        .collection("ativos")
+        .doc("V426M784R345G411")
+        .set({
+          ativo: "HPDP11",
+          empresa: "HEDGE SHOPPING PARQUE DOM PEDRO",
+          tipo: "Fundo Imobiliário",
+          administradora: "HEDGE INVESTMENTS"
+        });
+      await db
+        .collection("ativos")
+        .doc("S222B183J377T348")
+        .set({
+          ativo: "HRDF11",
+          empresa: "HEDGE REALTY DEVELOPMENT",
+          tipo: "Fundo Imobiliário",
+          administradora: "HEDGE INVESTMENTS"
+        });
+      await db
+        .collection("ativos")
+        .doc("N455B969K543W191")
+        .set({
+          ativo: "HREC11",
+          empresa: "HEDGE RECEBÍVEIS IMOBILIÁRIOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "HEDGE INVESTMENTS"
+        });
+      await db
+        .collection("ativos")
+        .doc("U233Z915D307E893")
+        .set({
+          ativo: "HSAF11",
+          empresa: "HSI ATIVOS FINANCEIROS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("S559N473V710K899")
+        .set({
+          ativo: "HSML11",
+          empresa: "HSI MALLS",
+          tipo: "Fundo Imobiliário",
+          administradora: "Santander Securities Services"
+        });
+      await db
+        .collection("ativos")
+        .doc("L947E753Q167A119")
+        .set({
+          ativo: "HSRE11",
+          empresa: "HSI RENDA IMOBILIÁRIA",
+          tipo: "Fundo Imobiliário",
+          administradora: "Santander Securities Services"
+        });
+      await db
+        .collection("ativos")
+        .doc("K962M317S941A433")
+        .set({
+          ativo: "HTMX11",
+          empresa: "HOTEL MAXINVEST",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("Y320R974F760F808")
+        .set({
+          ativo: "HUSC11",
+          empresa: "HOSPITAL UNIMED SUL CAPIXABA",
+          tipo: "Fundo Imobiliário",
+          administradora: "RIO BRAVO"
+        });
+      await db
+        .collection("ativos")
+        .doc("S458U143R474N505")
+        .set({
+          ativo: "HUSI11",
+          empresa: "HUSI",
+          tipo: "Fundo Imobiliário",
+          administradora: "PLANNER"
+        });
+      await db
+        .collection("ativos")
+        .doc("P607Q406T779N668")
+        .set({
+          ativo: "IBFF11",
+          empresa: "FOF INTEGRAL BREI",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("G432U807W210X622")
+        .set({
+          ativo: "IFIE11",
+          empresa: "IFI-E",
+          tipo: "Fundo Imobiliário",
+          administradora: "INTER"
+        });
+      await db
+        .collection("ativos")
+        .doc("K316T883C132Z632")
+        .set({
+          ativo: "IFIX",
+          empresa: "IFIX ÍNDICE DE FUNDOS IMOBILIÁRIOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "N/D"
+        });
+      await db
+        .collection("ativos")
+        .doc("P166U205F754Q718")
+        .set({
+          ativo: "IRDM11",
+          empresa: "IRIDIUM RECEBÍVEIS IMOBILIÁRIOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("H129C354M325N808")
+        .set({
+          ativo: "JPPA11",
+          empresa: "JPP ALLOCATON MOGNO",
+          tipo: "Fundo Imobiliário",
+          administradora: "VÓRTX"
+        });
+      await db
+        .collection("ativos")
+        .doc("R920T466B755S418")
+        .set({
+          ativo: "JPPC11",
+          empresa: "JPP CAPITAL",
+          tipo: "Fundo Imobiliário",
+          administradora: "BANCO FINAXIS"
+        });
+      await db
+        .collection("ativos")
+        .doc("M215N254Z934L865")
+        .set({
+          ativo: "JRDM11",
+          empresa: "SHOPPING JARDIM SUL",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("Q122L139Y813I249")
+        .set({
+          ativo: "JSIM11",
+          empresa: "JS REAL ESTATE RENDA IMOBILIÁRIA",
+          tipo: "Fundo Imobiliário",
+          administradora: "BANCO J. SAFRA"
+        });
+      await db
+        .collection("ativos")
+        .doc("D611K613F309H207")
+        .set({
+          ativo: "JSRE11",
+          empresa: "JS REAL ESTATE MULTIGESTÃO",
+          tipo: "Fundo Imobiliário",
+          administradora: "BANCO J. SAFRA"
+        });
+      await db
+        .collection("ativos")
+        .doc("W888R744G720Z294")
+        .set({
+          ativo: "JTPR11",
+          empresa: "JT PREV DESENVOLVIMENTO HABITACIONAL",
+          tipo: "Fundo Imobiliário",
+          administradora: "PLANNER"
+        });
+      await db
+        .collection("ativos")
+        .doc("E709A622R833G644")
+        .set({
+          ativo: "KFOF11",
+          empresa: "KINEA FUNDO DE FUNDOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "INTRAG"
+        });
+      await db
+        .collection("ativos")
+        .doc("R582A353U128P675")
+        .set({
+          ativo: "KINP11",
+          empresa: "EVEN PERMUTA KINEA",
+          tipo: "Fundo Imobiliário",
+          administradora: "INTRAG"
+        });
+      await db
+        .collection("ativos")
+        .doc("K284C615T495K582")
+        .set({
+          ativo: "KNCR11",
+          empresa: "KINEA RENDIMENTOS IMOBILIÁRIOS FII",
+          tipo: "Fundo Imobiliário",
+          administradora: "INTRAG"
+        });
+      await db
+        .collection("ativos")
+        .doc("C955R256R887O155")
+        .set({
+          ativo: "KNHY11",
+          empresa: "KINEA HIGH YIELD CRI",
+          tipo: "Fundo Imobiliário",
+          administradora: "INTRAG"
+        });
+      await db
+        .collection("ativos")
+        .doc("X333B858F307F882")
+        .set({
+          ativo: "KNIP11",
+          empresa: "KINEA ÍNDICES DE PREÇOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "INTRAG"
+        });
+      await db
+        .collection("ativos")
+        .doc("F423U991Y429G901")
+        .set({
+          ativo: "KNRE11",
+          empresa: "KINEA II REAL ESTATE EQUITY",
+          tipo: "Fundo Imobiliário",
+          administradora: "INTRAG"
+        });
+      await db
+        .collection("ativos")
+        .doc("A917P156L918U200")
+        .set({
+          ativo: "KNRI11",
+          empresa: "KINEA RENDA IMOBILIÁRIA",
+          tipo: "Fundo Imobiliário",
+          administradora: "INTRAG"
+        });
+      await db
+        .collection("ativos")
+        .doc("Q679C116U803T429")
+        .set({
+          ativo: "LASC11",
+          empresa: "LEGATUS SHOPPINGS",
+          tipo: "Fundo Imobiliário",
+          administradora: "VÓRTX"
+        });
+      await db
+        .collection("ativos")
+        .doc("A267X484C601W429")
+        .set({
+          ativo: "LATR11B",
+          empresa: "LATERES",
+          tipo: "Fundo Imobiliário",
+          administradora: "OLIVEIRA TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("L282B741T317P780")
+        .set({
+          ativo: "LFTT11",
+          empresa: "LOFT II",
+          tipo: "Fundo Imobiliário",
+          administradora: "MODAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("P334B515Q293I227")
+        .set({
+          ativo: "LGCP11",
+          empresa: "LOG CP INTER",
+          tipo: "Fundo Imobiliário",
+          administradora: "INTER DTVM"
+        });
+      await db
+        .collection("ativos")
+        .doc("F879B133U666S740")
+        .set({
+          ativo: "LOFT11B",
+          empresa: "LOFT I (COTA SÊNIOR)",
+          tipo: "Fundo Imobiliário",
+          administradora: "MODAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("B525M220O947D653")
+        .set({
+          ativo: "LOFT13B",
+          empresa: "LOFT I (COTA SUBORDINADA)",
+          tipo: "Fundo Imobiliário",
+          administradora: "MODAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("V153O401V202Q632")
+        .set({
+          ativo: "LUGG11",
+          empresa: "LUGGO",
+          tipo: "Fundo Imobiliário",
+          administradora: "INTER DTVM"
+        });
+      await db
+        .collection("ativos")
+        .doc("K178T751I188K972")
+        .set({
+          ativo: "LVBI11",
+          empresa: "VBI LOGÍSTICO",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("A929E959D217Y579")
+        .set({
+          ativo: "MALL11",
+          empresa: "MALLS BRASIL PLURAL",
+          tipo: "Fundo Imobiliário",
+          administradora: "GENIAL INVESTIMENTOS"
+        });
+      await db
+        .collection("ativos")
+        .doc("J267A177X602H402")
+        .set({
+          ativo: "MAXR11",
+          empresa: "MAX RETAIL",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("Z329D976T929F137")
+        .set({
+          ativo: "MBRF11",
+          empresa: "MERCANTIL DO BRASIL",
+          tipo: "Fundo Imobiliário",
+          administradora: "RIO BRAVO"
+        });
+      await db
+        .collection("ativos")
+        .doc("S372Q455K647J356")
+        .set({
+          ativo: "MCCI11",
+          empresa: "MAUÁ CAPITAL RECEBÍVEIS IMOBILIÁRIOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("M743W165U157H329")
+        .set({
+          ativo: "MFAI11",
+          empresa: "MÉRITO FUNDOS E AÇÕES IMOBILIÁRIAS",
+          tipo: "Fundo Imobiliário",
+          administradora: "PLANNER"
+        });
+      await db
+        .collection("ativos")
+        .doc("I708V616Q638F444")
+        .set({
+          ativo: "MFII11",
+          empresa: "MÉRITO DESENVOLVIMENTO IMOBILIÁRIO I",
+          tipo: "Fundo Imobiliário",
+          administradora: "PLANNER"
+        });
+      await db
+        .collection("ativos")
+        .doc("M129R393P789O415")
+        .set({
+          ativo: "MGFF11",
+          empresa: "MOGNO FUNDO DE FUNDOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("Z368X299N367O264")
+        .set({
+          ativo: "MGHT11",
+          empresa: "MOGNO HOTEIS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("C565U993J395I810")
+        .set({
+          ativo: "MINT11",
+          empresa: "MINT EDUCACIONAL",
+          tipo: "Fundo Imobiliário",
+          administradora: "PLURAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("G324E466Q874H232")
+        .set({
+          ativo: "MOFF11",
+          empresa: "MULTIOFFICES 2",
+          tipo: "Fundo Imobiliário",
+          administradora: "OLIVEIRA TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("I689R660E485S426")
+        .set({
+          ativo: "MORE11",
+          empresa: "MORE REAL ESTATE FOF",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("V256J740H569T828")
+        .set({
+          ativo: "MSHP11",
+          empresa: "MAIS SHOPPING LARGO 13",
+          tipo: "Fundo Imobiliário",
+          administradora: "BEM DTVM"
+        });
+      await db
+        .collection("ativos")
+        .doc("L844E479F739L399")
+        .set({
+          ativo: "MTOF11",
+          empresa: "MULTIOFFICES 1",
+          tipo: "Fundo Imobiliário",
+          administradora: "OLIVEIRA TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("S761G416S731F592")
+        .set({
+          ativo: "MTRS11",
+          empresa: "METROPOLIS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("J743F943X768I494")
+        .set({
+          ativo: "MVFI11",
+          empresa: "MV9 FII",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("D557A992M459W569")
+        .set({
+          ativo: "MXRF11",
+          empresa: "MAXI RENDA",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("Z810O217G579B233")
+        .set({
+          ativo: "NCHB11",
+          empresa: "NCH BRASIL RECEBÍVEIS IMOBILIÁRIOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("D314L822Y300N711")
+        .set({
+          ativo: "NEWL11",
+          empresa: "NEWPORT LOGÍSTICA",
+          tipo: "Fundo Imobiliário",
+          administradora: "PLURAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("K692I963G786X429")
+        .set({
+          ativo: "NEWU11",
+          empresa: "NEWPORT RENDA URBANA",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRASIL PLURAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("Q878A349N474Y254")
+        .set({
+          ativo: "NPAR11",
+          empresa: "NESTPAR",
+          tipo: "Fundo Imobiliário",
+          administradora: "PLANNER"
+        });
+      await db
+        .collection("ativos")
+        .doc("O137O358P369T372")
+        .set({
+          ativo: "NSLU11",
+          empresa: "HOSPITAL NOSSA SENHORA DE LOURDES",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("W749N932D716K455")
+        .set({
+          ativo: "NVHO11",
+          empresa: "NOVO HORIZONTE",
+          tipo: "Fundo Imobiliário",
+          administradora: "PLURAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("K343K140X813K722")
+        .set({
+          ativo: "NVIF11B",
+          empresa: "NOVA I",
+          tipo: "Fundo Imobiliário",
+          administradora: "MODAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("Y660E740N656O671")
+        .set({
+          ativo: "ONEF11",
+          empresa: "THE ONE",
+          tipo: "Fundo Imobiliário",
+          administradora: "RIO BRAVO"
+        });
+      await db
+        .collection("ativos")
+        .doc("H983A645S164W287")
+        .set({
+          ativo: "ORPD11",
+          empresa: "OURO VERDE DESENVOLVIMENTO IMOBILIÁRIO",
+          tipo: "Fundo Imobiliário",
+          administradora: "PLANNER"
+        });
+      await db
+        .collection("ativos")
+        .doc("H743K109S150O363")
+        .set({
+          ativo: "OUCY11",
+          empresa: "OURINVEST CYRELA",
+          tipo: "Fundo Imobiliário",
+          administradora: "BANCO OURINVEST S.A."
+        });
+      await db
+        .collection("ativos")
+        .doc("B959Q356Y852S493")
+        .set({
+          ativo: "OUFF11",
+          empresa: "OURINVEST FUNDO DE FUNDOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BANCO OURINVEST S.A."
+        });
+      await db
+        .collection("ativos")
+        .doc("A119M803Y154I254")
+        .set({
+          ativo: "OUJP11",
+          empresa: "OURINVEST JPP",
+          tipo: "Fundo Imobiliário",
+          administradora: "FINAXIS CORRETORA"
+        });
+      await db
+        .collection("ativos")
+        .doc("P597J541J811W946")
+        .set({
+          ativo: "OULG11",
+          empresa: "OURINVEST LOGÍSTICA",
+          tipo: "Fundo Imobiliário",
+          administradora: "BANCO OURINVEST S.A."
+        });
+      await db
+        .collection("ativos")
+        .doc("R501W160M517H926")
+        .set({
+          ativo: "PABY11",
+          empresa: "PANAMBY",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRKB DTVM"
+        });
+      await db
+        .collection("ativos")
+        .doc("Y242C691Y376L312")
+        .set({
+          ativo: "PATB11",
+          empresa: "PATEO BANDEIRANTES",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("V680R777I953H928")
+        .set({
+          ativo: "PATC11",
+          empresa: "PÁTRIA EDIFÍCIOS CORPORATIVOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BANCO MODAL S.A."
+        });
+      await db
+        .collection("ativos")
+        .doc("G644W908F638U598")
+        .set({
+          ativo: "PATL11",
+          empresa: "PÁTRIA LOGÍSTICA",
+          tipo: "Fundo Imobiliário",
+          administradora: "VÓRTX"
+        });
+      await db
+        .collection("ativos")
+        .doc("K435A968X502E834")
+        .set({
+          ativo: "PBLV11",
+          empresa: "PROLOGIS BRAZIL LOGISTICS VENTURE",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("X155O616B269B916")
+        .set({
+          ativo: "PBYR11",
+          empresa: "PANAMBY RENDA MASTER",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("V879Y482Y468M427")
+        .set({
+          ativo: "PLCR11",
+          empresa: "PLURAL RECEBÍVEIS IMOBILIÁRIOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRASIL PLURAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("M768Z697Z244D402")
+        .set({
+          ativo: "PLRI11",
+          empresa: "POLO",
+          tipo: "Fundo Imobiliário",
+          administradora: "OLIVEIRA TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("B147D593V451H697")
+        .set({
+          ativo: "PORD11",
+          empresa: "POLO CRI II",
+          tipo: "Fundo Imobiliário",
+          administradora: "OLIVEIRA TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("F490F267Z639I330")
+        .set({
+          ativo: "PQAG11",
+          empresa: "PARQUE ANHANGUERA",
+          tipo: "Fundo Imobiliário",
+          administradora: "FINAXIS CORRETORA"
+        });
+      await db
+        .collection("ativos")
+        .doc("X974D547T800S154")
+        .set({
+          ativo: "PQDP11",
+          empresa: "PARQUE DOM PEDRO SHOPPING CENTER",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("Y668Z112K811J861")
+        .set({
+          ativo: "PRSN11B",
+          empresa: "PERSONALE I",
+          tipo: "Fundo Imobiliário",
+          administradora: "OLIVEIRA TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("Y260N465X137F909")
+        .set({
+          ativo: "PRSV11",
+          empresa: "PRESIDENTE VARGAS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BEM DTVM"
+        });
+      await db
+        .collection("ativos")
+        .doc("R842M133L212Z514")
+        .set({
+          ativo: "PRTS11",
+          empresa: "MULTI PROPERTIES",
+          tipo: "Fundo Imobiliário",
+          administradora: "BANCO MODAL S.A."
+        });
+      await db
+        .collection("ativos")
+        .doc("X332L178D697G943")
+        .set({
+          ativo: "PVBI11",
+          empresa: "VBI PRIME PROPERTIES",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("R306Z574L464F722")
+        .set({
+          ativo: "QAGR11",
+          empresa: "QUASAR AGRO",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("M326H509O757C170")
+        .set({
+          ativo: "QMFF11",
+          empresa: "QUATÁ MONETAI FUNDO DE FUNDOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("B858A310I740A724")
+        .set({
+          ativo: "QREC11",
+          empresa: "QUASAR CRÉDITO IMOBILIÁRIO",
+          tipo: "Fundo Imobiliário",
+          administradora: "INTRAG"
+        });
+      await db
+        .collection("ativos")
+        .doc("O470C583B905E122")
+        .set({
+          ativo: "RBAG11",
+          empresa: "RB CAPITAL AGRE",
+          tipo: "Fundo Imobiliário",
+          administradora: "CITIBANK DTVM"
+        });
+      await db
+        .collection("ativos")
+        .doc("W729K548P163O517")
+        .set({
+          ativo: "RBBV11",
+          empresa: "JHSF RIO BRAVO FAZENDA BOA VISTA",
+          tipo: "Fundo Imobiliário",
+          administradora: "CAIXA ECONOMICA FEDERAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("C382C470W956W466")
+        .set({
+          ativo: "RBCB11",
+          empresa: "RIO BRAVO CRÉDITO IMOBILIÁRIO I",
+          tipo: "Fundo Imobiliário",
+          administradora: "RIO BRAVO"
+        });
+      await db
+        .collection("ativos")
+        .doc("J497H502U574M965")
+        .set({
+          ativo: "RBCO11",
+          empresa: "RB CAPITAL OFFICE INCOME",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("M102N245O407Z269")
+        .set({
+          ativo: "RBDS11",
+          empresa: "RB CAPITAL DESENVOLVIMENTO RESIDENCIAL II",
+          tipo: "Fundo Imobiliário",
+          administradora: "OLIVEIRA TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("R952U646Q692U457")
+        .set({
+          ativo: "RBED11",
+          empresa: "RIO BRAVO RENDA EDUCACIONAL",
+          tipo: "Fundo Imobiliário",
+          administradora: "RIO BRAVO"
+        });
+      await db
+        .collection("ativos")
+        .doc("P785X323D987P626")
+        .set({
+          ativo: "RBFF11",
+          empresa: "RIO BRAVO IFIX",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("L466Q728M882S171")
+        .set({
+          ativo: "RBGS11",
+          empresa: "RB CAPITAL GENERAL SHOPPING SULACAP",
+          tipo: "Fundo Imobiliário",
+          administradora: "OLIVEIRA TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("Y617A845T745H370")
+        .set({
+          ativo: "RBIR11",
+          empresa: "RB CAPITAL DESENVOLVIMENTO RESIDENCIAL IV",
+          tipo: "Fundo Imobiliário",
+          administradora: "OLIVEIRA TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("X780V518O238K803")
+        .set({
+          ativo: "RBIV11",
+          empresa: "RIO BRAVO CRÉDITO IMOBILIÁRIO IV",
+          tipo: "Fundo Imobiliário",
+          administradora: "RIO BRAVO"
+        });
+      await db
+        .collection("ativos")
+        .doc("J405J353Q478V855")
+        .set({
+          ativo: "RBPD11",
+          empresa: "RB CAPITAL PRIME REALTY II",
+          tipo: "Fundo Imobiliário",
+          administradora: "CITIBANK DTVM"
+        });
+      await db
+        .collection("ativos")
+        .doc("B808Y372A525C329")
+        .set({
+          ativo: "RBPR11",
+          empresa: "RB CAPITAL PRIME REALTY I",
+          tipo: "Fundo Imobiliário",
+          administradora: "CITIBANK DTVM"
+        });
+      await db
+        .collection("ativos")
+        .doc("O502B676Q738O944")
+        .set({
+          ativo: "RBRD11",
+          empresa: "RB CAPITAL RENDA II",
+          tipo: "Fundo Imobiliário",
+          administradora: "VOTORANTIM ASSET"
+        });
+      await db
+        .collection("ativos")
+        .doc("L475W945E847X178")
+        .set({
+          ativo: "RBRF11",
+          empresa: "RBR ALPHA MULTIESTRATÉGIA REAL ESTATE",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("S181N154L767J682")
+        .set({
+          ativo: "RBRL11",
+          empresa: "RBR LOG",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("X323Q271N801R182")
+        .set({
+          ativo: "RBRM11",
+          empresa: "RBR DESENVOLVIMENTO",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("B499O776X348W272")
+        .set({
+          ativo: "RBRP11",
+          empresa: "RBR PROPERTIES FII",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("B756O781J416G484")
+        .set({
+          ativo: "RBRR11",
+          empresa: "RBR RENDIMENTOS HIGH GRADE",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("O287J632R783A344")
+        .set({
+          ativo: "RBRY11",
+          empresa: "RBR CRÉDITO IMOBILIÁRIO HIGH YIELD",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("P734A137J220N146")
+        .set({
+          ativo: "RBTS11",
+          empresa: "RB CAPITAL TFO SITUS",
+          tipo: "Fundo Imobiliário",
+          administradora: "OLIVEIRA TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("D728O517I191K829")
+        .set({
+          ativo: "RBVA11",
+          empresa: "RIO BRAVO RENDA VAREJO",
+          tipo: "Fundo Imobiliário",
+          administradora: "RIO BRAVO"
+        });
+      await db
+        .collection("ativos")
+        .doc("Z343T710E440E860")
+        .set({
+          ativo: "RBVO11",
+          empresa: "RIO BRAVO CRÉDITO IMOBILIÁRIO II",
+          tipo: "Fundo Imobiliário",
+          administradora: "RIO BRAVO"
+        });
+      await db
+        .collection("ativos")
+        .doc("C863E221K799X425")
+        .set({
+          ativo: "RCCS11",
+          empresa: "REP 1 CCS",
+          tipo: "Fundo Imobiliário",
+          administradora: "CREDIT SUISSE"
+        });
+      await db
+        .collection("ativos")
+        .doc("Z605W674Y682N653")
+        .set({
+          ativo: "RCFA11",
+          empresa: "GRUPO RCFA",
+          tipo: "Fundo Imobiliário",
+          administradora: "Fram Capital"
+        });
+      await db
+        .collection("ativos")
+        .doc("Q785X935B220P815")
+        .set({
+          ativo: "RCFF11",
+          empresa: "RBR DESENVOLVIMENTO COMERCIAL FEEDER FOF",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("Z141N952Z853Y464")
+        .set({
+          ativo: "RCRB11",
+          empresa: "RIO BRAVO RENDA CORPORATIVA",
+          tipo: "Fundo Imobiliário",
+          administradora: "RIO BRAVO"
+        });
+      await db
+        .collection("ativos")
+        .doc("W625Y457K129L654")
+        .set({
+          ativo: "RCRI11",
+          empresa: "RB CAPITAL RENDIMENTOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "OLIVEIRA TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("H336T198W425U453")
+        .set({
+          ativo: "RDPD11",
+          empresa: "FUNDO BB RENDA DE PAPÉIS II",
+          tipo: "Fundo Imobiliário",
+          administradora: "VOTORANTIM ASSET"
+        });
+      await db
+        .collection("ativos")
+        .doc("L493B700O280J123")
+        .set({
+          ativo: "RECT11",
+          empresa: "UBS BR OFFICE",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("X328B804H914R457")
+        .set({
+          ativo: "REIT11",
+          empresa: "SOCOPA FII",
+          tipo: "Fundo Imobiliário",
+          administradora: "BNY MELLON"
+        });
+      await db
+        .collection("ativos")
+        .doc("Q654R292N839B956")
+        .set({
+          ativo: "RELG11",
+          empresa: "REC LOGÍSTICA",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("B334T759I907Z664")
+        .set({
+          ativo: "RFOF11",
+          empresa: "RB CAPITAL I FUNDO DE FUNDOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("U264S512H401T616")
+        .set({
+          ativo: "RNDP11",
+          empresa: "FUNDO BB RENDA DE PAPÉIS",
+          tipo: "Fundo Imobiliário",
+          administradora: "VOTORANTIM ASSET"
+        });
+      await db
+        .collection("ativos")
+        .doc("R338Y771E422T612")
+        .set({
+          ativo: "RNGO11",
+          empresa: "RIO NEGRO",
+          tipo: "Fundo Imobiliário",
+          administradora: "RIO BRAVO"
+        });
+      await db
+        .collection("ativos")
+        .doc("A619A909K517C541")
+        .set({
+          ativo: "RRCI11",
+          empresa: "RB CAPITAL RECEBÍVEIS IMOBILIÁRIOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("U268U470T541L971")
+        .set({
+          ativo: "RSBU11B",
+          empresa: "RSB 1",
+          tipo: "Fundo Imobiliário",
+          administradora: "NSG CAPITAL DTVM"
+        });
+      await db
+        .collection("ativos")
+        .doc("Q206Q644R352G453")
+        .set({
+          ativo: "RSPD11",
+          empresa: "RB CAPITAL DESENVOLVIMENTO RESIDENCIAL III",
+          tipo: "Fundo Imobiliário",
+          administradora: "OLIVEIRA TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("M852U364F990Q182")
+        .set({
+          ativo: "RVBI11",
+          empresa: "VBI REITS FOF",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("K165C420U276I932")
+        .set({
+          ativo: "SAAG11",
+          empresa: "SANTANDER AGÊNCIAS",
+          tipo: "Fundo Imobiliário",
+          administradora: "RIO BRAVO"
+        });
+      await db
+        .collection("ativos")
+        .doc("M498G168H267Q558")
+        .set({
+          ativo: "SADI11",
+          empresa: "SANTANDER PAPÉIS IMOBILIÁRIOS CDI",
+          tipo: "Fundo Imobiliário",
+          administradora: "Santander Securities Services"
+        });
+      await db
+        .collection("ativos")
+        .doc("P601U391N132H499")
+        .set({
+          ativo: "SAIC11B",
+          empresa: "SIA CORPORATE",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRB DTVM"
+        });
+      await db
+        .collection("ativos")
+        .doc("M889Q289N165O418")
+        .set({
+          ativo: "SARE11",
+          empresa: "SANTANDER RENDA DE ALUGUÉIS",
+          tipo: "Fundo Imobiliário",
+          administradora: "Santander Securities Services"
+        });
+      await db
+        .collection("ativos")
+        .doc("J839Q106K331O210")
+        .set({
+          ativo: "SCPF11",
+          empresa: "SCP",
+          tipo: "Fundo Imobiliário",
+          administradora: "BR-CAPITAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("U542C520J485L928")
+        .set({
+          ativo: "SDIL11",
+          empresa: "SDI RIO BRAVO RENDA LOGÍSTICA",
+          tipo: "Fundo Imobiliário",
+          administradora: "RIO BRAVO"
+        });
+      await db
+        .collection("ativos")
+        .doc("Q581H337L649V462")
+        .set({
+          ativo: "SFND11",
+          empresa: "SÃO FERNANDO",
+          tipo: "Fundo Imobiliário",
+          administradora: "RIO BRAVO"
+        });
+      await db
+        .collection("ativos")
+        .doc("T597N286S621V716")
+        .set({
+          ativo: "SHDP11B",
+          empresa: "SHOPPING PARQUE DOM PEDRO",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("C456F507S793G495")
+        .set({
+          ativo: "SHOP11",
+          empresa: "MULTI SHOPPINGS",
+          tipo: "Fundo Imobiliário",
+          administradora: "MODAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("R108I217P549O163")
+        .set({
+          ativo: "SHPH11",
+          empresa: "SHOPPING PÁTIO HIGIENÓPOLIS",
+          tipo: "Fundo Imobiliário",
+          administradora: "RIO BRAVO"
+        });
+      await db
+        .collection("ativos")
+        .doc("I734Z169U328L215")
+        .set({
+          ativo: "SPAF11",
+          empresa: "SPA",
+          tipo: "Fundo Imobiliário",
+          administradora: "PLURAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("S160K775P273F405")
+        .set({
+          ativo: "SPTW11",
+          empresa: "SP DOWNTOWN",
+          tipo: "Fundo Imobiliário",
+          administradora: "GERAÇÃO FUTURO"
+        });
+      await db
+        .collection("ativos")
+        .doc("E194X281R755Z163")
+        .set({
+          ativo: "SPVJ11",
+          empresa: "SUCCESPAR VAREJO",
+          tipo: "Fundo Imobiliário",
+          administradora: "VÓRTX"
+        });
+      await db
+        .collection("ativos")
+        .doc("G690U317Y579C861")
+        .set({
+          ativo: "STFI11",
+          empresa: "SANTANDER RECEBÍVEIS IMOBILIÁRIOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "Santander Securities Services"
+        });
+      await db
+        .collection("ativos")
+        .doc("R778W297R394F779")
+        .set({
+          ativo: "STRX11",
+          empresa: "STARX",
+          tipo: "Fundo Imobiliário",
+          administradora: "OLIVEIRA TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("H952S168X669U452")
+        .set({
+          ativo: "TBOF11",
+          empresa: "TB OFFICE",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("R839L191H717I695")
+        .set({
+          ativo: "TCPF11",
+          empresa: "TREECORP REAL ESTATE I",
+          tipo: "Fundo Imobiliário",
+          administradora: "BR-CAPITAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("H405J924P880B783")
+        .set({
+          ativo: "TELD11",
+          empresa: "TELLUS DESENVOLVIMENTO LOGÍSTICO",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("L818S811J744P518")
+        .set({
+          ativo: "TEPP11",
+          empresa: "TELLUS PROPERTIES",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("M212P689K159C315")
+        .set({
+          ativo: "TFOF11",
+          empresa: "HEDGE TOP FOFII",
+          tipo: "Fundo Imobiliário",
+          administradora: "HEDGE INVESTMENTS"
+        });
+      await db
+        .collection("ativos")
+        .doc("G349D944K624R919")
+        .set({
+          ativo: "TGAR11",
+          empresa: "TG ATIVO REAL",
+          tipo: "Fundo Imobiliário",
+          administradora: "VÓRTX"
+        });
+      await db
+        .collection("ativos")
+        .doc("E731L434I532C416")
+        .set({
+          ativo: "THRA11",
+          empresa: "BM CYRELA THERA CORPORATE",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("R637E210T552Q813")
+        .set({
+          ativo: "TORD11",
+          empresa: "TORDESILHAS EI",
+          tipo: "Fundo Imobiliário",
+          administradora: "VÓRTX"
+        });
+      await db
+        .collection("ativos")
+        .doc("V547S400H515K395")
+        .set({
+          ativo: "TORM11",
+          empresa: "TOURMALET I",
+          tipo: "Fundo Imobiliário",
+          administradora: "VÓRTX"
+        });
+      await db
+        .collection("ativos")
+        .doc("M346T106M124Q656")
+        .set({
+          ativo: "TOUR11",
+          empresa: "TOURMALET II",
+          tipo: "Fundo Imobiliário",
+          administradora: "VÓRTX"
+        });
+      await db
+        .collection("ativos")
+        .doc("B338J869R481I187")
+        .set({
+          ativo: "TRNT11",
+          empresa: "TORRE NORTE",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("G478Q757S833K578")
+        .set({
+          ativo: "TRXB11",
+          empresa: "TRX REAL ESTATE II",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("T517U778N677M653")
+        .set({
+          ativo: "TRXF11",
+          empresa: "TRX REAL ESTATE",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("E821G970N525O205")
+        .set({
+          ativo: "TSNC11",
+          empresa: "TRANSINC",
+          tipo: "Fundo Imobiliário",
+          administradora: "BANCO FINAXIS"
+        });
+      await db
+        .collection("ativos")
+        .doc("B108Z841S871R637")
+        .set({
+          ativo: "UBSR11",
+          empresa: "UBS BR RECEBÍVEIS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("M746Z203B448V157")
+        .set({
+          ativo: "URBN11",
+          empresa: "URBANIZA",
+          tipo: "Fundo Imobiliário",
+          administradora: "FOCO DTVM"
+        });
+      await db
+        .collection("ativos")
+        .doc("T743B536X778F656")
+        .set({
+          ativo: "URPR11",
+          empresa: "URCA PRIME RENDA",
+          tipo: "Fundo Imobiliário",
+          administradora: "VÓRTX"
+        });
+      await db
+        .collection("ativos")
+        .doc("Q109N344Q985I565")
+        .set({
+          ativo: "VCJR11",
+          empresa: "VECTIS JUROS REAL",
+          tipo: "Fundo Imobiliário",
+          administradora: "INTRAG"
+        });
+      await db
+        .collection("ativos")
+        .doc("Z942R372T152N217")
+        .set({
+          ativo: "VERE11",
+          empresa: "VEREDA",
+          tipo: "Fundo Imobiliário",
+          administradora: "RIO BRAVO"
+        });
+      await db
+        .collection("ativos")
+        .doc("Y633V890H227R310")
+        .set({
+          ativo: "VGIP11",
+          empresa: "VALORA CRI ÍNDICE DE PREÇO",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("K597E305W419M100")
+        .set({
+          ativo: "VGIR11",
+          empresa: "VALORA RE III",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("G164O713G783C855")
+        .set({
+          ativo: "VIDS11",
+          empresa: "VIC DESENVOLVIMENTO - VINTAGE 20/21",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRASIL PLURAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("U980O241W451J253")
+        .set({
+          ativo: "VIFI11",
+          empresa: "VINCI INSTRUMENTOS FINANCEIROS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("Y740K520U160R962")
+        .set({
+          ativo: "VILG11",
+          empresa: "VINCI LOGÍSTICA",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("K109S241P580X456")
+        .set({
+          ativo: "VINO11",
+          empresa: "VINCI OFFICES",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("O523P959F371L181")
+        .set({
+          ativo: "VISC11",
+          empresa: "VINCI SHOPPING CENTERS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BRL TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("X397Y529W403M484")
+        .set({
+          ativo: "VLJS11",
+          empresa: "VECTOR QUELUZ LAJES CORPORATIVAS",
+          tipo: "Fundo Imobiliário",
+          administradora: "PLANNER"
+        });
+      await db
+        .collection("ativos")
+        .doc("F886R865Y781L593")
+        .set({
+          ativo: "VLOL11",
+          empresa: "VILA OLÍMPIA CORPORATE",
+          tipo: "Fundo Imobiliário",
+          administradora: "OLIVEIRA TRUST"
+        });
+      await db
+        .collection("ativos")
+        .doc("Z168X626Q813P927")
+        .set({
+          ativo: "VOTS11",
+          empresa: "VOTORANTIM SECURITIES MASTER",
+          tipo: "Fundo Imobiliário",
+          administradora: "VOTORANTIM ASSET"
+        });
+      await db
+        .collection("ativos")
+        .doc("D285R628A467A719")
+        .set({
+          ativo: "VPSI11",
+          empresa: "POLO SHOPPING INDAIATUBA",
+          tipo: "Fundo Imobiliário",
+          administradora: "VOTORANTIM ASSET"
+        });
+      await db
+        .collection("ativos")
+        .doc("B725A183Z299O505")
+        .set({
+          ativo: "VRTA11",
+          empresa: "FATOR VERITÀ",
+          tipo: "Fundo Imobiliário",
+          administradora: "BANCO FATOR"
+        });
+      await db
+        .collection("ativos")
+        .doc("O543B895J750G994")
+        .set({
+          ativo: "VSEC11",
+          empresa: "VOTORANTIM SECURITIES",
+          tipo: "Fundo Imobiliário",
+          administradora: "VOTORANTIM ASSET"
+        });
+      await db
+        .collection("ativos")
+        .doc("C545O858D585N576")
+        .set({
+          ativo: "VSHO11",
+          empresa: "VOTORANTIM SHOPPING",
+          tipo: "Fundo Imobiliário",
+          administradora: "VOTORANTIM ASSET"
+        });
+      await db
+        .collection("ativos")
+        .doc("V680O732T464H325")
+        .set({
+          ativo: "VTLT11",
+          empresa: "VOTORANTIM LOGÍSTICA",
+          tipo: "Fundo Imobiliário",
+          administradora: "VOTORANTIM ASSET"
+        });
+      await db
+        .collection("ativos")
+        .doc("H589C202Q977P375")
+        .set({
+          ativo: "VTPA11",
+          empresa: "VOTORANTIM PATRIMONIAL V",
+          tipo: "Fundo Imobiliário",
+          administradora: "VOTORANTIM ASSET"
+        });
+      await db
+        .collection("ativos")
+        .doc("M238R552A795O380")
+        .set({
+          ativo: "VTPL11",
+          empresa: "FII PLUS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("T411Q330A465R342")
+        .set({
+          ativo: "VTVI11",
+          empresa: "PARKING PARTNERS",
+          tipo: "Fundo Imobiliário",
+          administradora: "VOTORANTIM ASSET"
+        });
+      await db
+        .collection("ativos")
+        .doc("L239Z724V931Y602")
+        .set({
+          ativo: "VTXI11",
+          empresa: "VOTORANTIM PATRIMONIAL XII",
+          tipo: "Fundo Imobiliário",
+          administradora: "VOTORANTIM ASSET"
+        });
+      await db
+        .collection("ativos")
+        .doc("Y773G350J252P606")
+        .set({
+          ativo: "VVPR11",
+          empresa: "V2 PROPERTIES",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("B366C920L603U429")
+        .set({
+          ativo: "VXXV11",
+          empresa: "VX XVI",
+          tipo: "Fundo Imobiliário",
+          administradora: "VÓRTX"
+        });
+      await db
+        .collection("ativos")
+        .doc("J955B863F634Z409")
+        .set({
+          ativo: "WMRB11B",
+          empresa: "WM RB CAPITAL",
+          tipo: "Fundo Imobiliário",
+          administradora: "CITIBANK DTVM"
+        });
+      await db
+        .collection("ativos")
+        .doc("M822R615Z489H964")
+        .set({
+          ativo: "WPLZ11",
+          empresa: "WEST PLAZA",
+          tipo: "Fundo Imobiliário",
+          administradora: "HEDGE INVESTMENTS"
+        });
+      await db
+        .collection("ativos")
+        .doc("W471P825W164J848")
+        .set({
+          ativo: "WTSP11B",
+          empresa: "OURINVEST RE I",
+          tipo: "Fundo Imobiliário",
+          administradora: "BANCO OURINVEST S.A."
+        });
+      await db
+        .collection("ativos")
+        .doc("V474G484C820J136")
+        .set({
+          ativo: "XPCI11",
+          empresa: "XP CRÉDITO",
+          tipo: "Fundo Imobiliário",
+          administradora: "VÓRTX"
+        });
+      await db
+        .collection("ativos")
+        .doc("L926U844W738D921")
+        .set({
+          ativo: "XPCM11",
+          empresa: "XP CORPORATE MACAÉ",
+          tipo: "Fundo Imobiliário",
+          administradora: "RIO BRAVO"
+        });
+      await db
+        .collection("ativos")
+        .doc("J682F208K553V469")
+        .set({
+          ativo: "XPGA11",
+          empresa: "XP RECEBÍVEIS",
+          tipo: "Fundo Imobiliário",
+          administradora: "CITIBANK DTVM"
+        });
+      await db
+        .collection("ativos")
+        .doc("O886N344W600V822")
+        .set({
+          ativo: "XPHT11",
+          empresa: "XP HOTÉIS (COTA SÊNIOR)",
+          tipo: "Fundo Imobiliário",
+          administradora: "GENIAL INVESTIMENTOS"
+        });
+      await db
+        .collection("ativos")
+        .doc("D845G349X304K562")
+        .set({
+          ativo: "XPHT12",
+          empresa: "XP HOTÉIS (COTA ORDINÁRIA)",
+          tipo: "Fundo Imobiliário",
+          administradora: "GENIAL INVESTIMENTOS"
+        });
+      await db
+        .collection("ativos")
+        .doc("U628S444U690O113")
+        .set({
+          ativo: "XPIN11",
+          empresa: "XP INDUSTRIAL",
+          tipo: "Fundo Imobiliário",
+          administradora: "VÓRTX"
+        });
+      await db
+        .collection("ativos")
+        .doc("O128X685E268Q390")
+        .set({
+          ativo: "XPLG11",
+          empresa: "XP LOG",
+          tipo: "Fundo Imobiliário",
+          administradora: "VÓRTX"
+        });
+      await db
+        .collection("ativos")
+        .doc("D794F673Z351C471")
+        .set({
+          ativo: "XPML11",
+          empresa: "XP MALLS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });
+      await db
+        .collection("ativos")
+        .doc("B679L985W298N771")
+        .set({
+          ativo: "XPPR11",
+          empresa: "XP PROPERTIES",
+          tipo: "Fundo Imobiliário",
+          administradora: "VÓRTX"
+        });
+      await db
+        .collection("ativos")
+        .doc("W322I769C363K913")
+        .set({
+          ativo: "XPSF11",
+          empresa: "XP SELECTION",
+          tipo: "Fundo Imobiliário",
+          administradora: "VÓRTX"
+        });
+      await db
+        .collection("ativos")
+        .doc("E281P723D873R810")
+        .set({
+          ativo: "XTED11",
+          empresa: "TRX EDIFÍCIOS CORPORATIVOS",
+          tipo: "Fundo Imobiliário",
+          administradora: "BTG PACTUAL"
+        });

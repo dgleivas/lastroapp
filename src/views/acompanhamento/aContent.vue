@@ -1,8 +1,8 @@
 <template>
   <div>
-    <keep-alive>
+    <!-- <keep-alive> -->
       <component :is="componente"></component>
-    </keep-alive>
+    <!-- </keep-alive> -->
   </div>
 </template>
 

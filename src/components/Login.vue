@@ -42,9 +42,11 @@
 </template>
 
 <script>
+import { mapState } from "vuex";
 export default {
   data: () => {
     return {
+      ...mapState(["email"]),
       loading: false,
       email: "denis.leivas@gmail.com",
       password: "123123"
@@ -59,6 +61,7 @@ export default {
         .signInWithEmailAndPassword(email, password)
         .then(res => {
           window.uid = res.user.uid;
+          this.$store.state.email = res.user.email
           this.$router.push({ name: "Home" });
         })
         .catch(err => {

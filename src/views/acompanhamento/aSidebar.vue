@@ -1,5 +1,6 @@
 <template>
   <div class="container height: 100%">
+    <i class="fas fa-user-circle"></i> <span class="small">{{ this.$store.state.email }} </span>
     <nav id="sidebarMenu" class="d-md-block bg-light sidebar collapse">
       <div class="position-sticky pt-3">
         <ul class="nav flex-column">
@@ -67,7 +68,14 @@
 
 <script>
 import aSair from "./content/aSair";
+import { mapState } from "vuex";
+
 export default {
+  data(){
+    return{
+      ...mapState(["email"])
+    }
+  },
   components: {
     aSair
   }
@@ -86,5 +94,8 @@ li:hover {
 }
 a:active {
   color: red;
+}
+.small{
+  font-size: 10px;
 }
 </style>

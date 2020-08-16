@@ -1,15 +1,19 @@
 <template>
   <div id="app">
     <base-spinner></base-spinner>
+    <Mensagens></Mensagens>
     <router-view></router-view>
   </div>
 </template>
 
 <script>
-import BaseSpinner from "./components/BaseSpinner";
+import BaseSpinner from "./components/global/BaseSpinner";
+import Mensagens from "./components/global/mensagens";
+
 export default {
   components: {
-    BaseSpinner
+    BaseSpinner,
+    Mensagens
   },
   mounted() {
     this.$firebase.auth().onAuthStateChanged(user => {

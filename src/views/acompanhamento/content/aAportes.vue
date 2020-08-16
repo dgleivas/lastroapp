@@ -1,91 +1,212 @@
 <template>
-  <div id="principal" class="card border-primary mx-auto mt-2 mb-2" style="max-width: 30rem;">
-    <div class="card-header text-center font-weight-bold">Aporte</div>
-    <div class="card-body">
-      <div class="my-2 mx-3 row">
-        <select class="form-select" aria-label="Default select example">
-          <option selected>Selecione o Tipo</option>
-          <option
-            :value="grupo.id_grupo"
-            v-for="grupo in Grupos.grupos"
-            v-bind:key="grupo.id_grupo"
-          >{{grupo.grupo_title}}</option>
-        </select>
+  <div>
+    <form @submit.prevent="adicionar()">
+      <div class="modal fade show" style="display: block">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Aporte</h5>
+              <button type="button" @click="closeModal()" class="close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row mb-2">
+                <div class="col-2">
+                  <div class="form-group">
+                    <label>Ativo:</label>
+                    <select class="form-select" v-model="form.ativo" :onchange="preencheForm()">
+                      <option
+                        v-for="ativo in Ativos"
+                        :value="ativo.ativo"
+                        :key="ativo.ativo"
+                      >{{ ativo.ativo }}</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-10">
+                  <div class="form-group">
+                    <label>Empresa:</label>
+                    <input
+                      disabled
+                      type="text"
+                      v-model="form.empresa"
+                      class="form-control"
+                      placeholder="Nome da Empresa"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="form-group col-3">
+                  <label for>Operação:</label>
+                  <select class="form-select" v-model="form.operacao" id="operacao" name="operacao">
+                    <option value="C">Compra</option>
+                    <option value="V">Venda</option>
+                  </select>
+                </div>
+                <div class="form-group col-3">
+                  <label for>Tipo:</label>
+                  <input
+                    disabled
+                    type="text"
+                    v-model="form.tipo"
+                    class="form-control"
+                    placeholder="Ações ou Fundos"
+                  />
+                </div>
+
+                <div class="form-group col-6">
+                  <label for>Segmento:</label>
+                  <input
+                    required
+                    type="text"
+                    v-model="form.segmento"
+                    class="form-control"
+                    id="inputCodigo"
+                    placeholder="Financeiros, Lajes..."
+                  />
+                </div>
+              </div>
+              <div class="row mb-2">
+                <div class="form-group col-3">
+                  <label for>Quantidade:</label>
+                  <input
+                    required
+                    type="number"
+                    v-model="form.qtde"
+                    min="0"
+                    step="1"
+                    class="form-control"
+                    id="inputCodigo"
+                    placeholder="Qtde"
+                  />
+                </div>
+
+                <div class="form-group col-3">
+                  <label for>Preço de Compra:</label>
+                  <input
+                    required
+                    min="0"
+                    v-model="form.preco"
+                    type="number"
+                    step="0.01"
+                    class="form-control"
+                    id="inputCodigo"
+                    placeholder="R$"
+                  />
+                </div>
+                <div class="form-group col-6">
+                  <label for>Data da Compra:</label>
+                  <input
+                    required
+                    v-model="form.data_compra"
+                    type="text"
+                    class="form-control"
+                    id="inputCodigo"
+                    placeholder="dd/mm/aaaa"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" @click="closeModal()" class="btn btn-secondary">Fechar</button>
+              <button class="btn btn-primary" :disabled="adding">
+                <template v-if="adding">
+                  <i class="fas fa-circle-notch fa-spin"></i>
+                  Adicionando...
+                </template>
+                <template v-else>
+                  <i class="fas fa-plus"></i> Adicionar
+                </template>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="my-2 mx-3 row">
-        <select class="form-select" aria-label="Default select example">
-          <option selected>Selecione a Ação</option>
-          <option
-            :value="acao.id_acao"
-            v-for="acao in Acoes.acoes"
-            v-bind:key="acao.id_acao"
-          >{{acao.codigo_acao}} - {{acao.empresa}}</option>
-        </select>
-      </div>
-      <div class="my-2 mx-3 row">
-        <select class="form-select" aria-label="Default select example">
-          <option selected>Selecione o Segmento</option>
-          <option
-            :value="segmento.id_segmento"
-            v-for="segmento in Segmentos.segmentos"
-            v-bind:key="segmento.id_segmento"
-          >{{segmento.segmento_title}}</option>
-        </select>
-      </div>
-      <div class="my-2 mx-3 row">
-        <input type="number" class="form-control" id="inputCodigo" placeholder="Quantidade" />
-      </div>
-      <div class="my-2 mx-3 row">
-        <input
-          type="number"
-          class="form-control"
-          id="inputCodigo"
-          placeholder="Preço médio da compra"
-        />
-      </div>
-      <div class="my-2 mx-3 row">
-        <input
-          type="text"
-          class="form-control"
-          id="inputCodigo"
-          placeholder="Data da Compra (dd/mm/aaaa)"
-        />
-      </div>
-    </div>
-    <div class="card-footer text-center">
-      <button type="button" class="btn btn-outline-primary">
-        <i class="fas fa-plus"></i> Adicionar
-      </button>
-    </div>
+    </form>
+    <div class="modal-backdrop fade show"></div>
   </div>
 </template>
 
 <script>
-import { mapState, mapActions } from "vuex";
+import { data } from "./respositorio/data_ativos";
+
 export default {
   data() {
-    return {};
-  },
-  computed: {
-    ...mapState(["Grupos", "Segmentos", "Acoes", "Fiis"])
-  },
-  methods: {
-    ...mapActions(["getGrupos", "getSegmentos", "getAcoes", "getFiis"])
+    return {
+      adding: false,
+      Ativos: data,
+      showModal: true,
+      form: {
+        id: "",
+        tipo: "",
+        segmento: "",
+        ativo: "",
+        empresa: "",
+        operacao: "",
+        qtde: "",
+        preco: "",
+        data_compra: ""
+      }
+    };
   },
   created() {
-    this.getGrupos(), this.getSegmentos(), this.getAcoes(), this.getFiis();
+    console.log(this.Ativos[0].ativo);
+  },
+  methods: {
+    async adicionar() {
+      this.adding = true;
+      const db = this.$firebase.firestore();
+      const id_user = "user_" + window.uid;
+      const id_carteira = "carteira_" + window.uid;
+      const id_aporte = "aporte_" + window.uid;
+      this.form.id = db
+        .collection(id_user)
+        .doc(id_carteira)
+        .collection(id_aporte)
+        .doc().id;
+
+      db.collection(id_user)
+        .doc(id_carteira)
+        .collection(id_aporte)
+        .doc(this.form.id)
+        .set(this.form)
+        .then(() => {
+          this.$root.$emit("Notification::show", {
+            type: "success",
+            mensagem: "Aporte cadastrado com sucesso!"
+          });
+          this.closeModal();
+        })
+        .catch(() => {
+          this.$root.$emit("Notification::show", {
+            type: "danger",
+            mensagem: "Ocorreu um erro, por favor tente novamente."
+          });
+        });
+
+      this.adding = false;
+    },
+    preencheForm() {
+      const obj = data.find(data => data.ativo === this.form.ativo);
+      if (typeof obj !== "undefined") {
+        this.form.empresa = obj.empresa;
+        this.form.tipo = obj.tipo;
+      }
+    },
+    closeModal() {
+      this.$router.go(-1);
+    }
   }
 };
 </script>
 
 <style scoped>
-div,
+label,
 input,
 select {
   font-size: 14px;
-}
-
-#principal {
-  border-radius: 25px;
 }
 </style>
