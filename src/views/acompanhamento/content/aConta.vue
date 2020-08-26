@@ -106,6 +106,8 @@
 </template>
 
 <script>
+
+
 export default {
   data() {
     return {
@@ -151,6 +153,7 @@ export default {
       const db = this.$firebase.firestore();
       const id_user = "user_" + window.uid;
       const id_cadastro = "cadastro_" + window.uid;
+
       await db
         .collection(id_user)
         .doc(id_cadastro)

@@ -17,29 +17,33 @@
         </tr>
       </thead>
       <tbody>
-        <tr class="text-center">
-          <td class="text-left">ITUB3</td>
-          <td>24</td>
-          <td>516,00</td>
-          <td>618,00</td>
-          <td class="border-right">+110,00</td>
-          <td>21,30</td>
-          <td class="border-right">19,0%</td>
-          <td>-7,91</td>
-          <td class="border-right">-7,91</td>
+        <tr class="text-center" v-for="fundo in fundos" :key="fundo.id">
+          <td class="text-left">{{fundo.ativo}}</td>
+          <td>{{fundo.qtde.toFixed(0)}}</td>
+          <td>{{fundo.subtotal.toFixed(2)}}</td>
+          <td>-</td>
+          <td class="border-right">-</td>
+          <td>-</td>
+          <td class="border-right">-</td>
+          <td>-</td>
+          <td class="border-right">-</td>
           <td>
-            <i class="fas fa-edit text-success fa-2x"></i>
+            <router-link :to="{ name:'ConteudoAcompanhamento', params: { subrota: 'aaportes'} }">
+              <i class="fas fa-piggy-bank text-success fa-2x"></i>
+            </router-link>
           </td>
           <td>
-            <i class="fas fa-trash-alt text-danger fa-2x"></i>
+            <router-link :to="{ name:'ConteudoAcompanhamento', params: { subrota: 'aresgates'} }">
+              <i class="fas fa-hand-holding-usd text-danger fa-2x"></i>
+            </router-link>
           </td>
         </tr>
       </tbody>
       <tfoot>
         <tr class="text-center font-weight-bold">
           <td class="text-left">Total</td>
-          <td>24</td>
-          <td>516,00</td>
+          <td>{{ geraTotais.qtde.toFixed(0)}}</td>
+          <td>R$ {{ geraTotais.posicao_inicial.toFixed(2)}}</td>
           <td>618,00</td>
           <td class="border-right">+110,00</td>
           <td>21,30</td>
@@ -47,10 +51,14 @@
           <td>-7,91</td>
           <td class="border-right">-7,91</td>
           <td>
-            <i class="fas fa-edit text-success fa-2x"></i>
+            <router-link :to="{ name:'ConteudoAcompanhamento', params: { subrota: 'aaportes'} }">
+              <i class="fas fa-piggy-bank text-success fa-2x"></i>
+            </router-link>
           </td>
           <td>
-            <i class="fas fa-trash-alt text-danger fa-2x"></i>
+            <router-link :to="{ name:'ConteudoAcompanhamento', params: { subrota: 'aresgates'} }">
+              <i class="fas fa-hand-holding-usd text-danger fa-2x"></i>
+            </router-link>
           </td>
         </tr>
       </tfoot>
@@ -59,7 +67,64 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      fundos: []
+    };
+  },
+  created() {
+    this.getData();
+  },
+  computed: {
+    geraTotais() {
+      const values = {
+        qtde: 0,
+        posicao_inicial: 0
+      };
+      if (this.fundos.length) {
+        for (let i in this.fundos) {
+          values.qtde += this.fundos[i].qtde;
+          values.posicao_inicial += this.fundos[i].subtotal;
+        }
+      }
+      return values;
+    }
+  },
+  methods: {
+    getData() {
+      const id_user = "user_" + window.uid;
+      const id_carteira = "carteira_" + window.uid;
+      const id_aporte = "aporte_" + window.uid;
+      const db = this.$firebase
+        .firestore()
+        .collection(id_user)
+        .doc(id_carteira)
+        .collection(id_aporte)
+        .where("tipo", "==", "Fundos Imobiliários")
+        .orderBy("ativo", "asc");
+
+      db.onSnapshot(querySnapshot => {
+        querySnapshot.forEach(doc => {
+          if (!this.fundos.length) {
+            this.fundos.push(doc.data());
+          } else {
+            if (
+              this.fundos[this.fundos.length - 1].ativo === doc.data().ativo
+            ) {
+              this.fundos[this.fundos.length - 1].qtde += doc.data().qtde;
+              this.fundos[
+                this.fundos.length - 1
+              ].subtotal += doc.data().subtotal;
+            } else {
+              this.fundos.push(doc.data());
+            }
+          }
+        });
+      });
+    }
+  }
+};
 </script>
 
 <style>
