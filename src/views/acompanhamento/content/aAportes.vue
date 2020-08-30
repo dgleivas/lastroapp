@@ -15,8 +15,8 @@
               <div class="row mb-2">
                 <div class="col">
                   <div class="form-group">
-                    <label>Tipos:</label>
-                    <select class="form-select" v-model="form.tipo">
+                    <label>Tipo:</label>
+                    <select class="form-select" @change="onchangeTipo()" v-model="form.tipo">
                       <option v-for="(tipo, idx) in tipos" :value="tipo" :key="idx">{{ tipo }}</option>
                     </select>
                   </div>
@@ -26,51 +26,13 @@
                 <div class="row mb-2">
                   <div class="col-8 form-group">
                     <label>Ativo:</label>
-                    <template v-if="form.tipo =='Ações B3'">
-                      <select class="form-select" v-model="form.ativo">
-                        <option
-                          v-for="(ativo, idx) in acoesbrl"
-                          :value="ativo.codigo"
-                          :key="idx"
-                        >{{ ativo.codigo }} - {{ ativo.empresa }}</option>
-                      </select>
-                    </template>
-                    <template v-else-if="form.tipo =='Ações Americanas'">
-                      <select class="form-select" v-model="form.ativo">
-                        <option
-                          v-for="(ativo, idx) in acoesusa"
-                          :value="ativo.codigo"
-                          :key="idx"
-                        >{{ ativo.codigo }} - {{ ativo.empresa }}</option>
-                      </select>
-                    </template>
-                    <template v-else-if="form.tipo =='Fundos Imobiliários'">
-                      <select class="form-select" v-model="form.ativo">
-                        <option
-                          v-for="(ativo, idx) in fundos"
-                          :value="ativo.codigo"
-                          :key="idx"
-                        >{{ ativo.codigo }} - {{ ativo.empresa }}</option>
-                      </select>
-                    </template>
-                    <template v-else-if="form.tipo =='Reits'">
-                      <select class="form-select" v-model="form.ativo">
-                        <option
-                          v-for="(ativo, idx) in reits"
-                          :value="ativo.codigo"
-                          :key="idx"
-                        >{{ ativo.codigo }} - {{ ativo.empresa }}</option>
-                      </select>
-                    </template>
-                    <template v-else-if="form.tipo =='ETFs'">
-                      <select class="form-select" v-model="form.ativo">
-                        <option
-                          v-for="(ativo, idx) in etfs"
-                          :value="ativo.codigo"
-                          :key="idx"
-                        >{{ ativo.codigo }} - {{ ativo.empresa }}</option>
-                      </select>
-                    </template>
+                    <select class="form-select" v-model="form.ativo" @change="onchangeAtivo()">
+                      <option
+                        v-for="(ativo, idx) in ativos"
+                        :value="ativo.codigo"
+                        :key="idx"
+                      >{{ ativo.codigo }} - {{ ativo.empresa }}</option>
+                    </select>
                   </div>
                   <div class="col-4 form-group">
                     <label for>Operação:</label>
@@ -122,7 +84,7 @@
                   </div>
 
                   <div class="form-group col-3">
-                    <label for>Preço de Compra:</label>
+                    <label for>Preço médio de Compra:</label>
                     <input
                       min="0"
                       v-model="form.preco"
@@ -160,26 +122,13 @@
 </template>
 
 <script>
-// import  json  from "./respositorio/acoes_brl.json";
-//import  json  from "./respositorio/acoes_usa.json";
-// import  json  from "./respositorio/etfs.json";
-// import  json  from "./respositorio/fundos_imobiliarios.json";
-// import  json  from "./respositorio/reits.json";
-//import  json  from "./respositorio/segmentos.json";
-import json from "./respositorio/TudoData.json";
-
 export default {
   data() {
     return {
       adding: false,
-      jsonData: json,
       segmentos: "",
       tipos: "",
-      acoesbrl: "",
-      acoesusa: "",
-      fundos: "",
-      etfs: "",
-      reits: "",
+      ativos: "",
       showModal: true,
       form: {
         id: "",
@@ -196,24 +145,82 @@ export default {
     };
   },
   created() {
-    const {
-      segmentos,
-      tipos,
-      acoesbrl,
-      acoesusa,
-      fundos,
-      etfs,
-      reits
-    } = this.jsonData;
-    this.segmentos = segmentos;
-    this.tipos = tipos;
-    this.acoesbrl = acoesbrl;
-    this.acoesusa = acoesusa;
-    this.fundos = fundos;
-    this.etfs = etfs;
-    this.reits = reits;
+    this.getSegmentoTipo();
   },
   methods: {
+    onchangeAtivo(){
+      const ativo =  this.ativos.filter((ativo) => {
+        return ativo.codigo == this.form.ativo
+      })
+      this.form.empresa = ativo[0].empresa
+    },
+    async onchangeTipo() {
+      let docs  = "";
+      switch (this.form.tipo) {
+        case "Fundos Imobiliários":
+          docs = "fundos"
+          break;
+        case "Ações Americanas":
+          docs = "acoeseua"
+          break;
+        case "Reits":
+          docs = "reits"
+          break;
+        case "ETFs":
+           docs = "etfs"
+          break;
+        default:
+           docs = "acoesbrl"
+      }
+        const db = this.$firebase.firestore();
+        await db
+          .collection("cadastroGeral")
+          .doc(docs)
+          .get()
+          .then(doc => {
+            if (doc.exists) {
+              this.ativos = doc.data().ativos;
+            } else {
+              // doc.data() will be undefined in this case
+              this.$root.$emit("Notification::show", {
+                type: "danger",
+                mensagem: "Erro na tentativa de atualizar o cadastro."
+              });
+            }
+          })
+          .catch(error => {
+            this.msgerror = `Erro na tentativa de atualizar o cadastro. Erro: ${error}`;
+          });
+
+
+
+    },
+    async getSegmentoTipo() {
+      this.$root.$emit("Spinner::show");
+      if (this.tipos === "" || this.segmentos === "") {
+        const db = this.$firebase.firestore();
+        await db
+          .collection("cadastroGeral")
+          .doc("segmentotipo")
+          .get()
+          .then(doc => {
+            if (doc.exists) {
+              this.tipos = doc.data().tipos;
+              this.segmentos = doc.data().segmentos;
+            } else {
+              // doc.data() will be undefined in this case
+              this.$root.$emit("Notification::show", {
+                type: "danger",
+                mensagem: "Erro na tentativa de atualizar o cadastro."
+              });
+            }
+          })
+          .catch(error => {
+            this.msgerror = `Erro na tentativa de atualizar o cadastro. Erro: ${error}`;
+          });
+      }
+      this.$root.$emit("Spinner::hide");
+    },
     async adicionar() {
       this.adding = true;
       const db = this.$firebase.firestore();
@@ -250,32 +257,7 @@ export default {
           });
         });
 
-      // await db
-      //   .collection("geralCadatro")
-      //   .doc()
-      //   .set(this.jsonData)
-      //   .then(() => {
-      //     this.$root.$emit("Notification::show", {
-      //       type: "success",
-      //       mensagem: "Cadastro atualizado com sucesso!"
-      //     });
-      //   })
-      //   .catch(() => {
-      //     this.$root.$emit("Notification::show", {
-      //       type: "danger",
-      //       mensagem:
-      //         "Erro na tentativa de atualizar o cadastro. Tente novamente."
-      //     });
-      //   });
-
-      this.adding = false;
-    },
-    preencheForm() {
-      // const obj = data.find(data => data.ativo === this.form.ativo);
-      // if (typeof obj !== "undefined") {
-      //   this.form.empresa = obj.empresa;
-      //   this.form.tipo = obj.tipo;
-      // }
+       this.adding = false;
     },
     closeModal() {
       this.$router.go(-1);

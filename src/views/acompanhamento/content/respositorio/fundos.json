@@ -1,0 +1,1221 @@
+{
+  "ativos": [{
+      "codigo": "ABCP11",
+      "empresa": "GRAND PLAZA SHOPPING"
+    },
+    {
+      "codigo": "AFCR11",
+      "empresa": "AF INVEST RECEBÍVEIS IMOBILIÁRIOS"
+    },
+    {
+      "codigo": "AFOF11",
+      "empresa": "ALIANZA FOFII"
+    },
+    {
+      "codigo": "AIEC11",
+      "empresa": "AUTONOMY EDIFÍCIOS CORPORATIVOS"
+    },
+    {
+      "codigo": "ALMI11",
+      "empresa": "TORRE ALMIRANTE"
+    },
+    {
+      "codigo": "ALZR11",
+      "empresa": "ALIANZA TRUST RENDA IMOBILIÁRIA"
+    },
+    {
+      "codigo": "ANCR11B",
+      "empresa": "ANCAR IC"
+    },
+    {
+      "codigo": "AQLL11",
+      "empresa": "ÁQUILLA"
+    },
+    {
+      "codigo": "ARCT11",
+      "empresa": "RIZA ARCTIUM REAL ESTATE"
+    },
+    {
+      "codigo": "ARFI11B",
+      "empresa": "AQ3 RENDA"
+    },
+    {
+      "codigo": "ARRI11",
+      "empresa": "ÁTRIO REIT RECEBÍVEIS IMOBILIÁRIOS"
+    },
+    {
+      "codigo": "ATCR11",
+      "empresa": "HAZ FII"
+    },
+    {
+      "codigo": "ATSA11",
+      "empresa": "HEDGE ATRIUM SHOPPING SANTO ANDRÉ"
+    },
+    {
+      "codigo": "BARI11",
+      "empresa": "BARIGUI RENDIMENTOS"
+    },
+    {
+      "codigo": "BBFI11B",
+      "empresa": "BB PROGRESSIVO"
+    },
+    {
+      "codigo": "BBIM11",
+      "empresa": "BB RECEBÍVEIS IMOBILIÁRIOS"
+    },
+    {
+      "codigo": "BBPO11",
+      "empresa": "BB PROGRESSIVO II"
+    },
+    {
+      "codigo": "BBRC11",
+      "empresa": "BB RENDA CORPORATIVA"
+    },
+    {
+      "codigo": "BBVJ11",
+      "empresa": "CIDADE JARDIM CONTINENTAL TOWER"
+    },
+    {
+      "codigo": "BCFF11",
+      "empresa": "BTG PACTUAL FUNDO DE FUNDOS"
+    },
+    {
+      "codigo": "BCIA11",
+      "empresa": "BRADESCO CARTEIRA IMOBILIÁRIA ATIVA"
+    },
+    {
+      "codigo": "BCRI11",
+      "empresa": "BANESTES RECEBÍVEIS IMOBILIÁRIOS"
+    },
+    {
+      "codigo": "BICR11",
+      "empresa": "INTER TÍTULOS IMOBILIÁRIOS"
+    },
+    {
+      "codigo": "BJRC11",
+      "empresa": "JS REAL ESTATE RECEBÍVEIS IMOBILIÁRIOS"
+    },
+    {
+      "codigo": "BLCP11",
+      "empresa": "BLUECAP RENDA LOGÍSTICA"
+    },
+    {
+      "codigo": "BLMO11",
+      "empresa": "BLUEMACAW OFFICE FUND II"
+    },
+    {
+      "codigo": "BMII11",
+      "empresa": "BRASÍLIO MACHADO"
+    },
+    {
+      "codigo": "BMLC11B",
+      "empresa": "BM BRASCAN LAJES CORPORATIVAS"
+    },
+    {
+      "codigo": "BNFS11",
+      "empresa": "BANRISUL NOVAS FRONTEIRAS"
+    },
+    {
+      "codigo": "BPFF11",
+      "empresa": "BRASIL PLURAL ABSOLUTO FUNDO DE FUNDOS"
+    },
+    {
+      "codigo": "BPMA11",
+      "empresa": "BRIO PRIME MALLS"
+    },
+    {
+      "codigo": "BPML11",
+      "empresa": "BTG PACTUAL SHOPPINGS"
+    },
+    {
+      "codigo": "BPRP11",
+      "empresa": "BRLPROP"
+    },
+    {
+      "codigo": "BRCO11",
+      "empresa": "BRESCO LOGÍSTICA"
+    },
+    {
+      "codigo": "BRCR11",
+      "empresa": "BTG PACTUAL CORPORATE OFFICE FUND"
+    },
+    {
+      "codigo": "BREV11",
+      "empresa": "BRAZIL REAL ESTATE VICTORY FUND I"
+    },
+    {
+      "codigo": "BRHT11B",
+      "empresa": "BR HOTEIS"
+    },
+    {
+      "codigo": "BRIM11",
+      "empresa": "BRIO REAL ESTATE II"
+    },
+    {
+      "codigo": "BTCR11",
+      "empresa": "BTG PACTUAL CRÉDITO IMOBILIÁRIO"
+    },
+    {
+      "codigo": "BTLG11",
+      "empresa": "BTG PACTUAL LOGÍSTICA"
+    },
+    {
+      "codigo": "BTSG11",
+      "empresa": "BTSP I"
+    },
+    {
+      "codigo": "BVAR11",
+      "empresa": "BRASIL VAREJO"
+    },
+    {
+      "codigo": "BZLI11",
+      "empresa": "BRAZIL REALTY"
+    },
+    {
+      "codigo": "CARE11",
+      "empresa": "BRAZILIAN GRAVEYARDDEATH CARE"
+    },
+    {
+      "codigo": "CBOP11",
+      "empresa": "CASTELLO BRANCO OFFICE PARK"
+    },
+    {
+      "codigo": "CEOC11",
+      "empresa": "CEO CYRELA COMMERCIAL PROPERTIES"
+    },
+    {
+      "codigo": "CJFI11",
+      "empresa": "CJ FII"
+    },
+    {
+      "codigo": "CNES11",
+      "empresa": "CENESP"
+    },
+    {
+      "codigo": "CPFF11",
+      "empresa": "CAPITÂNIA REIT FOF"
+    },
+    {
+      "codigo": "CPTS11",
+      "empresa": "CAPITÂNIA SECURITIES II"
+    },
+    {
+      "codigo": "CRFF11",
+      "empresa": "CAIXA RIO BRAVO FUNDO DE FUNDOS II"
+    },
+    {
+      "codigo": "CTXT11",
+      "empresa": "CENTRO TÊXTIL INTERNACIONAL"
+    },
+    {
+      "codigo": "CVBI11",
+      "empresa": "VBI CRI"
+    },
+    {
+      "codigo": "CXCE11B",
+      "empresa": "CAIXA CEDAE"
+    },
+    {
+      "codigo": "CXRI11",
+      "empresa": "CAIXA RIO BRAVO FUNDO DE FUNDOS"
+    },
+    {
+      "codigo": "CXTL11",
+      "empresa": "CAIXA TRX LOGÍSTICA RENDA"
+    },
+    {
+      "codigo": "DAMT11B",
+      "empresa": "DIAMANTE"
+    },
+    {
+      "codigo": "DLMT11",
+      "empresa": "DEL MONTE AJAX"
+    },
+    {
+      "codigo": "DMAC11",
+      "empresa": "MAC FII"
+    },
+    {
+      "codigo": "DOMC11",
+      "empresa": "REAG RENDA IMOBILIÁRIA"
+    },
+    {
+      "codigo": "DOVL11B",
+      "empresa": "DOVEL"
+    },
+    {
+      "codigo": "DRIT11B",
+      "empresa": "MULTIGESTÃO RENDA COMERCIAL"
+    },
+    {
+      "codigo": "EDFO11B",
+      "empresa": "EDIFÍCIO OURINVEST"
+    },
+    {
+      "codigo": "EDGA11",
+      "empresa": "EDIFÍCIO GALERIA"
+    },
+    {
+      "codigo": "ELDO11B",
+      "empresa": "ELDORADO"
+    },
+    {
+      "codigo": "ERPA11",
+      "empresa": "EUROPA 105"
+    },
+    {
+      "codigo": "ESTQ11",
+      "empresa": "POLO ESTOQUE II"
+    },
+    {
+      "codigo": "EURO11",
+      "empresa": "EUROPAR"
+    },
+    {
+      "codigo": "FAED11",
+      "empresa": "ANHANGUERA EDUCACIONAL"
+    },
+    {
+      "codigo": "FAMB11B",
+      "empresa": "EDIFÍCIO ALMIRANTE BARROSO"
+    },
+    {
+      "codigo": "FATN11",
+      "empresa": "ATHENA I"
+    },
+    {
+      "codigo": "FCAS11",
+      "empresa": "EDIFÍCIO CASTELO"
+    },
+    {
+      "codigo": "FCFL11",
+      "empresa": "CAMPUS FARIA LIMA"
+    },
+    {
+      "codigo": "FEXC11",
+      "empresa": "BTG PACTUAL FUNDO DE CRI"
+    },
+    {
+      "codigo": "FIGS11",
+      "empresa": "GENERAL SHOPPING ATIVO E RENDA"
+    },
+    {
+      "codigo": "FIIB11",
+      "empresa": "INDUSTRIAL DO BRASIL"
+    },
+    {
+      "codigo": "FIIP11B",
+      "empresa": "RB CAPITAL RENDA I"
+    },
+    {
+      "codigo": "FINF11",
+      "empresa": "INFRA REAL ESTATE"
+    },
+    {
+      "codigo": "FISC11",
+      "empresa": "SC 401"
+    },
+    {
+      "codigo": "FISD11",
+      "empresa": "SÃO DOMINGOS"
+    },
+    {
+      "codigo": "FIVN11",
+      "empresa": "VIDA NOVA"
+    },
+    {
+      "codigo": "FLCR11",
+      "empresa": "FARIA LIMA CAPITAL RECEBÍVEIS IMOBILIÁRIOS I"
+    },
+    {
+      "codigo": "FLMA11",
+      "empresa": "CONTINENTAL SQUARE FARIA LIMA"
+    },
+    {
+      "codigo": "FLRP11",
+      "empresa": "FLORIPA SHOPPING"
+    },
+    {
+      "codigo": "FMOF11",
+      "empresa": "MEMORIAL OFFICE"
+    },
+    {
+      "codigo": "FOFT11",
+      "empresa": "HEDGE TOP FOFII 2"
+    },
+    {
+      "codigo": "FPAB11",
+      "empresa": "PROJETO ÁGUA BRANCA"
+    },
+    {
+      "codigo": "FPNG11",
+      "empresa": "PEDRA NEGRA RENDA IMOBILIÁRIA"
+    },
+    {
+      "codigo": "FTCE11B",
+      "empresa": "OPPORTUNITY"
+    },
+    {
+      "codigo": "FTMJ11",
+      "empresa": "TMJ FII"
+    },
+    {
+      "codigo": "FVBI11",
+      "empresa": "FUNDO VBI FL 4440"
+    },
+    {
+      "codigo": "FVPQ11",
+      "empresa": "VIA PARQUE"
+    },
+    {
+      "codigo": "GCFF11",
+      "empresa": "GALAPAGOS FUNDO DE FUNDOS"
+    },
+    {
+      "codigo": "GESE11",
+      "empresa": "GENERAL SEVERIANO"
+    },
+    {
+      "codigo": "GGRC11",
+      "empresa": "GGR COVEPI"
+    },
+    {
+      "codigo": "GRLV11",
+      "empresa": "CSHG GR LOUVEIRA"
+    },
+    {
+      "codigo": "GSFI11",
+      "empresa": "GENERAL SHOPPING E OUTLETS"
+    },
+    {
+      "codigo": "GTWR11",
+      "empresa": "GREEN TOWERS"
+    },
+    {
+      "codigo": "GWIC11",
+      "empresa": "GWI CONDOMÍNIOS LOGÍSTICOS"
+    },
+    {
+      "codigo": "HAAA11",
+      "empresa": "HEDGE AAA"
+    },
+    {
+      "codigo": "HABT11",
+      "empresa": "HABITAT II"
+    },
+    {
+      "codigo": "HBRH11",
+      "empresa": "MULTI RENDA URBANA"
+    },
+    {
+      "codigo": "HBTT11",
+      "empresa": "HABITAT I"
+    },
+    {
+      "codigo": "HCRI11",
+      "empresa": "HOSPITAL DA CRIANÇA"
+    },
+    {
+      "codigo": "HCTR11",
+      "empresa": "HECTARE CE"
+    },
+    {
+      "codigo": "HFOF11",
+      "empresa": "HEDGE TOP FOFII 3"
+    },
+    {
+      "codigo": "HGBS11",
+      "empresa": "HEDGE BRASIL SHOPPING"
+    },
+    {
+      "codigo": "HGCR11",
+      "empresa": "CSHG RECEBÍVEIS IMOBILIÁRIOS"
+    },
+    {
+      "codigo": "HGFF11",
+      "empresa": "CSHG IMOBILIÁRIO FOF"
+    },
+    {
+      "codigo": "HGLG11",
+      "empresa": "CSHG LOGÍSTICA"
+    },
+    {
+      "codigo": "HGPO11",
+      "empresa": "CSHG PRIME OFFICES"
+    },
+    {
+      "codigo": "HGRE11",
+      "empresa": "CSHG REAL ESTATE"
+    },
+    {
+      "codigo": "HGRU11",
+      "empresa": "CSHG RENDA URBANA"
+    },
+    {
+      "codigo": "HLOG11",
+      "empresa": "HEDGE LOGÍSTICA"
+    },
+    {
+      "codigo": "HMOC11",
+      "empresa": "HEDGE SHOPPING PRAÇA DA MOÇA"
+    },
+    {
+      "codigo": "HOSI11",
+      "empresa": "HOUSI"
+    },
+    {
+      "codigo": "HPDP11",
+      "empresa": "HEDGE SHOPPING PARQUE DOM PEDRO"
+    },
+    {
+      "codigo": "HRDF11",
+      "empresa": "HEDGE REALTY DEVELOPMENT"
+    },
+    {
+      "codigo": "HREC11",
+      "empresa": "HEDGE RECEBÍVEIS IMOBILIÁRIOS"
+    },
+    {
+      "codigo": "HSAF11",
+      "empresa": "HSI ATIVOS FINANCEIROS"
+    },
+    {
+      "codigo": "HSML11",
+      "empresa": "HSI MALLS"
+    },
+    {
+      "codigo": "HSRE11",
+      "empresa": "HSI RENDA IMOBILIÁRIA"
+    },
+    {
+      "codigo": "HTMX11",
+      "empresa": "HOTEL MAXINVEST"
+    },
+    {
+      "codigo": "HUSC11",
+      "empresa": "HOSPITAL UNIMED SUL CAPIXABA"
+    },
+    {
+      "codigo": "HUSI11",
+      "empresa": "HUSI"
+    },
+    {
+      "codigo": "IBFF11",
+      "empresa": "FOF INTEGRAL BREI"
+    },
+    {
+      "codigo": "IFIE11",
+      "empresa": "IFI-E"
+    },
+    {
+      "codigo": "IFIX",
+      "empresa": "IFIX ÍNDICE DE FUNDOS IMOBILIÁRIOS"
+    },
+    {
+      "codigo": "IRDM11",
+      "empresa": "IRIDIUM RECEBÍVEIS IMOBILIÁRIOS"
+    },
+    {
+      "codigo": "JPPA11",
+      "empresa": "JPP ALLOCATON MOGNO"
+    },
+    {
+      "codigo": "JPPC11",
+      "empresa": "JPP CAPITAL"
+    },
+    {
+      "codigo": "JRDM11",
+      "empresa": "SHOPPING JARDIM SUL"
+    },
+    {
+      "codigo": "JSIM11",
+      "empresa": "JS REAL ESTATE RENDA IMOBILIÁRIA"
+    },
+    {
+      "codigo": "JSRE11",
+      "empresa": "JS REAL ESTATE MULTIGESTÃO"
+    },
+    {
+      "codigo": "JTPR11",
+      "empresa": "JT PREV DESENVOLVIMENTO HABITACIONAL"
+    },
+    {
+      "codigo": "KFOF11",
+      "empresa": "KINEA FUNDO DE FUNDOS"
+    },
+    {
+      "codigo": "KINP11",
+      "empresa": "EVEN PERMUTA KINEA"
+    },
+    {
+      "codigo": "KNCR11",
+      "empresa": "KINEA RENDIMENTOS IMOBILIÁRIOS FII"
+    },
+    {
+      "codigo": "KNHY11",
+      "empresa": "KINEA HIGH YIELD CRI"
+    },
+    {
+      "codigo": "KNIP11",
+      "empresa": "KINEA ÍNDICES DE PREÇOS"
+    },
+    {
+      "codigo": "KNRE11",
+      "empresa": "KINEA II REAL ESTATE EQUITY"
+    },
+    {
+      "codigo": "KNRI11",
+      "empresa": "KINEA RENDA IMOBILIÁRIA"
+    },
+    {
+      "codigo": "LASC11",
+      "empresa": "LEGATUS SHOPPINGS"
+    },
+    {
+      "codigo": "LATR11B",
+      "empresa": "LATERES"
+    },
+    {
+      "codigo": "LFTT11",
+      "empresa": "LOFT II"
+    },
+    {
+      "codigo": "LGCP11",
+      "empresa": "LOG CP INTER"
+    },
+    {
+      "codigo": "LOFT11B",
+      "empresa": "LOFT I (COTA SÊNIOR)"
+    },
+    {
+      "codigo": "LOFT13B",
+      "empresa": "LOFT I (COTA SUBORDINADA)"
+    },
+    {
+      "codigo": "LUGG11",
+      "empresa": "LUGGO"
+    },
+    {
+      "codigo": "LVBI11",
+      "empresa": "VBI LOGÍSTICO"
+    },
+    {
+      "codigo": "MALL11",
+      "empresa": "MALLS BRASIL PLURAL"
+    },
+    {
+      "codigo": "MAXR11",
+      "empresa": "MAX RETAIL"
+    },
+    {
+      "codigo": "MBRF11",
+      "empresa": "MERCANTIL DO BRASIL"
+    },
+    {
+      "codigo": "MCCI11",
+      "empresa": "MAUÁ CAPITAL RECEBÍVEIS IMOBILIÁRIOS"
+    },
+    {
+      "codigo": "MFAI11",
+      "empresa": "MÉRITO FUNDOS E AÇÕES IMOBILIÁRIAS"
+    },
+    {
+      "codigo": "MFII11",
+      "empresa": "MÉRITO DESENVOLVIMENTO IMOBILIÁRIO I"
+    },
+    {
+      "codigo": "MGFF11",
+      "empresa": "MOGNO FUNDO DE FUNDOS"
+    },
+    {
+      "codigo": "MGHT11",
+      "empresa": "MOGNO HOTEIS"
+    },
+    {
+      "codigo": "MINT11",
+      "empresa": "MINT EDUCACIONAL"
+    },
+    {
+      "codigo": "MOFF11",
+      "empresa": "MULTIOFFICES 2"
+    },
+    {
+      "codigo": "MORE11",
+      "empresa": "MORE REAL ESTATE FOF"
+    },
+    {
+      "codigo": "MSHP11",
+      "empresa": "MAIS SHOPPING LARGO 13"
+    },
+    {
+      "codigo": "MTOF11",
+      "empresa": "MULTIOFFICES 1"
+    },
+    {
+      "codigo": "MTRS11",
+      "empresa": "METROPOLIS"
+    },
+    {
+      "codigo": "MVFI11",
+      "empresa": "MV9 FII"
+    },
+    {
+      "codigo": "MXRF11",
+      "empresa": "MAXI RENDA"
+    },
+    {
+      "codigo": "NCHB11",
+      "empresa": "NCH BRASIL RECEBÍVEIS IMOBILIÁRIOS"
+    },
+    {
+      "codigo": "NEWL11",
+      "empresa": "NEWPORT LOGÍSTICA"
+    },
+    {
+      "codigo": "NEWU11",
+      "empresa": "NEWPORT RENDA URBANA"
+    },
+    {
+      "codigo": "NPAR11",
+      "empresa": "NESTPAR"
+    },
+    {
+      "codigo": "NSLU11",
+      "empresa": "HOSPITAL NOSSA SENHORA DE LOURDES"
+    },
+    {
+      "codigo": "NVHO11",
+      "empresa": "NOVO HORIZONTE"
+    },
+    {
+      "codigo": "NVIF11B",
+      "empresa": "NOVA I"
+    },
+    {
+      "codigo": "ONEF11",
+      "empresa": "THE ONE"
+    },
+    {
+      "codigo": "ORPD11",
+      "empresa": "OURO VERDE DESENVOLVIMENTO IMOBILIÁRIO"
+    },
+    {
+      "codigo": "OUCY11",
+      "empresa": "OURINVEST CYRELA"
+    },
+    {
+      "codigo": "OUFF11",
+      "empresa": "OURINVEST FUNDO DE FUNDOS"
+    },
+    {
+      "codigo": "OUJP11",
+      "empresa": "OURINVEST JPP"
+    },
+    {
+      "codigo": "OULG11",
+      "empresa": "OURINVEST LOGÍSTICA"
+    },
+    {
+      "codigo": "PABY11",
+      "empresa": "PANAMBY"
+    },
+    {
+      "codigo": "PATB11",
+      "empresa": "PATEO BANDEIRANTES"
+    },
+    {
+      "codigo": "PATC11",
+      "empresa": "PÁTRIA EDIFÍCIOS CORPORATIVOS"
+    },
+    {
+      "codigo": "PATL11",
+      "empresa": "PÁTRIA LOGÍSTICA"
+    },
+    {
+      "codigo": "PBLV11",
+      "empresa": "PROLOGIS BRAZIL LOGISTICS VENTURE"
+    },
+    {
+      "codigo": "PBYR11",
+      "empresa": "PANAMBY RENDA MASTER"
+    },
+    {
+      "codigo": "PLCR11",
+      "empresa": "PLURAL RECEBÍVEIS IMOBILIÁRIOS"
+    },
+    {
+      "codigo": "PLRI11",
+      "empresa": "POLO"
+    },
+    {
+      "codigo": "PORD11",
+      "empresa": "POLO CRI II"
+    },
+    {
+      "codigo": "PQAG11",
+      "empresa": "PARQUE ANHANGUERA"
+    },
+    {
+      "codigo": "PQDP11",
+      "empresa": "PARQUE DOM PEDRO SHOPPING CENTER"
+    },
+    {
+      "codigo": "PRSN11B",
+      "empresa": "PERSONALE I"
+    },
+    {
+      "codigo": "PRSV11",
+      "empresa": "PRESIDENTE VARGAS"
+    },
+    {
+      "codigo": "PRTS11",
+      "empresa": "MULTI PROPERTIES"
+    },
+    {
+      "codigo": "PVBI11",
+      "empresa": "VBI PRIME PROPERTIES"
+    },
+    {
+      "codigo": "QAGR11",
+      "empresa": "QUASAR AGRO"
+    },
+    {
+      "codigo": "QMFF11",
+      "empresa": "QUATÁ MONETAI FUNDO DE FUNDOS"
+    },
+    {
+      "codigo": "QREC11",
+      "empresa": "QUASAR CRÉDITO IMOBILIÁRIO"
+    },
+    {
+      "codigo": "RBAG11",
+      "empresa": "RB CAPITAL AGRE"
+    },
+    {
+      "codigo": "RBBV11",
+      "empresa": "JHSF RIO BRAVO FAZENDA BOA VISTA"
+    },
+    {
+      "codigo": "RBCB11",
+      "empresa": "RIO BRAVO CRÉDITO IMOBILIÁRIO I"
+    },
+    {
+      "codigo": "RBCO11",
+      "empresa": "RB CAPITAL OFFICE INCOME"
+    },
+    {
+      "codigo": "RBDS11",
+      "empresa": "RB CAPITAL DESENVOLVIMENTO RESIDENCIAL II"
+    },
+    {
+      "codigo": "RBED11",
+      "empresa": "RIO BRAVO RENDA EDUCACIONAL"
+    },
+    {
+      "codigo": "RBFF11",
+      "empresa": "RIO BRAVO IFIX"
+    },
+    {
+      "codigo": "RBGS11",
+      "empresa": "RB CAPITAL GENERAL SHOPPING SULACAP"
+    },
+    {
+      "codigo": "RBIR11",
+      "empresa": "RB CAPITAL DESENVOLVIMENTO RESIDENCIAL IV"
+    },
+    {
+      "codigo": "RBIV11",
+      "empresa": "RIO BRAVO CRÉDITO IMOBILIÁRIO IV"
+    },
+    {
+      "codigo": "RBPD11",
+      "empresa": "RB CAPITAL PRIME REALTY II"
+    },
+    {
+      "codigo": "RBPR11",
+      "empresa": "RB CAPITAL PRIME REALTY I"
+    },
+    {
+      "codigo": "RBRD11",
+      "empresa": "RB CAPITAL RENDA II"
+    },
+    {
+      "codigo": "RBRF11",
+      "empresa": "RBR ALPHA MULTIESTRATÉGIA REAL ESTATE"
+    },
+    {
+      "codigo": "RBRL11",
+      "empresa": "RBR LOG"
+    },
+    {
+      "codigo": "RBRM11",
+      "empresa": "RBR DESENVOLVIMENTO"
+    },
+    {
+      "codigo": "RBRP11",
+      "empresa": "RBR PROPERTIES FII"
+    },
+    {
+      "codigo": "RBRR11",
+      "empresa": "RBR RENDIMENTOS HIGH GRADE"
+    },
+    {
+      "codigo": "RBRY11",
+      "empresa": "RBR CRÉDITO IMOBILIÁRIO HIGH YIELD"
+    },
+    {
+      "codigo": "RBTS11",
+      "empresa": "RB CAPITAL TFO SITUS"
+    },
+    {
+      "codigo": "RBVA11",
+      "empresa": "RIO BRAVO RENDA VAREJO"
+    },
+    {
+      "codigo": "RBVO11",
+      "empresa": "RIO BRAVO CRÉDITO IMOBILIÁRIO II"
+    },
+    {
+      "codigo": "RCCS11",
+      "empresa": "REP 1 CCS"
+    },
+    {
+      "codigo": "RCFA11",
+      "empresa": "GRUPO RCFA"
+    },
+    {
+      "codigo": "RCFF11",
+      "empresa": "RBR DESENVOLVIMENTO COMERCIAL FEEDER FOF"
+    },
+    {
+      "codigo": "RCRB11",
+      "empresa": "RIO BRAVO RENDA CORPORATIVA"
+    },
+    {
+      "codigo": "RCRI11",
+      "empresa": "RB CAPITAL RENDIMENTOS"
+    },
+    {
+      "codigo": "RDPD11",
+      "empresa": "FUNDO BB RENDA DE PAPÉIS II"
+    },
+    {
+      "codigo": "RECT11",
+      "empresa": "UBS BR OFFICE"
+    },
+    {
+      "codigo": "REIT11",
+      "empresa": "SOCOPA FII"
+    },
+    {
+      "codigo": "RELG11",
+      "empresa": "REC LOGÍSTICA"
+    },
+    {
+      "codigo": "RFOF11",
+      "empresa": "RB CAPITAL I FUNDO DE FUNDOS"
+    },
+    {
+      "codigo": "RNDP11",
+      "empresa": "FUNDO BB RENDA DE PAPÉIS"
+    },
+    {
+      "codigo": "RNGO11",
+      "empresa": "RIO NEGRO"
+    },
+    {
+      "codigo": "RRCI11",
+      "empresa": "RB CAPITAL RECEBÍVEIS IMOBILIÁRIOS"
+    },
+    {
+      "codigo": "RSBU11B",
+      "empresa": "RSB 1"
+    },
+    {
+      "codigo": "RSPD11",
+      "empresa": "RB CAPITAL DESENVOLVIMENTO RESIDENCIAL III"
+    },
+    {
+      "codigo": "RVBI11",
+      "empresa": "VBI REITS FOF"
+    },
+    {
+      "codigo": "SAAG11",
+      "empresa": "SANTANDER AGÊNCIAS"
+    },
+    {
+      "codigo": "SADI11",
+      "empresa": "SANTANDER PAPÉIS IMOBILIÁRIOS CDI"
+    },
+    {
+      "codigo": "SAIC11B",
+      "empresa": "SIA CORPORATE"
+    },
+    {
+      "codigo": "SARE11",
+      "empresa": "SANTANDER RENDA DE ALUGUÉIS"
+    },
+    {
+      "codigo": "SCPF11",
+      "empresa": "SCP"
+    },
+    {
+      "codigo": "SDIL11",
+      "empresa": "SDI RIO BRAVO RENDA LOGÍSTICA"
+    },
+    {
+      "codigo": "SFND11",
+      "empresa": "SÃO FERNANDO"
+    },
+    {
+      "codigo": "SHDP11B",
+      "empresa": "SHOPPING PARQUE DOM PEDRO"
+    },
+    {
+      "codigo": "SHOP11",
+      "empresa": "MULTI SHOPPINGS"
+    },
+    {
+      "codigo": "SHPH11",
+      "empresa": "SHOPPING PÁTIO HIGIENÓPOLIS"
+    },
+    {
+      "codigo": "SPAF11",
+      "empresa": "SPA"
+    },
+    {
+      "codigo": "SPTW11",
+      "empresa": "SP DOWNTOWN"
+    },
+    {
+      "codigo": "SPVJ11",
+      "empresa": "SUCCESPAR VAREJO"
+    },
+    {
+      "codigo": "STFI11",
+      "empresa": "SANTANDER RECEBÍVEIS IMOBILIÁRIOS"
+    },
+    {
+      "codigo": "STRX11",
+      "empresa": "STARX"
+    },
+    {
+      "codigo": "TBOF11",
+      "empresa": "TB OFFICE"
+    },
+    {
+      "codigo": "TCPF11",
+      "empresa": "TREECORP REAL ESTATE I"
+    },
+    {
+      "codigo": "TELD11",
+      "empresa": "TELLUS DESENVOLVIMENTO LOGÍSTICO"
+    },
+    {
+      "codigo": "TEPP11",
+      "empresa": "TELLUS PROPERTIES"
+    },
+    {
+      "codigo": "TFOF11",
+      "empresa": "HEDGE TOP FOFII"
+    },
+    {
+      "codigo": "TGAR11",
+      "empresa": "TG ATIVO REAL"
+    },
+    {
+      "codigo": "THRA11",
+      "empresa": "BM CYRELA THERA CORPORATE"
+    },
+    {
+      "codigo": "TORD11",
+      "empresa": "TORDESILHAS EI"
+    },
+    {
+      "codigo": "TORM11",
+      "empresa": "TOURMALET I"
+    },
+    {
+      "codigo": "TOUR11",
+      "empresa": "TOURMALET II"
+    },
+    {
+      "codigo": "TRNT11",
+      "empresa": "TORRE NORTE"
+    },
+    {
+      "codigo": "TRXB11",
+      "empresa": "TRX REAL ESTATE II"
+    },
+    {
+      "codigo": "TRXF11",
+      "empresa": "TRX REAL ESTATE"
+    },
+    {
+      "codigo": "TSNC11",
+      "empresa": "TRANSINC"
+    },
+    {
+      "codigo": "UBSR11",
+      "empresa": "UBS BR RECEBÍVEIS"
+    },
+    {
+      "codigo": "URBN11",
+      "empresa": "URBANIZA"
+    },
+    {
+      "codigo": "URPR11",
+      "empresa": "URCA PRIME RENDA"
+    },
+    {
+      "codigo": "VCJR11",
+      "empresa": "VECTIS JUROS REAL"
+    },
+    {
+      "codigo": "VERE11",
+      "empresa": "VEREDA"
+    },
+    {
+      "codigo": "VGIP11",
+      "empresa": "VALORA CRI ÍNDICE DE PREÇO"
+    },
+    {
+      "codigo": "VGIR11",
+      "empresa": "VALORA RE III"
+    },
+    {
+      "codigo": "VIDS11",
+      "empresa": "VIC DESENVOLVIMENTO - VINTAGE 20/21"
+    },
+    {
+      "codigo": "VIFI11",
+      "empresa": "VINCI INSTRUMENTOS FINANCEIROS"
+    },
+    {
+      "codigo": "VILG11",
+      "empresa": "VINCI LOGÍSTICA"
+    },
+    {
+      "codigo": "VINO11",
+      "empresa": "VINCI OFFICES"
+    },
+    {
+      "codigo": "VISC11",
+      "empresa": "VINCI SHOPPING CENTERS"
+    },
+    {
+      "codigo": "VLJS11",
+      "empresa": "VECTOR QUELUZ LAJES CORPORATIVAS"
+    },
+    {
+      "codigo": "VLOL11",
+      "empresa": "VILA OLÍMPIA CORPORATE"
+    },
+    {
+      "codigo": "VOTS11",
+      "empresa": "VOTORANTIM SECURITIES MASTER"
+    },
+    {
+      "codigo": "VPSI11",
+      "empresa": "POLO SHOPPING INDAIATUBA"
+    },
+    {
+      "codigo": "VRTA11",
+      "empresa": "FATOR VERITÀ"
+    },
+    {
+      "codigo": "VSEC11",
+      "empresa": "VOTORANTIM SECURITIES"
+    },
+    {
+      "codigo": "VSHO11",
+      "empresa": "VOTORANTIM SHOPPING"
+    },
+    {
+      "codigo": "VTLT11",
+      "empresa": "VOTORANTIM LOGÍSTICA"
+    },
+    {
+      "codigo": "VTPA11",
+      "empresa": "VOTORANTIM PATRIMONIAL V"
+    },
+    {
+      "codigo": "VTPL11",
+      "empresa": "FII PLUS"
+    },
+    {
+      "codigo": "VTVI11",
+      "empresa": "PARKING PARTNERS"
+    },
+    {
+      "codigo": "VTXI11",
+      "empresa": "VOTORANTIM PATRIMONIAL XII"
+    },
+    {
+      "codigo": "VVPR11",
+      "empresa": "V2 PROPERTIES"
+    },
+    {
+      "codigo": "VXXV11",
+      "empresa": "VX XVI"
+    },
+    {
+      "codigo": "WMRB11B",
+      "empresa": "WM RB CAPITAL"
+    },
+    {
+      "codigo": "WPLZ11",
+      "empresa": "WEST PLAZA"
+    },
+    {
+      "codigo": "WTSP11B",
+      "empresa": "OURINVEST RE I"
+    },
+    {
+      "codigo": "XPCI11",
+      "empresa": "XP CRÉDITO"
+    },
+    {
+      "codigo": "XPCM11",
+      "empresa": "XP CORPORATE MACAÉ"
+    },
+    {
+      "codigo": "XPGA11",
+      "empresa": "XP RECEBÍVEIS"
+    },
+    {
+      "codigo": "XPHT11",
+      "empresa": "XP HOTÉIS (COTA SÊNIOR)"
+    },
+    {
+      "codigo": "XPHT12",
+      "empresa": "XP HOTÉIS (COTA ORDINÁRIA)"
+    },
+    {
+      "codigo": "XPIN11",
+      "empresa": "XP INDUSTRIAL"
+    },
+    {
+      "codigo": "XPLG11",
+      "empresa": "XP LOG"
+    },
+    {
+      "codigo": "XPML11",
+      "empresa": "XP MALLS"
+    },
+    {
+      "codigo": "XPPR11",
+      "empresa": "XP PROPERTIES"
+    },
+    {
+      "codigo": "XPSF11",
+      "empresa": "XP SELECTION"
+    },
+    {
+      "codigo": "XTED11",
+      "empresa": "TRX EDIFÍCIOS CORPORATIVOS"
+    }
+
+  ]
+
+}

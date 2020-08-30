@@ -9,11 +9,11 @@
           <th class="col">Posição Inicial</th>
           <th class="col">Posição Atual</th>
           <th class="col border-right">Resultado (R$)</th>
-          <th class="col">Media 3 meses (R$)</th>
-          <th class="col border-right">Media 3 meses (%)</th>
-          <th class="col">Acum. Ano (R$)</th>
-          <th class="col border-right">Acum. Ano (%)</th>
-          <th class="col" colspan="2">Action</th>
+          <th class="col">Yield Media 3 meses (R$)</th>
+          <th class="col border-right">Yield Media 3 meses (%)</th>
+          <th class="col">Yield Acum. Ano (R$)</th>
+          <th class="col border-right">Yield Acum. Ano (%)</th>
+          <th class="col">Resgate</th>
         </tr>
       </thead>
       <tbody>
@@ -28,14 +28,9 @@
           <td>-</td>
           <td class="border-right">-</td>
           <td>
-            <router-link :to="{ name:'ConteudoAcompanhamento', params: { subrota: 'aaportes'} }">
-              <i class="fas fa-piggy-bank text-success fa-2x"></i>
-            </router-link>
-          </td>
-          <td>
-            <router-link :to="{ name:'ConteudoAcompanhamento', params: { subrota: 'aresgates'} }">
+            <a @click="resgate(fundo.ativo)">
               <i class="fas fa-hand-holding-usd text-danger fa-2x"></i>
-            </router-link>
+            </a>
           </td>
         </tr>
       </tbody>
@@ -51,14 +46,7 @@
           <td>-7,91</td>
           <td class="border-right">-7,91</td>
           <td>
-            <router-link :to="{ name:'ConteudoAcompanhamento', params: { subrota: 'aaportes'} }">
-              <i class="fas fa-piggy-bank text-success fa-2x"></i>
-            </router-link>
-          </td>
-          <td>
-            <router-link :to="{ name:'ConteudoAcompanhamento', params: { subrota: 'aresgates'} }">
-              <i class="fas fa-hand-holding-usd text-danger fa-2x"></i>
-            </router-link>
+           -
           </td>
         </tr>
       </tfoot>
@@ -67,9 +55,11 @@
 </template>
 
 <script>
+import { mapState } from "vuex";
 export default {
   data() {
     return {
+      ...mapState(["stateAtivo"]),
       fundos: []
     };
   },
@@ -92,6 +82,13 @@ export default {
     }
   },
   methods: {
+     resgate(ativo) {
+      this.$store.state.stateAtivo = ativo
+      this.$router.push({
+        name: "ConteudoAcompanhamento",
+        params: { subrota: "aresgates" }
+      });
+    },
     getData() {
       const id_user = "user_" + window.uid;
       const id_carteira = "carteira_" + window.uid;

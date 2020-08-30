@@ -36,11 +36,6 @@
               <i class="fas fa-piggy-bank"></i> Aportes
             </router-link>
           </li>
-          <li class="nav-item">
-            <router-link :to="{ name:'ConteudoAcompanhamento', params: { subrota: 'aresgates'} }">
-              <i class="fas fa-hand-holding-usd"></i> Resgates
-            </router-link>
-          </li>
         </ul>
         <p class="nav-item mt-5 font-weight-bold">
           Configurações

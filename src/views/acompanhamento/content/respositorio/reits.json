@@ -1,0 +1,928 @@
+{
+  "ativos": [{
+      "codigo": "AAT",
+      "empresa": "AMERICAN ASSETS TRUST, INC.REIT"
+    },
+    {
+      "codigo": "ABR",
+      "empresa": "ARBOR REALTY TRUST, INC.REIT"
+    },
+    {
+      "codigo": "ABR-PR-C",
+      "empresa": "ARBOR REALTY TRUST INC. - 8.50% PRF PERPETUAL USD 25 - SER CREIT"
+    },
+    {
+      "codigo": "ACC",
+      "empresa": "AMERICAN CAMPUS COMMUNITIESREIT"
+    },
+    {
+      "codigo": "ACRE",
+      "empresa": "ARES COMMERCIAL REAL ESTATE CORPREIT"
+    },
+    {
+      "codigo": "ADC",
+      "empresa": "AGREE REALTY CORPREIT"
+    },
+    {
+      "codigo": "AFIN",
+      "empresa": "AMERICAN FINANCE TRUST, INC.REIT"
+    },
+    {
+      "codigo": "AGNC",
+      "empresa": "AMERICAN CAPITAL AGENCYREIT"
+    },
+    {
+      "codigo": "AHH",
+      "empresa": "ARMADA HOFFLER PROPERTIES INCREIT"
+    },
+    {
+      "codigo": "AHT",
+      "empresa": "ASHFORD HOSPITALITY TRUST INCREIT"
+    },
+    {
+      "codigo": "AIV",
+      "empresa": "APARTMENT INVESTMENT & MANAGEMENT CO.REIT"
+    },
+    {
+      "codigo": "AJX",
+      "empresa": "GREAT AJAX CORPREIT"
+    },
+    {
+      "codigo": "AKR",
+      "empresa": "ACADIA REALTY TRUSTREIT"
+    },
+    {
+      "codigo": "ALX",
+      "empresa": "ALEXANDERS INC.REIT"
+    },
+    {
+      "codigo": "AMH",
+      "empresa": "AMERICAN HOMES 4 RENTREIT"
+    },
+    {
+      "codigo": "AMT",
+      "empresa": "AMERICAN TOWER CORPREIT"
+    },
+    {
+      "codigo": "ANH",
+      "empresa": "ANWORTH MORTGAGEREIT"
+    },
+    {
+      "codigo": "APLE",
+      "empresa": "APPLE HOSPITALITY REIT, INC.REIT"
+    },
+    {
+      "codigo": "APTS",
+      "empresa": "PREFERRED APARTMENT COMMUNITIES INC.REIT"
+    },
+    {
+      "codigo": "ARCT",
+      "empresa": "AMERICAN REALTY CAPITAL TRUST, INC.REIT"
+    },
+    {
+      "codigo": "ARE",
+      "empresa": "ALEXANDRIA REAL ESTATE EQUITIESREIT"
+    },
+    {
+      "codigo": "ARI",
+      "empresa": "APOLLO COMMERCIAL REAL ESTATE FINANCE, INC.REIT"
+    },
+    {
+      "codigo": "ARR",
+      "empresa": "ARMOUR RESIDENTIAL REIT INC.REIT"
+    },
+    {
+      "codigo": "AVB",
+      "empresa": "AVALONBAY COMMUNITIESREIT"
+    },
+    {
+      "codigo": "BDN",
+      "empresa": "BRANDYWINE REALTYREIT"
+    },
+    {
+      "codigo": "BFS",
+      "empresa": "SAUL CENTERSREIT"
+    },
+    {
+      "codigo": "BHR",
+      "empresa": "BRAEMAR HOTELS & RESORTS, INC.REIT"
+    },
+    {
+      "codigo": "BPR",
+      "empresa": "BROOKFIELD PROPERTY REIT INC CLASS AREIT"
+    },
+    {
+      "codigo": "BRG",
+      "empresa": "BLUEROCK RESIDENTIAL GROWTH REIT, INCREIT"
+    },
+    {
+      "codigo": "BRT",
+      "empresa": "BRT APARTMENTS CORP.REIT"
+    },
+    {
+      "codigo": "BRX",
+      "empresa": "BRIXMOR PROPERTY GROUP INCREIT"
+    },
+    {
+      "codigo": "BXMT",
+      "empresa": "BLACKSTONE MORTGAGE TRUST INCREIT"
+    },
+    {
+      "codigo": "BXP",
+      "empresa": "BOSTON PROPERTIESREIT"
+    },
+    {
+      "codigo": "CBL",
+      "empresa": "CBL & ASSOCIATES PROPERTIESREIT"
+    },
+    {
+      "codigo": "CDOR",
+      "empresa": "CONDOR HOSPITALITY TRUST, INC.REIT"
+    },
+    {
+      "codigo": "CDR",
+      "empresa": "CEDAR SHOPPING CENTERSREIT"
+    },
+    {
+      "codigo": "CIM",
+      "empresa": "CHIMERA INVESTMENT CORPORATIONREIT"
+    },
+    {
+      "codigo": "CIO",
+      "empresa": "CITY OFFICE REIT INCREIT"
+    },
+    {
+      "codigo": "CLDT",
+      "empresa": "CHATHAM LODGING TRUSTREIT"
+    },
+    {
+      "codigo": "CLI",
+      "empresa": "MACK-CALI REALTY CORPREIT"
+    },
+    {
+      "codigo": "CLNC",
+      "empresa": "COLONY CREDIT REAL ESTATE, INC.REIT"
+    },
+    {
+      "codigo": "CLNS",
+      "empresa": "COLONY NORTHSTAR INCREIT"
+    },
+    {
+      "codigo": "CLNY",
+      "empresa": "COLONY FINANCIAL INC.REIT"
+    },
+    {
+      "codigo": "CLPR",
+      "empresa": "CLIPPER REALTY, INC.REIT"
+    },
+    {
+      "codigo": "CMCT",
+      "empresa": "CIM COMMERCIAL TRUST CORPREIT"
+    },
+    {
+      "codigo": "CMO",
+      "empresa": "CAPSTEAD MORTGAGEREIT"
+    },
+    {
+      "codigo": "COLD",
+      "empresa": "AMERICOLD REALTY TRUSTREIT"
+    },
+    {
+      "codigo": "CONE",
+      "empresa": "CYRUSONE INCREIT"
+    },
+    {
+      "codigo": "COR",
+      "empresa": "CORESITE REALITY CORPORATIONREIT"
+    },
+    {
+      "codigo": "CORR",
+      "empresa": "CORENERGY INFRASTRUCTURE TRUST INCREIT"
+    },
+    {
+      "codigo": "CPLG",
+      "empresa": "COREPOINT LODGING, INC.REIT"
+    },
+    {
+      "codigo": "CPT",
+      "empresa": "CAMDEN PROPERTY TRUSTREIT"
+    },
+    {
+      "codigo": "CSA",
+      "empresa": "COGDELL SPENCERREIT"
+    },
+    {
+      "codigo": "CSAL",
+      "empresa": "UNITI GROUP INC.REIT"
+    },
+    {
+      "codigo": "CSG",
+      "empresa": "CHAMBERS STREET PROPERTIES COMMON SHARES OF BENEFICIAL INTERESTREIT"
+    },
+    {
+      "codigo": "CTRE",
+      "empresa": "CARETRUST REIT INCREIT"
+    },
+    {
+      "codigo": "CTT",
+      "empresa": "CATCHMARK TIMBER TRUST, INCREIT"
+    },
+    {
+      "codigo": "CUBE",
+      "empresa": "CUBESMARTREIT"
+    },
+    {
+      "codigo": "CUZ",
+      "empresa": "COUSINS PROPERTIESREIT"
+    },
+    {
+      "codigo": "CWH",
+      "empresa": "COMMONWEALTH REITREIT"
+    },
+    {
+      "codigo": "CXP",
+      "empresa": "COLUMBIA PROPERTY TRUST, INC.REIT"
+    },
+    {
+      "codigo": "DCT",
+      "empresa": "DCT INNDUSTRIAL TRUSTREIT"
+    },
+    {
+      "codigo": "DDR",
+      "empresa": "DDR CORPREIT"
+    },
+    {
+      "codigo": "DEA",
+      "empresa": "EASTERLY GOVERNMENT PROPERTIES, INC.REIT"
+    },
+    {
+      "codigo": "DEI",
+      "empresa": "DOUGLAS EMMETTREIT"
+    },
+    {
+      "codigo": "DLR",
+      "empresa": "DIGITAL REALTY TRUSTREIT"
+    },
+    {
+      "codigo": "DOC",
+      "empresa": "PHYSICIANS REALTY TRUSTREIT"
+    },
+    {
+      "codigo": "DRE",
+      "empresa": "DUKE REALTYREIT"
+    },
+    {
+      "codigo": "DRH",
+      "empresa": "DIAMONDROCK HOSPITALITY CO.REIT"
+    },
+    {
+      "codigo": "DX",
+      "empresa": "DYNEX CAPITALREIT"
+    },
+    {
+      "codigo": "EARN",
+      "empresa": "ELLINGTON RESIDENTIAL MORTGAGE REITREIT"
+    },
+    {
+      "codigo": "EGP",
+      "empresa": "EASTGROUP PROPERTIESREIT"
+    },
+    {
+      "codigo": "ELS",
+      "empresa": "EQUITY LIFESTYLE PROPERTIESREIT"
+    },
+    {
+      "codigo": "EPR",
+      "empresa": "EPR PROPERTIESREIT"
+    },
+    {
+      "codigo": "EPRT",
+      "empresa": "ESSENTIAL PROPERTIES REALTY TRUST, INC.REIT"
+    },
+    {
+      "codigo": "EQC",
+      "empresa": "EQUITY COMMONWEALTHREIT"
+    },
+    {
+      "codigo": "EQR",
+      "empresa": "EQUITY RESIDENTIALREIT"
+    },
+    {
+      "codigo": "ESRT",
+      "empresa": "EMPIRE STATE REALTY TRUSTREIT"
+    },
+    {
+      "codigo": "ESS",
+      "empresa": "ESSEX PROPERTY TRUSTREIT"
+    },
+    {
+      "codigo": "EXR",
+      "empresa": "EXTRA SPACE STORAGEREIT"
+    },
+    {
+      "codigo": "FCPT",
+      "empresa": "FOUR CORNERS PROPERTY TRUST, INC.REIT"
+    },
+    {
+      "codigo": "FPH",
+      "empresa": "FIVE POINT HOLDINGS LLC CLASS AREIT"
+    },
+    {
+      "codigo": "FPI",
+      "empresa": "FARMLAND PARTNERS INCREIT"
+    },
+    {
+      "codigo": "FR",
+      "empresa": "FIRST INDUSTRIAL REALTY TRUST, INC.REIT"
+    },
+    {
+      "codigo": "FRT",
+      "empresa": "FEDERAL REALTY INVESTMENT TRUSTREIT"
+    },
+    {
+      "codigo": "FSP",
+      "empresa": "FRANKLIN STREET PROPERTIESREIT"
+    },
+    {
+      "codigo": "GEO",
+      "empresa": "THE GEO GROUP, INC.REIT"
+    },
+    {
+      "codigo": "GLPI",
+      "empresa": "GAMING AND LEISURE PROPERTIES INCREIT"
+    },
+    {
+      "codigo": "GMRE",
+      "empresa": "GLOBAL MEDICAL REIT INCREIT"
+    },
+    {
+      "codigo": "GOOD",
+      "empresa": "GLADSTONE COMMERCIALREIT"
+    },
+    {
+      "codigo": "GOODM",
+      "empresa": "GLADSTONE COMMERCIAL CORP.REIT"
+    },
+    {
+      "codigo": "GOODN",
+      "empresa": "GLADSTONE COMMERCIAL CORPORATIONREIT"
+    },
+    {
+      "codigo": "GOV",
+      "empresa": "GOVERNMENT PROPERTIES INCOME TRUSTREIT"
+    },
+    {
+      "codigo": "GPMT",
+      "empresa": "GRANITE POINT MORTGAGE TRUST INC.REIT"
+    },
+    {
+      "codigo": "GRP-U",
+      "empresa": "GRANITE REAL ESTATE INC. STAPLEREIT"
+    },
+    {
+      "codigo": "GTY",
+      "empresa": "GETTY REALTY CORPREIT"
+    },
+    {
+      "codigo": "GYRO",
+      "empresa": "GYRODYNE CO. OF AMERICA INC.REIT"
+    },
+    {
+      "codigo": "GYRO",
+      "empresa": "GYRODYNE CO. OF AMERICA INC.REIT"
+    },
+    {
+      "codigo": "HASI",
+      "empresa": "HANNON ARMSTRONG SUSTNBL INFRSTR CAP INCREIT"
+    },
+    {
+      "codigo": "HCAP",
+      "empresa": "HARVEST CAPITAL CREDIT CORPREIT"
+    },
+    {
+      "codigo": "HCFT",
+      "empresa": "HUNT COMPANIES FINANCE TRUST, INC.REIT"
+    },
+    {
+      "codigo": "HCN",
+      "empresa": "WELLTOWER INCREIT"
+    },
+    {
+      "codigo": "HCP",
+      "empresa": "HCP INC.REIT"
+    },
+    {
+      "codigo": "HIW",
+      "empresa": "HIGHWOOD PROPERTIESREIT"
+    },
+    {
+      "codigo": "HMG",
+      "empresa": "HMG/COURTLAND PROPERTIESREIT"
+    },
+    {
+      "codigo": "HPP",
+      "empresa": "HUDSON PACIFIC PROPERTIESREIT"
+    },
+    {
+      "codigo": "HPT",
+      "empresa": "HOSPITALITY PROPERTIES TRUSTREIT"
+    },
+    {
+      "codigo": "HR",
+      "empresa": "HEALTHCARE REALTY TRUSTREIT"
+    },
+    {
+      "codigo": "HST",
+      "empresa": "HOST HOTELS & RESORTS INC.REIT"
+    },
+    {
+      "codigo": "HT",
+      "empresa": "HERSHA HOSPITALITY TRUSTREIT"
+    },
+    {
+      "codigo": "HTA",
+      "empresa": "HEALTHCARE TRUST OF AMERICA, INC.REIT"
+    },
+    {
+      "codigo": "IHT",
+      "empresa": "INNSUITES HOSPITALITY TRUST SHS BEN INTREIT"
+    },
+    {
+      "codigo": "IIPR",
+      "empresa": "INNOVATIVE INDUSTRIAL PROPERTIES INC.REIT"
+    },
+    {
+      "codigo": "ILPT",
+      "empresa": "INDUSTRIAL LOGISTICS PROPERTIES TRUSTREIT"
+    },
+    {
+      "codigo": "INN",
+      "empresa": "SUMMIT HOTEL PROPERTIESREIT"
+    },
+    {
+      "codigo": "INVH",
+      "empresa": "INVITATION HOMES, INC.REIT"
+    },
+    {
+      "codigo": "IRET",
+      "empresa": "INVESTORS REAL ESTATE TRUSTREIT"
+    },
+    {
+      "codigo": "IRM",
+      "empresa": "IRON MOUNTAINREIT"
+    },
+    {
+      "codigo": "IRT",
+      "empresa": "INDEPENDENCE REALTY TRUST INCREIT"
+    },
+    {
+      "codigo": "IVR",
+      "empresa": "INVESCO MORTGAGE CAPITALREIT"
+    },
+    {
+      "codigo": "JBGS",
+      "empresa": "JBG SMITH PROPERTIESREIT"
+    },
+    {
+      "codigo": "JCAP",
+      "empresa": "JERNIGAN CAPITAL, INC.REIT"
+    },
+    {
+      "codigo": "KIM",
+      "empresa": "KIMCO REALTY CORPREIT"
+    },
+    {
+      "codigo": "KRC",
+      "empresa": "KILROY REALTY CORPREIT"
+    },
+    {
+      "codigo": "KREF",
+      "empresa": "KKR REAL ESTATE FINANCE TRUST INC.REIT"
+    },
+    {
+      "codigo": "KRG",
+      "empresa": "KITE REALTY GROUPREIT"
+    },
+    {
+      "codigo": "LADR",
+      "empresa": "LADDER CAPITAL CORPREIT"
+    },
+    {
+      "codigo": "LAND",
+      "empresa": "GLADSTONE LAND CORPORATIONREIT"
+    },
+    {
+      "codigo": "LSI",
+      "empresa": "LIFE STORAGE INCREIT"
+    },
+    {
+      "codigo": "LTC",
+      "empresa": "LTC PROPERTIESREIT"
+    },
+    {
+      "codigo": "LXP",
+      "empresa": "LEXINGTON REALTY TRUSTREIT"
+    },
+    {
+      "codigo": "MAA",
+      "empresa": "MID-AMERICAN APARTMENT COMMUNITIESREIT"
+    },
+    {
+      "codigo": "MAC",
+      "empresa": "MACERICH COMPANYREIT"
+    },
+    {
+      "codigo": "MDH",
+      "empresa": "MHI HOSPITALITY CORPREIT"
+    },
+    {
+      "codigo": "MDRR",
+      "empresa": "MEDALIST DIVERSIFIED REIT, INC.REIT"
+    },
+    {
+      "codigo": "MFA",
+      "empresa": "MFA MORTGAGE INVESTMENTSREIT"
+    },
+    {
+      "codigo": "MGP",
+      "empresa": "MGM GROWTH PROPERTIES LLCREIT"
+    },
+    {
+      "codigo": "MITT",
+      "empresa": "AG MORTGAGE INVESTMENT TRUST, INC.REIT"
+    },
+    {
+      "codigo": "MNR",
+      "empresa": "MONMOUTH REAL ESTATE INVESTMENT CORPREIT"
+    },
+    {
+      "codigo": "MPW",
+      "empresa": "MEDICAL PROPERTIES TRUSTREIT"
+    },
+    {
+      "codigo": "NCT",
+      "empresa": "NEWCASTLE INVESTMENT CORP.REIT"
+    },
+    {
+      "codigo": "NHI",
+      "empresa": "NATIONAL HEALTH INVESTORSREIT"
+    },
+    {
+      "codigo": "NLY",
+      "empresa": "ANNALY CAPITALREIT"
+    },
+    {
+      "codigo": "NNN",
+      "empresa": "NATIONAL RETAIL PROPERTIESREIT"
+    },
+    {
+      "codigo": "NRZ",
+      "empresa": "NEW RESIDENTIAL INVESTMENT CORPREIT"
+    },
+    {
+      "codigo": "NSA",
+      "empresa": "NATIONAL STORAGE AFFILIATESREIT"
+    },
+    {
+      "codigo": "NXRT",
+      "empresa": "NEXPOINT RESIDENTIAL TRUSTREIT"
+    },
+    {
+      "codigo": "NYMT",
+      "empresa": "NEW YORK MORTGAGE TRUST INCREIT"
+    },
+    {
+      "codigo": "NYMTO",
+      "empresa": "NEW YORK MORTGAGE TRUST INC.REIT"
+    },
+    {
+      "codigo": "O",
+      "empresa": "REALTY INCOME CORPREIT"
+    },
+    {
+      "codigo": "OFC",
+      "empresa": "CORPORATE OFFICE PROPERTIESREIT"
+    },
+    {
+      "codigo": "OHI",
+      "empresa": "OMEGA HEALTHCARE INVESTORS INC.REIT"
+    },
+    {
+      "codigo": "OLP",
+      "empresa": "ONE LIBERTY PROPERTIESREIT"
+    },
+    {
+      "codigo": "OPI",
+      "empresa": "OFFICE PROPERTIES INCOME TRUSTREIT"
+    },
+    {
+      "codigo": "ORC",
+      "empresa": "ORCHID ISLAND CAPITAL INCREIT"
+    },
+    {
+      "codigo": "OUT",
+      "empresa": "OUTFRONT MEDIA INCREIT"
+    },
+    {
+      "codigo": "PCH",
+      "empresa": "POTLATCHREIT"
+    },
+    {
+      "codigo": "PDM",
+      "empresa": "PIEDMONT OFFICE REALTY TRUSTREIT"
+    },
+    {
+      "codigo": "PEB",
+      "empresa": "PEBBLEBROOK HOTEL TRUSTREIT"
+    },
+    {
+      "codigo": "PEI",
+      "empresa": "PENN REAL ESTATE TRUSTREIT"
+    },
+    {
+      "codigo": "PGRE",
+      "empresa": "PARAMOUNT GROUP, INC.REIT"
+    },
+    {
+      "codigo": "PK",
+      "empresa": "PARK HOTELS & RESORTS INC.REIT"
+    },
+    {
+      "codigo": "PLD",
+      "empresa": "PROLOGISREIT"
+    },
+    {
+      "codigo": "PLYM",
+      "empresa": "PLYMOUTH INDUSTRIAL REIT, INC.REIT"
+    },
+    {
+      "codigo": "PMCT",
+      "empresa": "PMC COMMERCIAL TRUSTREIT"
+    },
+    {
+      "codigo": "PMT",
+      "empresa": "PENNYMAC MORTGAGE INVESTMENT TRUSTREIT"
+    },
+    {
+      "codigo": "PSA",
+      "empresa": "PUBLIC STORAGEREIT"
+    },
+    {
+      "codigo": "PSB",
+      "empresa": "PS BUSINESS PARKSREIT"
+    },
+    {
+      "codigo": "PW",
+      "empresa": "PITTSBURGH & WEST VIRGINIA R.R. SHS BEN INTREIT"
+    },
+    {
+      "codigo": "QTS",
+      "empresa": "QTS REALTY TRUST INCREIT"
+    },
+    {
+      "codigo": "RC",
+      "empresa": "READY CAPITAL CORPORATIONREIT"
+    },
+    {
+      "codigo": "REG",
+      "empresa": "REGENCY CENTERSREIT"
+    },
+    {
+      "codigo": "RESI",
+      "empresa": "ALTISOURCE RESIDENTIAL CORPORATIONREIT"
+    },
+    {
+      "codigo": "REXR",
+      "empresa": "REXFORD INDUSTRIAL REALTY INCREIT"
+    },
+    {
+      "codigo": "RHE",
+      "empresa": "REGIONAL HEALTH PROPERTIES, INC.REIT"
+    },
+    {
+      "codigo": "RHP",
+      "empresa": "RYMAN HOSPITALITY PROPERTIES, INC.REIT"
+    },
+    {
+      "codigo": "RLJ",
+      "empresa": "RLJ LODGING TRUSTREIT"
+    },
+    {
+      "codigo": "ROIC",
+      "empresa": "RETAIL OPPORTUNITY INVESTMENTS CORPREIT"
+    },
+    {
+      "codigo": "RPAI",
+      "empresa": "RETAIL PROPERTIES OF AMERICA, INCREIT"
+    },
+    {
+      "codigo": "RPT",
+      "empresa": "RAMCO-GERSHENSON PROPERTIES TRUSTREIT"
+    },
+    {
+      "codigo": "RSO",
+      "empresa": "RESOURCE CAPITALREIT"
+    },
+    {
+      "codigo": "RWT",
+      "empresa": "REDWOOD TRUSTREIT"
+    },
+    {
+      "codigo": "RYN",
+      "empresa": "RAYONIERREIT"
+    },
+    {
+      "codigo": "SACH",
+      "empresa": "SACHEM CAPITAL CORP.REIT"
+    },
+    {
+      "codigo": "SAFE",
+      "empresa": "SAFETY, INCOME & GROWTH INC.REIT"
+    },
+    {
+      "codigo": "SBRA",
+      "empresa": "SABRA HEALTH CARE REIT INC.REIT"
+    },
+    {
+      "codigo": "SELF",
+      "empresa": "SELF STORAGE GROUP, INC.REIT"
+    },
+    {
+      "codigo": "SHO",
+      "empresa": "SUNSTONE HOTEL INVESTORS INCREIT"
+    },
+    {
+      "codigo": "SITC",
+      "empresa": "SITE CENTERS CORP.REIT"
+    },
+    {
+      "codigo": "SKT",
+      "empresa": "TANGER FACTORY OUTLETREIT"
+    },
+    {
+      "codigo": "SLG",
+      "empresa": "SL GREEN REALTY CORPREIT"
+    },
+    {
+      "codigo": "SNH",
+      "empresa": "SENIOR HOUSING PROPERTIES TRUSTREIT"
+    },
+    {
+      "codigo": "SNHO",
+      "empresa": "SENIOR HOUSING PROPERTIES TRUSREIT"
+    },
+    {
+      "codigo": "SNR",
+      "empresa": "NEW SENIOR INVESTMENT GROUP INCREIT"
+    },
+    {
+      "codigo": "SOHO",
+      "empresa": "SOTHERLY HOTELS INCREIT"
+    },
+    {
+      "codigo": "SOHOO",
+      "empresa": "SOTHERLY HOTELS INC.REIT"
+    },
+    {
+      "codigo": "SPG",
+      "empresa": "SIMON PROPERTY GROUPREIT"
+    },
+    {
+      "codigo": "SRC",
+      "empresa": "SPIRIT REALTY CAPITAL INCREIT"
+    },
+    {
+      "codigo": "SRG",
+      "empresa": "SERITAGE GROWTH PROPERTIESREIT"
+    },
+    {
+      "codigo": "SSS",
+      "empresa": "SOVRAN SELF STORAGEREIT"
+    },
+    {
+      "codigo": "STAG",
+      "empresa": "STAG INDUSTRIAL, INC.REIT"
+    },
+    {
+      "codigo": "STAR",
+      "empresa": "ISTAR INC.REIT"
+    },
+    {
+      "codigo": "STOR",
+      "empresa": "STORE CAPITAL CORPREIT"
+    },
+    {
+      "codigo": "STWD",
+      "empresa": "STARWOOD PROPERTY TRUSTREIT"
+    },
+    {
+      "codigo": "SUI",
+      "empresa": "SUN COMMUNITIESREIT"
+    },
+    {
+      "codigo": "TCO",
+      "empresa": "TAUBMAN CENTERSREIT"
+    },
+    {
+      "codigo": "TRNO",
+      "empresa": "TERRENO REALTY CORPREIT"
+    },
+    {
+      "codigo": "TRTX",
+      "empresa": "TPG RE FINANCE TRUST, INC.REIT"
+    },
+    {
+      "codigo": "TTO",
+      "empresa": "TORTOISE CAPITAL RESOURCE CORPREIT"
+    },
+    {
+      "codigo": "TWO",
+      "empresa": "TWO HARBORS INVESTMENT CORPREIT"
+    },
+    {
+      "codigo": "UBA",
+      "empresa": "URSTADT BIDDLE PROPERTIESREIT"
+    },
+    {
+      "codigo": "UBP",
+      "empresa": "URSTADT BIDDLE PROPERTIES INCREIT"
+    },
+    {
+      "codigo": "UDR",
+      "empresa": "UDR INC.REIT"
+    },
+    {
+      "codigo": "UE",
+      "empresa": "URBAN EDGE PROPERTIESREIT"
+    },
+    {
+      "codigo": "UHT",
+      "empresa": "UNIVERSAL HEALTH REALTY INCOME TRUSTREIT"
+    },
+    {
+      "codigo": "UMH",
+      "empresa": "UMH PROPERTIESREIT"
+    },
+    {
+      "codigo": "UNIT",
+      "empresa": "UNITI GROUP INC.REIT"
+    },
+    {
+      "codigo": "VER",
+      "empresa": "VEREIT INCREIT"
+    },
+    {
+      "codigo": "VICI",
+      "empresa": "VICI PROPERTIES INC.REIT"
+    },
+    {
+      "codigo": "VNO",
+      "empresa": "VORNADO REALTY TRUSTREIT"
+    },
+    {
+      "codigo": "VTR",
+      "empresa": "VENTAS, INC.REIT"
+    },
+    {
+      "codigo": "WELL",
+      "empresa": "WELLTOWER INC.REIT"
+    },
+    {
+      "codigo": "WHLR",
+      "empresa": "WHEELER REAL ESTATE INVESTMENT TRUST INCREIT"
+    },
+    {
+      "codigo": "WMC",
+      "empresa": "WESTERN ASSET MORTGAGE CAPITAL CORPREIT"
+    },
+    {
+      "codigo": "WPC",
+      "empresa": "W.P. CAREY INC.REIT"
+    },
+    {
+      "codigo": "WRE",
+      "empresa": "WASHINGTON REAL ESTATE INVESTMENT TRUSTREIT"
+    },
+    {
+      "codigo": "WRI",
+      "empresa": "WEINGARTEN REALTYREIT"
+    },
+    {
+      "codigo": "WSR",
+      "empresa": "WHITESTONE REIT CL B SHS BEN INTREIT"
+    },
+    {
+      "codigo": "XAN",
+      "empresa": "EXANTAS CAPITAL CORP.REIT"
+    },
+    {
+      "codigo": "XHR",
+      "empresa": "XENIA HOTELS & RESORTS, INC.REIT"
+    },
+    {
+      "codigo": "ZFC",
+      "empresa": "ZAIS FINANCIAL CORPREIT"
+    }
+
+  ]
+}

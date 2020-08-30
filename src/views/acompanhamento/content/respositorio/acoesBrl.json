@@ -1,0 +1,2947 @@
+{
+  "ativos": [{
+      "codigo": "ADHM3",
+      "empresa": "ADVANCED-DH ON"
+    },
+    {
+      "codigo": "ADHM9",
+      "empresa": "ADVANCED-DH ON"
+    },
+    {
+      "codigo": "ADHM1",
+      "empresa": "ADVANCED-DH ON"
+    },
+    {
+      "codigo": "TIET3",
+      "empresa": "AES TIETÊ ON"
+    },
+    {
+      "codigo": "TIET4",
+      "empresa": "AES TIETÊ PN"
+    },
+    {
+      "codigo": "AFLT3",
+      "empresa": "AFLUENTE ON"
+    },
+    {
+      "codigo": "AGVE6L",
+      "empresa": "AGRO INDUSTRIAL DE CEREA... PNB"
+    },
+    {
+      "codigo": "AGVE5L",
+      "empresa": "AGRO INDUSTRIAL DE CEREA... PNA"
+    },
+    {
+      "codigo": "AIPN5L",
+      "empresa": "AGROINDUSTRIAL E PASTORI... PNA"
+    },
+    {
+      "codigo": "ARSA5L",
+      "empresa": "AGROMASSA PNA PNA"
+    },
+    {
+      "codigo": "AGBH5L",
+      "empresa": "AGROPECUARIA BELO HORIZO... PNA"
+    },
+    {
+      "codigo": "AGSR5L",
+      "empresa": "AGROPECUARIA SANTA ROSA PNA"
+    },
+    {
+      "codigo": "AGSA5L",
+      "empresa": "AGROPECUARIA SERRA AZUL PNA"
+    },
+    {
+      "codigo": "ALEF3B",
+      "empresa": "ALEF ON"
+    },
+    {
+      "codigo": "RPAD3",
+      "empresa": "ALFA ON"
+    },
+    {
+      "codigo": "RPAD5",
+      "empresa": "ALFA PNA"
+    },
+    {
+      "codigo": "RPAD6",
+      "empresa": "ALFA PNB"
+    },
+    {
+      "codigo": "ALPK3",
+      "empresa": "ALLPARK EMPREENDIMENTOS ... ON"
+    },
+    {
+      "codigo": "APER9",
+      "empresa": "ALPER ON"
+    },
+    {
+      "codigo": "APER3",
+      "empresa": "ALPER ON"
+    },
+    {
+      "codigo": "APER1",
+      "empresa": "ALPER ON"
+    },
+    {
+      "codigo": "ALMZ5L",
+      "empresa": "ALUMAZON COMPONENTES AMA... PNA"
+    },
+    {
+      "codigo": "ALMN4L",
+      "empresa": "ALUMINIO EXTRUDADO BRASI... PN"
+    },
+    {
+      "codigo": "ALUP4",
+      "empresa": "ALUPAR PN"
+    },
+    {
+      "codigo": "ALUP3",
+      "empresa": "ALUPAR ON"
+    },
+    {
+      "codigo": "AZGT5L",
+      "empresa": "AMAZON GOLF PNA"
+    },
+    {
+      "codigo": "ABEV3",
+      "empresa": "AMBEV S/A ON"
+    },
+    {
+      "codigo": "AMBP3",
+      "empresa": "AMBIPAR PARTICIPACOES E ... ON"
+    },
+    {
+      "codigo": "CBEE3",
+      "empresa": "AMPLA ENERG ON"
+    },
+    {
+      "codigo": "CANT3B",
+      "empresa": "ANDRADE GUTIERREZ PARTIC... ON"
+    },
+    {
+      "codigo": "CANT3",
+      "empresa": "ANDRADE GUTIERREZ PARTIC... ON"
+    },
+    {
+      "codigo": "CANT4B",
+      "empresa": "ANDRADE GUTIERREZ PARTIC... PN"
+    },
+    {
+      "codigo": "CANT4",
+      "empresa": "ANDRADE GUTIERREZ PARTIC... PN"
+    },
+    {
+      "codigo": "SAIS5L",
+      "empresa": "ANGELICA PNA PNA"
+    },
+    {
+      "codigo": "ANIM3",
+      "empresa": "ANIMA ON"
+    },
+    {
+      "codigo": "APAK5L",
+      "empresa": "APIACAS PNA PNA"
+    },
+    {
+      "codigo": "ARZZ3",
+      "empresa": "AREZZO ON"
+    },
+    {
+      "codigo": "ATMP3",
+      "empresa": "ATMA ON"
+    },
+    {
+      "codigo": "ATOM3",
+      "empresa": "ATOMPAR ON"
+    },
+    {
+      "codigo": "AZEV4",
+      "empresa": "AZEVEDO PN"
+    },
+    {
+      "codigo": "AZEV3",
+      "empresa": "AZEVEDO ON"
+    },
+    {
+      "codigo": "AZUL4",
+      "empresa": "AZUL PN"
+    },
+    {
+      "codigo": "BTOW1",
+      "empresa": "B2W DIGITAL ON"
+    },
+    {
+      "codigo": "BTOW3",
+      "empresa": "B2W DIGITAL ON"
+    },
+    {
+      "codigo": "B3SA3",
+      "empresa": "B3 SA - BRASIL BOLSA BAL... ON"
+    },
+    {
+      "codigo": "BAHI9",
+      "empresa": "BAHEMA ON"
+    },
+    {
+      "codigo": "BAHI3",
+      "empresa": "BAHEMA EDUCAÇÃO ON"
+    },
+    {
+      "codigo": "BMGB4",
+      "empresa": "BMG PN"
+    },
+    {
+      "codigo": "BPAC12",
+      "empresa": "BTG PACTUAL PNA"
+    },
+    {
+      "codigo": "BPAC9",
+      "empresa": "BTG PACTUAL ON"
+    },
+    {
+      "codigo": "BPAC5",
+      "empresa": "BTG PACTUAL PNA"
+    },
+    {
+      "codigo": "BPAC3",
+      "empresa": "BTG PACTUAL ON"
+    },
+    {
+      "codigo": "BIDI1",
+      "empresa": "BANCO INTER ON"
+    },
+    {
+      "codigo": "BIDI4",
+      "empresa": "BANCO INTER PN"
+    },
+    {
+      "codigo": "BIDI12",
+      "empresa": "BANCO INTER"
+    },
+    {
+      "codigo": "BIDI3",
+      "empresa": "BANCO INTER ON"
+    },
+    {
+      "codigo": "BIDI2",
+      "empresa": "BANCO INTER PN"
+    },
+    {
+      "codigo": "BPAN10",
+      "empresa": "BANCO PAN PN"
+    },
+    {
+      "codigo": "BPAN4",
+      "empresa": "BANCO PAN PN"
+    },
+    {
+      "codigo": "SANB3",
+      "empresa": "SANTANDER BR ON"
+    },
+    {
+      "codigo": "SANB4",
+      "empresa": "SANTANDER BR PN"
+    },
+    {
+      "codigo": "BEES4",
+      "empresa": "BANESTES PN"
+    },
+    {
+      "codigo": "BEES3",
+      "empresa": "BANESTES ON"
+    },
+    {
+      "codigo": "BDLL3",
+      "empresa": "BARDELLA ON"
+    },
+    {
+      "codigo": "BDLL4",
+      "empresa": "BARDELLA PN"
+    },
+    {
+      "codigo": "BTTL3",
+      "empresa": "BATTISTELLA ON"
+    },
+    {
+      "codigo": "BALM4",
+      "empresa": "BAUMER PN"
+    },
+    {
+      "codigo": "BALM3",
+      "empresa": "BAUMER ON"
+    },
+    {
+      "codigo": "BBML3",
+      "empresa": "BBM LOGÍSTICA ON"
+    },
+    {
+      "codigo": "BBSE3",
+      "empresa": "BB SEGURIDADE ON"
+    },
+    {
+      "codigo": "ABCB4",
+      "empresa": "ABC BRASIL PN"
+    },
+    {
+      "codigo": "BRIV4",
+      "empresa": "ALFA INVEST PN"
+    },
+    {
+      "codigo": "BRIV3",
+      "empresa": "ALFA INVEST ON"
+    },
+    {
+      "codigo": "BAZA3",
+      "empresa": "AMAZONIA ON"
+    },
+    {
+      "codigo": "BBDC3",
+      "empresa": "BRADESCO ON"
+    },
+    {
+      "codigo": "BBDC4",
+      "empresa": "BRADESCO PN"
+    },
+    {
+      "codigo": "BBAS11",
+      "empresa": "BANCO DO BRASIL ON"
+    },
+    {
+      "codigo": "BBAS12",
+      "empresa": "BANCO DO BRASIL ON"
+    },
+    {
+      "codigo": "BBAS3",
+      "empresa": "BANCO DO BRASIL ON"
+    },
+    {
+      "codigo": "BPAR3",
+      "empresa": "BANCO BANPARÁ ON"
+    },
+    {
+      "codigo": "BRSR6",
+      "empresa": "BANRISUL PNB"
+    },
+    {
+      "codigo": "BRSR5",
+      "empresa": "BANRISUL PNA"
+    },
+    {
+      "codigo": "BRSR3",
+      "empresa": "BANRISUL ON"
+    },
+    {
+      "codigo": "BGIP4",
+      "empresa": "BANESE PN"
+    },
+    {
+      "codigo": "BGIP3",
+      "empresa": "BANESE ON"
+    },
+    {
+      "codigo": "FNCN3",
+      "empresa": "BCO FINANSINOS ON"
+    },
+    {
+      "codigo": "IDVL3",
+      "empresa": "INDUSVAL ON"
+    },
+    {
+      "codigo": "IDVL4",
+      "empresa": "INDUSVAL PN"
+    },
+    {
+      "codigo": "BMEB3",
+      "empresa": "BANCO MERCANTIL ON"
+    },
+    {
+      "codigo": "BMEB4",
+      "empresa": "BANCO MERCANTIL PN"
+    },
+    {
+      "codigo": "BMIN4",
+      "empresa": "MERC INVEST PN"
+    },
+    {
+      "codigo": "BMIN3",
+      "empresa": "MERC INVEST ON"
+    },
+    {
+      "codigo": "BNBR3",
+      "empresa": "BANCO NORDESTE ON"
+    },
+    {
+      "codigo": "PINE1",
+      "empresa": "PINE ON"
+    },
+    {
+      "codigo": "PINE4",
+      "empresa": "PINE PN"
+    },
+    {
+      "codigo": "PINE9",
+      "empresa": "PINE ON"
+    },
+    {
+      "codigo": "PINE3",
+      "empresa": "PINE ON"
+    },
+    {
+      "codigo": "PINE2",
+      "empresa": "PINE PN"
+    },
+    {
+      "codigo": "PINE10",
+      "empresa": "PINE PN"
+    },
+    {
+      "codigo": "BDRX11",
+      "empresa": "BDRX"
+    },
+    {
+      "codigo": "BETP3B",
+      "empresa": "BETAPART PARTICIPACOES ON"
+    },
+    {
+      "codigo": "BMKS3",
+      "empresa": "BIC MONARK ON"
+    },
+    {
+      "codigo": "BIOM1",
+      "empresa": "BIOMM ON"
+    },
+    {
+      "codigo": "BIOM11",
+      "empresa": "BIOMM ON"
+    },
+    {
+      "codigo": "BIOM3",
+      "empresa": "BIOMM ON"
+    },
+    {
+      "codigo": "BIOM9",
+      "empresa": "BIOMM ON"
+    },
+    {
+      "codigo": "BSEV3",
+      "empresa": "BIOSEV ON"
+    },
+    {
+      "codigo": "BKBR3",
+      "empresa": "BURGUER KING BRASIL ON"
+    },
+    {
+      "codigo": "BOBR4",
+      "empresa": "BOMBRIL PN"
+    },
+    {
+      "codigo": "BOBR3",
+      "empresa": "BOMBRIL ON"
+    },
+    {
+      "codigo": "BRML3",
+      "empresa": "BR MALLS PAR ON"
+    },
+    {
+      "codigo": "BRPR3",
+      "empresa": "BR PROPERT ON"
+    },
+    {
+      "codigo": "BCIA12",
+      "empresa": "BRADESCO REAL ESTATE POR..."
+    },
+    {
+      "codigo": "BRAP3",
+      "empresa": "BRADESPAR ON"
+    },
+    {
+      "codigo": "BRAP4",
+      "empresa": "BRADESPAR PN"
+    },
+    {
+      "codigo": "BBRK3",
+      "empresa": "BR BROKERS ON"
+    },
+    {
+      "codigo": "IRBR9",
+      "empresa": "BRASIL RESSEGUROS"
+    },
+    {
+      "codigo": "IRBR1",
+      "empresa": "IRB BRASIL ON"
+    },
+    {
+      "codigo": "IRBR3",
+      "empresa": "IRB BRASIL ON"
+    },
+    {
+      "codigo": "AGRO3",
+      "empresa": "BRASIL AGRO ON"
+    },
+    {
+      "codigo": "BRKM5",
+      "empresa": "BRASKEM PNA"
+    },
+    {
+      "codigo": "BRKM3",
+      "empresa": "BRASKEM ON"
+    },
+    {
+      "codigo": "BRKM6",
+      "empresa": "BRASKEM PNB"
+    },
+    {
+      "codigo": "BSLI3",
+      "empresa": "BRB BANCO ON"
+    },
+    {
+      "codigo": "BSLI4",
+      "empresa": "BRB BANCO PN"
+    },
+    {
+      "codigo": "BRFS3",
+      "empresa": "BRF S/A ON"
+    },
+    {
+      "codigo": "BRQB3",
+      "empresa": "BRQ ON"
+    },
+    {
+      "codigo": "CEAB3",
+      "empresa": "C&A ON"
+    },
+    {
+      "codigo": "CABI3B",
+      "empresa": "CABINDA PARTICIPACOES ON"
+    },
+    {
+      "codigo": "CACO3B",
+      "empresa": "CACONDE PARTICIPACOES ON"
+    },
+    {
+      "codigo": "CAIA3B",
+      "empresa": "CAIANDA PARTICIPACOES ON"
+    },
+    {
+      "codigo": "CAMB3",
+      "empresa": "CAMBUCI ON"
+    },
+    {
+      "codigo": "CAMB4",
+      "empresa": "CAMBUCI PN"
+    },
+    {
+      "codigo": "CAML3",
+      "empresa": "CAMIL ALIMENTOS ON"
+    },
+    {
+      "codigo": "ACML4L",
+      "empresa": "CAMILA PN PN"
+    },
+    {
+      "codigo": "CPTP3B",
+      "empresa": "CAPITALPART PARTICIPACOES ON"
+    },
+    {
+      "codigo": "CRFB3",
+      "empresa": "CARREFOUR ON"
+    },
+    {
+      "codigo": "CCRO3",
+      "empresa": "CCR ON"
+    },
+    {
+      "codigo": "CCXC3",
+      "empresa": "CCX CARVAO ON"
+    },
+    {
+      "codigo": "ENMA5B",
+      "empresa": "CEMAR PNA"
+    },
+    {
+      "codigo": "ENMA3B",
+      "empresa": "CEMAR ON"
+    },
+    {
+      "codigo": "ENMA6B",
+      "empresa": "CEMAR PNB"
+    },
+    {
+      "codigo": "EQMA6B",
+      "empresa": "CEMAR-CIA ENERGETICA DO ... PNB"
+    },
+    {
+      "codigo": "EQMA5B",
+      "empresa": "CEMAR-CIA ENERGETICA DO ... PNA"
+    },
+    {
+      "codigo": "EQMA3B",
+      "empresa": "CEMAR-CIA ENERGETICA DO ... ON"
+    },
+    {
+      "codigo": "MAPT3",
+      "empresa": "CEMPE ON"
+    },
+    {
+      "codigo": "MAPT4",
+      "empresa": "CEMPE PN"
+    },
+    {
+      "codigo": "CCNO5L",
+      "empresa": "CENO NORTE PNA PNA"
+    },
+    {
+      "codigo": "CTNR11L",
+      "empresa": "CENTENOR EMPREENDIMENTOS PNE"
+    },
+    {
+      "codigo": "ELET3",
+      "empresa": "ELETROBRAS ON"
+    },
+    {
+      "codigo": "ELET1",
+      "empresa": "ELETROBRAS ON"
+    },
+    {
+      "codigo": "ELET5",
+      "empresa": "ELETROBRAS PNA"
+    },
+    {
+      "codigo": "ELET11",
+      "empresa": "ELETROBRAS PNB"
+    },
+    {
+      "codigo": "ELET6",
+      "empresa": "ELETROBRAS PNB"
+    },
+    {
+      "codigo": "CLSC4",
+      "empresa": "CELESC PN"
+    },
+    {
+      "codigo": "CLSC3",
+      "empresa": "CELESC ON"
+    },
+    {
+      "codigo": "AALR3",
+      "empresa": "ALLIAR ON"
+    },
+    {
+      "codigo": "MCRJ11B",
+      "empresa": "CEPAC MCRJ CPA MB"
+    },
+    {
+      "codigo": "CTBA11BL",
+      "empresa": "CEPAC - CTBA"
+    },
+    {
+      "codigo": "CTBA11B",
+      "empresa": "CEPAC-CTBA CPA MB"
+    },
+    {
+      "codigo": "CESP5",
+      "empresa": "CESP PNA"
+    },
+    {
+      "codigo": "CESP3",
+      "empresa": "CESP ON"
+    },
+    {
+      "codigo": "CESP6",
+      "empresa": "CESP PNB"
+    },
+    {
+      "codigo": "PCAR3",
+      "empresa": "PÃO DE AÇUCAR ON"
+    },
+    {
+      "codigo": "PCAR4",
+      "empresa": "P.ACUCAR-CBD PN"
+    },
+    {
+      "codigo": "CASN3",
+      "empresa": "CASAN ON"
+    },
+    {
+      "codigo": "CASN4",
+      "empresa": "CASAN PN"
+    },
+    {
+      "codigo": "CASN1",
+      "empresa": "CASAN ON"
+    },
+    {
+      "codigo": "CASN2",
+      "empresa": "CASAN PN"
+    },
+    {
+      "codigo": "CEGR3",
+      "empresa": "CEG ON"
+    },
+    {
+      "codigo": "CEEB6",
+      "empresa": "COELBA PNB"
+    },
+    {
+      "codigo": "CEEB5",
+      "empresa": "COELBA PNA"
+    },
+    {
+      "codigo": "CEEB3",
+      "empresa": "COELBA ON"
+    },
+    {
+      "codigo": "CEBR5",
+      "empresa": "CEB PNA"
+    },
+    {
+      "codigo": "CEBR3",
+      "empresa": "CEB ON"
+    },
+    {
+      "codigo": "CEBR6",
+      "empresa": "CEB PNB"
+    },
+    {
+      "codigo": "COCE6",
+      "empresa": "COELCE PNB"
+    },
+    {
+      "codigo": "COCE3",
+      "empresa": "COELCE ON"
+    },
+    {
+      "codigo": "COCE5",
+      "empresa": "COELCE PNA"
+    },
+    {
+      "codigo": "CMIG3",
+      "empresa": "CEMIG ON"
+    },
+    {
+      "codigo": "CMIG4",
+      "empresa": "CEMIG PN"
+    },
+    {
+      "codigo": "CEPE6",
+      "empresa": "CELPE PNB"
+    },
+    {
+      "codigo": "CEPE5",
+      "empresa": "CELPE PNA"
+    },
+    {
+      "codigo": "CEPE3",
+      "empresa": "CELPE ON"
+    },
+    {
+      "codigo": "CSRN3",
+      "empresa": "COSERN ON"
+    },
+    {
+      "codigo": "CSRN6",
+      "empresa": "COSERN PNB"
+    },
+    {
+      "codigo": "CSRN5",
+      "empresa": "COSERN PNA"
+    },
+    {
+      "codigo": "CEED3",
+      "empresa": "CEEE-D ON"
+    },
+    {
+      "codigo": "CEED4",
+      "empresa": "CEEE-D PN"
+    },
+    {
+      "codigo": "FESA4",
+      "empresa": "FERBASA PN"
+    },
+    {
+      "codigo": "FESA3",
+      "empresa": "FERBASA ON"
+    },
+    {
+      "codigo": "CEDO3",
+      "empresa": "CEDRO ON"
+    },
+    {
+      "codigo": "CEDO4",
+      "empresa": "CEDRO PN"
+    },
+    {
+      "codigo": "CGAS5",
+      "empresa": "COMGÁS PNA"
+    },
+    {
+      "codigo": "CGAS3",
+      "empresa": "COMGÁS ON"
+    },
+    {
+      "codigo": "HBTS5",
+      "empresa": "HABITASUL PNA"
+    },
+    {
+      "codigo": "HBTS3",
+      "empresa": "HABITASUL ON"
+    },
+    {
+      "codigo": "HBTS6",
+      "empresa": "HABITASUL PNB"
+    },
+    {
+      "codigo": "HGTX3",
+      "empresa": "CIA HERING ON"
+    },
+    {
+      "codigo": "CATA4",
+      "empresa": "IND CATAGUAS PN"
+    },
+    {
+      "codigo": "CATA3",
+      "empresa": "IND CATAGUAS ON"
+    },
+    {
+      "codigo": "LCAM3",
+      "empresa": "LOCAMERICA ON"
+    },
+    {
+      "codigo": "MSPA3",
+      "empresa": "MELHOR SP ON"
+    },
+    {
+      "codigo": "MSPA4",
+      "empresa": "MELHOR SP PN"
+    },
+    {
+      "codigo": "CPLE6",
+      "empresa": "COPEL PNB"
+    },
+    {
+      "codigo": "CPLE5",
+      "empresa": "COPEL PNA"
+    },
+    {
+      "codigo": "CPLE3",
+      "empresa": "COPEL ON"
+    },
+    {
+      "codigo": "PEAB4",
+      "empresa": "PAR AL BAHIA PN"
+    },
+    {
+      "codigo": "PEAB3",
+      "empresa": "PAR AL BAHIA ON"
+    },
+    {
+      "codigo": "SAPR3",
+      "empresa": "SANEPAR ON"
+    },
+    {
+      "codigo": "SAPR4",
+      "empresa": "SANEPAR PN"
+    },
+    {
+      "codigo": "CSMG3",
+      "empresa": "COPASA ON"
+    },
+    {
+      "codigo": "CSAB3",
+      "empresa": "SEG AL BAHIA ON"
+    },
+    {
+      "codigo": "CSAB4",
+      "empresa": "SEG AL BAHIA PN"
+    },
+    {
+      "codigo": "CSNA3",
+      "empresa": "SID NACIONAL ON"
+    },
+    {
+      "codigo": "CTNM4",
+      "empresa": "COTEMINAS PN"
+    },
+    {
+      "codigo": "CTNM3",
+      "empresa": "COTEMINAS ON"
+    },
+    {
+      "codigo": "CTSA4",
+      "empresa": "SANTANENSE PN"
+    },
+    {
+      "codigo": "CTSA3",
+      "empresa": "SANTANENSE ON"
+    },
+    {
+      "codigo": "CTSA8",
+      "empresa": "SANTANENSE PND"
+    },
+    {
+      "codigo": "TRPL3",
+      "empresa": "ISA CTEEP ON"
+    },
+    {
+      "codigo": "TRPL4",
+      "empresa": "ISA CTEEP PN"
+    },
+    {
+      "codigo": "VALE3",
+      "empresa": "VALE ON"
+    },
+    {
+      "codigo": "CIAG6L",
+      "empresa": "CIAGRA CIA AGROPASTORIAL... PNB"
+    },
+    {
+      "codigo": "CIEL3",
+      "empresa": "CIELO ON"
+    },
+    {
+      "codigo": "CMSA3",
+      "empresa": "CIMS ON"
+    },
+    {
+      "codigo": "CMSA4",
+      "empresa": "CIMS PN"
+    },
+    {
+      "codigo": "CNSY3",
+      "empresa": "CINESYSTEM ON"
+    },
+    {
+      "codigo": "COGN3",
+      "empresa": "COGNA ON"
+    },
+    {
+      "codigo": "TF703",
+      "empresa": "COMMON STOCK ON"
+    },
+    {
+      "codigo": "TF693",
+      "empresa": "COMMON STOCK ON"
+    },
+    {
+      "codigo": "TF713",
+      "empresa": "COMMON STOCK ON"
+    },
+    {
+      "codigo": "TF694",
+      "empresa": "COMMON STOCK ON"
+    },
+    {
+      "codigo": "TF704",
+      "empresa": "COMMON STOCK ON"
+    },
+    {
+      "codigo": "TF724",
+      "empresa": "COMMON STOCK ON"
+    },
+    {
+      "codigo": "TF714",
+      "empresa": "COMMON STOCK ON"
+    },
+    {
+      "codigo": "TF723",
+      "empresa": "COMMON STOCK ON"
+    },
+    {
+      "codigo": "GPAR3",
+      "empresa": "CELGPAR ON"
+    },
+    {
+      "codigo": "GPAR1",
+      "empresa": "CELGPAR ON"
+    },
+    {
+      "codigo": "SBSP3",
+      "empresa": "SABESP ON"
+    },
+    {
+      "codigo": "EEEL4",
+      "empresa": "CEEE-GT PN"
+    },
+    {
+      "codigo": "EEEL3",
+      "empresa": "CEEE-GT ON"
+    },
+    {
+      "codigo": "CRTE3B",
+      "empresa": "CONCESSIONARIA RIO TERES... ON"
+    },
+    {
+      "codigo": "CRTE5B",
+      "empresa": "CONCESSIONARIA RIO TERES... PNA"
+    },
+    {
+      "codigo": "ODER4",
+      "empresa": "ODERICH PN"
+    },
+    {
+      "codigo": "ODER3",
+      "empresa": "ODERICH ON"
+    },
+    {
+      "codigo": "BRGE11",
+      "empresa": "ALFA CONSORCIO PNE"
+    },
+    {
+      "codigo": "BRGE12",
+      "empresa": "ALFA CONSORCIO PNF"
+    },
+    {
+      "codigo": "BRGE5",
+      "empresa": "ALFA CONSORCIO PNA"
+    },
+    {
+      "codigo": "BRGE3",
+      "empresa": "ALFA CONSORCIO ON"
+    },
+    {
+      "codigo": "BRGE8",
+      "empresa": "ALFA CONSORCIO PND"
+    },
+    {
+      "codigo": "BRGE7",
+      "empresa": "ALFA CONSORCIO PNC"
+    },
+    {
+      "codigo": "BRGE6",
+      "empresa": "ALFA CONSORCIO PNB"
+    },
+    {
+      "codigo": "CALI3",
+      "empresa": "CONSTRUTORA ADOLFO L ON"
+    },
+    {
+      "codigo": "CALI4",
+      "empresa": "CONSTRUTORA ADOLFO L PN"
+    },
+    {
+      "codigo": "TEND3",
+      "empresa": "TENDA ON"
+    },
+    {
+      "codigo": "CORR3",
+      "empresa": "COR RIBEIRO ON"
+    },
+    {
+      "codigo": "CORR4",
+      "empresa": "COR RIBEIRO PN"
+    },
+    {
+      "codigo": "RLOG3",
+      "empresa": "COSAN LOG ON"
+    },
+    {
+      "codigo": "CSAN3",
+      "empresa": "COSAN ON"
+    },
+    {
+      "codigo": "CPFE3",
+      "empresa": "CPFL ENERGIA ON"
+    },
+    {
+      "codigo": "CPRE3L",
+      "empresa": "CPFL RENOVÁVEL ON"
+    },
+    {
+      "codigo": "CPRE3",
+      "empresa": "CPFL RENOVÁVEL ON"
+    },
+    {
+      "codigo": "CRDE3",
+      "empresa": "CR2 ON"
+    },
+    {
+      "codigo": "CARD3",
+      "empresa": "CSU CARDSYSTEM ON"
+    },
+    {
+      "codigo": "CTCA3",
+      "empresa": "CTC CENTRO DE TECNOLOGIA... ON"
+    },
+    {
+      "codigo": "CVCB1",
+      "empresa": "CVC BRASIL ON"
+    },
+    {
+      "codigo": "CVCB3",
+      "empresa": "CVC BRASIL ON"
+    },
+    {
+      "codigo": "CYRE3",
+      "empresa": "CYRELA REALT ON"
+    },
+    {
+      "codigo": "CCPR3",
+      "empresa": "CYRELA COMMERCIAL PROP ON"
+    },
+    {
+      "codigo": "DMVF3",
+      "empresa": "D1000 VAREJO FARMA PARTI... ON"
+    },
+    {
+      "codigo": "DASA1",
+      "empresa": "DASA ON"
+    },
+    {
+      "codigo": "DASA3",
+      "empresa": "DASA ON"
+    },
+    {
+      "codigo": "PNVL4",
+      "empresa": "DIMED PN"
+    },
+    {
+      "codigo": "PNVL3",
+      "empresa": "DIMED ON"
+    },
+    {
+      "codigo": "DIRR3",
+      "empresa": "DIRECIONAL ON"
+    },
+    {
+      "codigo": "DOHL4",
+      "empresa": "DOHLER PN"
+    },
+    {
+      "codigo": "DOHL3",
+      "empresa": "DOHLER ON"
+    },
+    {
+      "codigo": "CRVD5L",
+      "empresa": "DON CAROLINA PNA PNA"
+    },
+    {
+      "codigo": "DTCY4",
+      "empresa": "DTCOM PN"
+    },
+    {
+      "codigo": "DTCY3",
+      "empresa": "DTCOM ON"
+    },
+    {
+      "codigo": "DTCY1",
+      "empresa": "DTCOM ON"
+    },
+    {
+      "codigo": "DTEX3",
+      "empresa": "DURATEX ON"
+    },
+    {
+      "codigo": "OULG12B",
+      "empresa": "E OULG11 B"
+    },
+    {
+      "codigo": "ECOR3",
+      "empresa": "ECORODOVIAS ON"
+    },
+    {
+      "codigo": "ENBR3",
+      "empresa": "ENERGIAS BR ON"
+    },
+    {
+      "codigo": "EALT4",
+      "empresa": "AÇO ALTONA PN"
+    },
+    {
+      "codigo": "EALT3",
+      "empresa": "AÇO ALTONA ON"
+    },
+    {
+      "codigo": "ELEK4L",
+      "empresa": "ELEKEIROZ PN"
+    },
+    {
+      "codigo": "ELEK4",
+      "empresa": "ELEKEIROZ PN"
+    },
+    {
+      "codigo": "ELEK3L",
+      "empresa": "ELEKEIROZ ON"
+    },
+    {
+      "codigo": "ELEK3",
+      "empresa": "ELEKEIROZ ON"
+    },
+    {
+      "codigo": "ELEK11L",
+      "empresa": "ELEKEIROZ ON"
+    },
+    {
+      "codigo": "ELEK12L",
+      "empresa": "ELEKEIROZ PN"
+    },
+    {
+      "codigo": "EKTR4",
+      "empresa": "ELEKTRO PN"
+    },
+    {
+      "codigo": "EKTR3",
+      "empresa": "ELEKTRO ON"
+    },
+    {
+      "codigo": "LIPR3",
+      "empresa": "ELETROPAR ON"
+    },
+    {
+      "codigo": "ETRO3B",
+      "empresa": "ELETRON ON"
+    },
+    {
+      "codigo": "ELPL3L",
+      "empresa": "ELETROPAULO ON"
+    },
+    {
+      "codigo": "ELPL3",
+      "empresa": "ELETROPAULO ON"
+    },
+    {
+      "codigo": "EMAE4",
+      "empresa": "EMAE PN"
+    },
+    {
+      "codigo": "EMAE3",
+      "empresa": "EMAE ON"
+    },
+    {
+      "codigo": "EMBR3",
+      "empresa": "EMBRAER ON"
+    },
+    {
+      "codigo": "ECPR4",
+      "empresa": "ENCORPAR PN"
+    },
+    {
+      "codigo": "ECPR3",
+      "empresa": "ENCORPAR ON"
+    },
+    {
+      "codigo": "ENAT3",
+      "empresa": "ENAUTA ON"
+    },
+    {
+      "codigo": "ENMT3",
+      "empresa": "ENERGISA MT ON"
+    },
+    {
+      "codigo": "ENMT2",
+      "empresa": "ENERGISA MT PN"
+    },
+    {
+      "codigo": "ENMT1",
+      "empresa": "ENERGISA MT ON"
+    },
+    {
+      "codigo": "ENMT4",
+      "empresa": "ENERGISA MT PN"
+    },
+    {
+      "codigo": "ENGI12",
+      "empresa": "ENERGISA"
+    },
+    {
+      "codigo": "ENGI3",
+      "empresa": "ENERGISA ON"
+    },
+    {
+      "codigo": "ENGI4",
+      "empresa": "ENERGISA PN"
+    },
+    {
+      "codigo": "ENEV3",
+      "empresa": "ENEVA ON"
+    },
+    {
+      "codigo": "EGIE3",
+      "empresa": "ENGIE BRASIL ON"
+    },
+    {
+      "codigo": "EQPA5",
+      "empresa": "EQTL PARA PNA"
+    },
+    {
+      "codigo": "EQPA3",
+      "empresa": "EQTL PARA ON"
+    },
+    {
+      "codigo": "EQPA7",
+      "empresa": "EQTL PARA PNC"
+    },
+    {
+      "codigo": "EQPA6",
+      "empresa": "EQTL PARA PNB"
+    },
+    {
+      "codigo": "EQTL3",
+      "empresa": "EQUATORIAL ON"
+    },
+    {
+      "codigo": "CELP3",
+      "empresa": "CELPA ON"
+    },
+    {
+      "codigo": "CELP6",
+      "empresa": "CELPA PNB"
+    },
+    {
+      "codigo": "CELP7",
+      "empresa": "CELPA PNC"
+    },
+    {
+      "codigo": "CELP5",
+      "empresa": "CELPA PNA"
+    },
+    {
+      "codigo": "ETER9",
+      "empresa": "ETERNIT ON"
+    },
+    {
+      "codigo": "ETER3",
+      "empresa": "ETERNIT ON"
+    },
+    {
+      "codigo": "ETER1",
+      "empresa": "ETERNIT ON"
+    },
+    {
+      "codigo": "EUCA4",
+      "empresa": "EUCATEX PN"
+    },
+    {
+      "codigo": "EUCA3",
+      "empresa": "EUCATEX ON"
+    },
+    {
+      "codigo": "EVEN3",
+      "empresa": "EVEN ON"
+    },
+    {
+      "codigo": "BAUH4",
+      "empresa": "EXCELSIOR PN"
+    },
+    {
+      "codigo": "BAUH3",
+      "empresa": "EXCELSIOR ON"
+    },
+    {
+      "codigo": "EZTC3",
+      "empresa": "EZTEC ON"
+    },
+    {
+      "codigo": "OUFF12",
+      "empresa": "FD DE INV IMOBLIARIO OUR..."
+    },
+    {
+      "codigo": "TGAR12",
+      "empresa": "FD INAV IM ATIV RE COTAS"
+    },
+    {
+      "codigo": "RECT12",
+      "empresa": "FDO INV IMOB FII UBS BR ..."
+    },
+    {
+      "codigo": "VSPT3",
+      "empresa": "FERROVIA CENTRO ATL ON"
+    },
+    {
+      "codigo": "VSPT4",
+      "empresa": "FERROVIA CENTRO ATL PN"
+    },
+    {
+      "codigo": "FHER3",
+      "empresa": "FER HERINGER ON"
+    },
+    {
+      "codigo": "FMSA6L",
+      "empresa": "FIACAO ALGODAO MOCO SA F... PNB"
+    },
+    {
+      "codigo": "BCFF12",
+      "empresa": "FIBRA CIA SECURIT DE CRE..."
+    },
+    {
+      "codigo": "CPTS12B",
+      "empresa": "FII CAPI SEC CI MB"
+    },
+    {
+      "codigo": "HGCR12",
+      "empresa": "FII CSHG CRI CI"
+    },
+    {
+      "codigo": "VRTA12",
+      "empresa": "FII FATOR VE"
+    },
+    {
+      "codigo": "HCTR12",
+      "empresa": "FII HECTARE CI"
+    },
+    {
+      "codigo": "HSML12",
+      "empresa": "FII HSI MALLCI"
+    },
+    {
+      "codigo": "MXRF12",
+      "empresa": "FII MAXI REN"
+    },
+    {
+      "codigo": "MGFF12",
+      "empresa": "FII MONGNO CI"
+    },
+    {
+      "codigo": "PORD12",
+      "empresa": "FII POLO CRI CI"
+    },
+    {
+      "codigo": "RBCO12",
+      "empresa": "FII R INCOMEDM BRAZIL ST..."
+    },
+    {
+      "codigo": "RBFF12",
+      "empresa": "FII RB CAPITAL DESENVOLV..."
+    },
+    {
+      "codigo": "RBRP12",
+      "empresa": "FII RBR PROPCI"
+    },
+    {
+      "codigo": "RBRF12",
+      "empresa": "FII RBRALPHACI"
+    },
+    {
+      "codigo": "UBSR12",
+      "empresa": "FII UBS CI"
+    },
+    {
+      "codigo": "UBSR16",
+      "empresa": "FII UBS CI"
+    },
+    {
+      "codigo": "VGIP12",
+      "empresa": "FII VALORA CRI INDICE DE..."
+    },
+    {
+      "codigo": "VILG12",
+      "empresa": "FII VINCILOGCI EB"
+    },
+    {
+      "codigo": "VISC13",
+      "empresa": "FII VINVI SCCI"
+    },
+    {
+      "codigo": "XPCI12",
+      "empresa": "FII XP CREDITO"
+    },
+    {
+      "codigo": "XPHT14",
+      "empresa": "FII XP HOT CI"
+    },
+    {
+      "codigo": "XPIN12",
+      "empresa": "FII XP INDL CI ER"
+    },
+    {
+      "codigo": "CRIV3",
+      "empresa": "ALFA FINANC ON"
+    },
+    {
+      "codigo": "CRIV4",
+      "empresa": "ALFA FINANC PN"
+    },
+    {
+      "codigo": "FLRY3",
+      "empresa": "FLEURY ON"
+    },
+    {
+      "codigo": "FLEX3",
+      "empresa": "FLEX GESTAO DE RELACIONA... ON"
+    },
+    {
+      "codigo": "FLYC5L",
+      "empresa": "FLY ACAI PNA PNA"
+    },
+    {
+      "codigo": "FJTA3",
+      "empresa": "FORJA TAURUS ON"
+    },
+    {
+      "codigo": "FJTA4",
+      "empresa": "FORJA TAURUS PN"
+    },
+    {
+      "codigo": "FNAG5L",
+      "empresa": "FRANGO NORTE PNA PNA"
+    },
+    {
+      "codigo": "FRAS3",
+      "empresa": "FRAS-LE ON"
+    },
+    {
+      "codigo": "FVIT5L",
+      "empresa": "FRUTIVITA PNA"
+    },
+    {
+      "codigo": "GFSA3",
+      "empresa": "GAFISA ON"
+    },
+    {
+      "codigo": "GFSA1",
+      "empresa": "GAFISA ON"
+    },
+    {
+      "codigo": "GFSA11",
+      "empresa": "GAFISA"
+    },
+    {
+      "codigo": "GFSA12",
+      "empresa": "GAFISA"
+    },
+    {
+      "codigo": "GFSA9",
+      "empresa": "GAFISA ON"
+    },
+    {
+      "codigo": "OPGM3B",
+      "empresa": "GAMA PARTICIPACOES ON"
+    },
+    {
+      "codigo": "GPSA5L",
+      "empresa": "GAMELEIRA PNA PNA"
+    },
+    {
+      "codigo": "GESA7L",
+      "empresa": "GEMASA PNC PNC"
+    },
+    {
+      "codigo": "GSHP3",
+      "empresa": "GENERAL SHOP ON"
+    },
+    {
+      "codigo": "GGBR4",
+      "empresa": "GERDAU PN"
+    },
+    {
+      "codigo": "GGBR3",
+      "empresa": "GERDAU ON"
+    },
+    {
+      "codigo": "GOLL11",
+      "empresa": "GOL PN"
+    },
+    {
+      "codigo": "GOLL4",
+      "empresa": "GOL PN"
+    },
+    {
+      "codigo": "GOLL12",
+      "empresa": "GOL PN"
+    },
+    {
+      "codigo": "GPCP4",
+      "empresa": "GPC PART PN"
+    },
+    {
+      "codigo": "GPCP3",
+      "empresa": "GPC PART ON"
+    },
+    {
+      "codigo": "CGRA4",
+      "empresa": "GRAZZIOTIN PN"
+    },
+    {
+      "codigo": "CGRA3",
+      "empresa": "GRAZZIOTIN ON"
+    },
+    {
+      "codigo": "GRND3",
+      "empresa": "GRENDENE ON"
+    },
+    {
+      "codigo": "SOMA3",
+      "empresa": "GRUPO DE MODA SOMA ON"
+    },
+    {
+      "codigo": "CNTO3",
+      "empresa": "CENTAURO ON"
+    },
+    {
+      "codigo": "GSOM3",
+      "empresa": "GRUPO SOMA S.A"
+    },
+    {
+      "codigo": "GUAR3",
+      "empresa": "GUARARAPES ON"
+    },
+    {
+      "codigo": "HAGA3",
+      "empresa": "HAGA ON"
+    },
+    {
+      "codigo": "HAGA4",
+      "empresa": "HAGA PN"
+    },
+    {
+      "codigo": "HAPV3",
+      "empresa": "HAPVIDA ON"
+    },
+    {
+      "codigo": "HBOR3",
+      "empresa": "HELBOR ON"
+    },
+    {
+      "codigo": "HETA4",
+      "empresa": "HERCULES PN"
+    },
+    {
+      "codigo": "HETA3",
+      "empresa": "HERCULES ON"
+    },
+    {
+      "codigo": "HOOT3",
+      "empresa": "HOTEIS OTHON ON"
+    },
+    {
+      "codigo": "HOOT4",
+      "empresa": "HOTEIS OTHON PN"
+    },
+    {
+      "codigo": "HCCR4L",
+      "empresa": "HOTEL CAICARA PN"
+    },
+    {
+      "codigo": "HYPE3",
+      "empresa": "HYPERA ON"
+    },
+    {
+      "codigo": "JBDU4",
+      "empresa": "J B DUARTE PN"
+    },
+    {
+      "codigo": "JBDU3",
+      "empresa": "J B DUARTE ON"
+    },
+    {
+      "codigo": "ROMI3",
+      "empresa": "INDS ROMI ON"
+    },
+    {
+      "codigo": "INEP4",
+      "empresa": "INEPAR PN"
+    },
+    {
+      "codigo": "INEP3",
+      "empresa": "INEPAR ON"
+    },
+    {
+      "codigo": "INGA4L",
+      "empresa": "INGA AGROFLORESTAL PN"
+    },
+    {
+      "codigo": "SLCT3B",
+      "empresa": "INNCORP ON"
+    },
+    {
+      "codigo": "PARD3",
+      "empresa": "IHPARDINI ON"
+    },
+    {
+      "codigo": "INNT3",
+      "empresa": "INTER CONSTRUTORA ON"
+    },
+    {
+      "codigo": "GNDI3",
+      "empresa": "INTERMEDICA ON"
+    },
+    {
+      "codigo": "MEAL3",
+      "empresa": "IMC S/A ON"
+    },
+    {
+      "codigo": "FIGE4",
+      "empresa": "INVEST BEMGE PN"
+    },
+    {
+      "codigo": "FIGE3",
+      "empresa": "INVEST BEMGE ON"
+    },
+    {
+      "codigo": "IVPR3B",
+      "empresa": "INVESTS PARTICIPACOES IN... ON"
+    },
+    {
+      "codigo": "IVPR4B",
+      "empresa": "INVESTS PARTICIPACOES IN... PN"
+    },
+    {
+      "codigo": "MYPK3",
+      "empresa": "IOCHP-MAXION ON"
+    },
+    {
+      "codigo": "RANI3",
+      "empresa": "CELULOSE IRANI ON"
+    },
+    {
+      "codigo": "RANI4",
+      "empresa": "CELULOSE IRANI PN"
+    },
+    {
+      "codigo": "IGSA5L",
+      "empresa": "IRRIGACAO SANTO ANDRE SA... PNA"
+    },
+    {
+      "codigo": "ISEE11",
+      "empresa": "ISE INDICE SUSTENTABILID..."
+    },
+    {
+      "codigo": "ICO211",
+      "empresa": "ISHARES CARBON EFFICIENT"
+    },
+    {
+      "codigo": "ITUB4",
+      "empresa": "ITAU UNIBANCO PN"
+    },
+    {
+      "codigo": "ITUB3",
+      "empresa": "ITAU UNIBANCO ON"
+    },
+    {
+      "codigo": "ITSA3",
+      "empresa": "ITAUSA ON"
+    },
+    {
+      "codigo": "ITSA4",
+      "empresa": "ITAUSA PN"
+    },
+    {
+      "codigo": "JAHY5L",
+      "empresa": "JAHYR SEIXAS GONCALVES A... PNA"
+    },
+    {
+      "codigo": "JBSS3",
+      "empresa": "JBS ON"
+    },
+    {
+      "codigo": "JPSA3",
+      "empresa": "JEREISSATI ON"
+    },
+    {
+      "codigo": "JHSF3",
+      "empresa": "JHSF PART ON"
+    },
+    {
+      "codigo": "JFEN3",
+      "empresa": "JOAO FORTES ON"
+    },
+    {
+      "codigo": "JOPA4",
+      "empresa": "JOSAPAR PN"
+    },
+    {
+      "codigo": "JOPA3",
+      "empresa": "JOSAPAR ON"
+    },
+    {
+      "codigo": "JSLG3",
+      "empresa": "JSL ON"
+    },
+    {
+      "codigo": "CTKA3",
+      "empresa": "KARSTEN ON"
+    },
+    {
+      "codigo": "CTKA4",
+      "empresa": "KARSTEN PN"
+    },
+    {
+      "codigo": "KEPL3",
+      "empresa": "KEPLER WEBER ON"
+    },
+    {
+      "codigo": "KEPL11",
+      "empresa": "KEPLER WEBER"
+    },
+    {
+      "codigo": "KLBN4",
+      "empresa": "KLABIN PN"
+    },
+    {
+      "codigo": "KLBN3",
+      "empresa": "KLABIN ON"
+    },
+    {
+      "codigo": "LMED3",
+      "empresa": "LIFEMED ON"
+    },
+    {
+      "codigo": "LIGT3",
+      "empresa": "LIGHT ON"
+    },
+    {
+      "codigo": "LINX3",
+      "empresa": "LINX ON"
+    },
+    {
+      "codigo": "LIQO3",
+      "empresa": "LIQ ON"
+    },
+    {
+      "codigo": "LIQO1",
+      "empresa": "LIQ ON"
+    },
+    {
+      "codigo": "LTEL5B",
+      "empresa": "LITEL PNA"
+    },
+    {
+      "codigo": "LTEL3B",
+      "empresa": "LITEL PARTICIPACOES ON"
+    },
+    {
+      "codigo": "LTLA3B",
+      "empresa": "LITELA PARTICIPACOES ON"
+    },
+    {
+      "codigo": "RENT3",
+      "empresa": "LOCALIZA ON"
+    },
+    {
+      "codigo": "LWSA3",
+      "empresa": "LOCAWEB ON"
+    },
+    {
+      "codigo": "LOGG3",
+      "empresa": "LOG COMMERCIAL ON"
+    },
+    {
+      "codigo": "LOGN3",
+      "empresa": "LOG IN ON"
+    },
+    {
+      "codigo": "LAME4",
+      "empresa": "LOJAS AMERICANAS PN"
+    },
+    {
+      "codigo": "LAME9",
+      "empresa": "LOJAS AMERIC ON"
+    },
+    {
+      "codigo": "LAME10",
+      "empresa": "LOJAS AMERIC PN"
+    },
+    {
+      "codigo": "LAME3",
+      "empresa": "LOJAS AMERICANAS ON"
+    },
+    {
+      "codigo": "LAME2",
+      "empresa": "LOJAS AMERIC PN"
+    },
+    {
+      "codigo": "LAME1",
+      "empresa": "LOJAS AMERIC ON"
+    },
+    {
+      "codigo": "AMAR3",
+      "empresa": "LOJAS MARISA ON"
+    },
+    {
+      "codigo": "LJQQ3",
+      "empresa": "LOJAS QUERO-QUERO ON"
+    },
+    {
+      "codigo": "LREN3",
+      "empresa": "LOJAS RENNER ON"
+    },
+    {
+      "codigo": "LPSB3",
+      "empresa": "LOPES BRASIL ON"
+    },
+    {
+      "codigo": "LUPA3",
+      "empresa": "LUPATECH ON"
+    },
+    {
+      "codigo": "LUPA11",
+      "empresa": "LUPATECH ON"
+    },
+    {
+      "codigo": "MDIA3",
+      "empresa": "M.DIAS BRANCO ON"
+    },
+    {
+      "codigo": "MSRO3",
+      "empresa": "MAESTRO LOCADORA ON"
+    },
+    {
+      "codigo": "MGLU3",
+      "empresa": "MAGAZINE LUIZA ON"
+    },
+    {
+      "codigo": "LEVE3",
+      "empresa": "METAL LEVE ON"
+    },
+    {
+      "codigo": "MGEL4",
+      "empresa": "MANGELS PN"
+    },
+    {
+      "codigo": "MGEL3",
+      "empresa": "MANGELS ON"
+    },
+    {
+      "codigo": "ESTR3",
+      "empresa": "ESTRELA ON"
+    },
+    {
+      "codigo": "ESTR4",
+      "empresa": "ESTRELA PN"
+    },
+    {
+      "codigo": "POMO3",
+      "empresa": "MARCOPOLO ON"
+    },
+    {
+      "codigo": "POMO4",
+      "empresa": "MARCOPOLO PN"
+    },
+    {
+      "codigo": "MRFG3",
+      "empresa": "MARFRIG ON"
+    },
+    {
+      "codigo": "MAXV6L",
+      "empresa": "MAXVINIL PNB PNB"
+    },
+    {
+      "codigo": "MAXV7L",
+      "empresa": "MAXVINIL PNB PNC"
+    },
+    {
+      "codigo": "MEND6",
+      "empresa": "MENDES JR PNB"
+    },
+    {
+      "codigo": "MEND5",
+      "empresa": "MENDES JR PNA"
+    },
+    {
+      "codigo": "MEND3",
+      "empresa": "MENDES JR ON"
+    },
+    {
+      "codigo": "MERC4",
+      "empresa": "MERCANTIL DO BRASIL PN"
+    },
+    {
+      "codigo": "MERC3",
+      "empresa": "MERCANTIL DO BRASIL ON"
+    },
+    {
+      "codigo": "FRIO3",
+      "empresa": "METALFRIO ON"
+    },
+    {
+      "codigo": "MTIG3",
+      "empresa": "METAL IGUAÇU ON"
+    },
+    {
+      "codigo": "MTIG4",
+      "empresa": "METAL IGUAÇU PN"
+    },
+    {
+      "codigo": "GOAU3",
+      "empresa": "GERDAU MET ON"
+    },
+    {
+      "codigo": "GOAU4",
+      "empresa": "GERDAU MET PN"
+    },
+    {
+      "codigo": "RSUL4",
+      "empresa": "RIO SULENSE PN"
+    },
+    {
+      "codigo": "RSUL3",
+      "empresa": "RIO SULENSE ON"
+    },
+    {
+      "codigo": "MTSA3",
+      "empresa": "METISA ON"
+    },
+    {
+      "codigo": "MTSA4",
+      "empresa": "METISA PN"
+    },
+    {
+      "codigo": "MLCX11",
+      "empresa": "MIDLARGE CAP"
+    },
+    {
+      "codigo": "MILS3",
+      "empresa": "MILLS ON"
+    },
+    {
+      "codigo": "MMAQ4",
+      "empresa": "MINASMAQUINAS PN"
+    },
+    {
+      "codigo": "MMAQ3",
+      "empresa": "MINASMAQUINAS ON"
+    },
+    {
+      "codigo": "BEEF11",
+      "empresa": "MINERVA ON"
+    },
+    {
+      "codigo": "BEEF3",
+      "empresa": "MINERVA ON"
+    },
+    {
+      "codigo": "MNPR3",
+      "empresa": "MINUPAR ON"
+    },
+    {
+      "codigo": "MTRE",
+      "empresa": "MITRE REALTY EMPREENDIMENTOS E PARTICIPACOES LTDA"
+    },
+    {
+      "codigo": "MTRE3",
+      "empresa": "MITRE REALTY ON"
+    },
+    {
+      "codigo": "MMXM11",
+      "empresa": "MMX MINER"
+    },
+    {
+      "codigo": "MMXM3",
+      "empresa": "MMX MINER ON"
+    },
+    {
+      "codigo": "MOAR3",
+      "empresa": "MONT ARANHA ON"
+    },
+    {
+      "codigo": "MDNE3",
+      "empresa": "MOURA DUBEAUX ON"
+    },
+    {
+      "codigo": "MOVI3",
+      "empresa": "MOVIDA ON"
+    },
+    {
+      "codigo": "MRSA6B",
+      "empresa": "MRS LOGISTICA PNB"
+    },
+    {
+      "codigo": "MRSA3B",
+      "empresa": "MRS LOGISTICA ON"
+    },
+    {
+      "codigo": "MRSA5B",
+      "empresa": "MRS LOGISTICA PNA"
+    },
+    {
+      "codigo": "MRVE3",
+      "empresa": "MRV ON"
+    },
+    {
+      "codigo": "MULT3",
+      "empresa": "MULTIPLAN ON"
+    },
+    {
+      "codigo": "MNDL3",
+      "empresa": "MUNDIAL ON"
+    },
+    {
+      "codigo": "NAFG4L",
+      "empresa": "NADIR FIGUEI PN"
+    },
+    {
+      "codigo": "NAFG11L",
+      "empresa": "NADIR FIGUEI ON"
+    },
+    {
+      "codigo": "NAFG3L",
+      "empresa": "NADIR FIGUEI ON"
+    },
+    {
+      "codigo": "NAFG4",
+      "empresa": "NADIR FIGUEIREDO PN"
+    },
+    {
+      "codigo": "NAFG3",
+      "empresa": "NADIR FIGUEIREDO ON"
+    },
+    {
+      "codigo": "NAFG12L",
+      "empresa": "NADIR FIGUEI PN"
+    },
+    {
+      "codigo": "NTCO1",
+      "empresa": "NATURA ON"
+    },
+    {
+      "codigo": "NTCO9",
+      "empresa": "NATURA ON"
+    },
+    {
+      "codigo": "NTCO9L",
+      "empresa": "NATURA ON"
+    },
+    {
+      "codigo": "NTCO3",
+      "empresa": "NATURA ON"
+    },
+    {
+      "codigo": "NEOE3",
+      "empresa": "NEOENERGIA ON"
+    },
+    {
+      "codigo": "NORD3",
+      "empresa": "NORDON MET ON"
+    },
+    {
+      "codigo": "NRTQ3",
+      "empresa": "NORTEC QUIMICA ON"
+    },
+    {
+      "codigo": "NUTR3",
+      "empresa": "NUTRIPLANT ON"
+    },
+    {
+      "codigo": "ODPV3",
+      "empresa": "ODONTOPREV ON"
+    },
+    {
+      "codigo": "DMMO3",
+      "empresa": "DOMMO ON"
+    },
+    {
+      "codigo": "DMMO11",
+      "empresa": "DOMMO ON"
+    },
+    {
+      "codigo": "OIBR4",
+      "empresa": "OI PN"
+    },
+    {
+      "codigo": "OIBR3",
+      "empresa": "OI ON"
+    },
+    {
+      "codigo": "OMGE3",
+      "empresa": "OMEGA GER ON"
+    },
+    {
+      "codigo": "OPHE3B",
+      "empresa": "OPPORTUNITY ENERGIA PART... ON"
+    },
+    {
+      "codigo": "OSXB3",
+      "empresa": "OSX BRASIL ON"
+    },
+    {
+      "codigo": "OFSA3",
+      "empresa": "OUROFINO S/A ON"
+    },
+    {
+      "codigo": "PDTC",
+      "empresa": "PADTEC ON"
+    },
+    {
+      "codigo": "PDTC3",
+      "empresa": "PADTEC ON"
+    },
+    {
+      "codigo": "PATI9L",
+      "empresa": "PANATLANTICA ON"
+    },
+    {
+      "codigo": "PATI10",
+      "empresa": "PANATLANTICA PN"
+    },
+    {
+      "codigo": "PATI4",
+      "empresa": "PANATLANTICA PN"
+    },
+    {
+      "codigo": "PATI9",
+      "empresa": "PANATLANTICA ON"
+    },
+    {
+      "codigo": "PATI10L",
+      "empresa": "PANATLANTICA PN"
+    },
+    {
+      "codigo": "PATI3",
+      "empresa": "PANATLANTICA ON"
+    },
+    {
+      "codigo": "PMAM3",
+      "empresa": "PARANAPANEMA ON"
+    },
+    {
+      "codigo": "PPHT5L",
+      "empresa": "PAULISTA PRAIA HOTEL PNA"
+    },
+    {
+      "codigo": "PTBL3",
+      "empresa": "PORTOBELLO ON"
+    },
+    {
+      "codigo": "PDGR3",
+      "empresa": "PDG REALT ON"
+    },
+    {
+      "codigo": "PDGD5L",
+      "empresa": "PEDRA GRANDEPNA PNA"
+    },
+    {
+      "codigo": "PRIO3",
+      "empresa": "PETRORIO ON"
+    },
+    {
+      "codigo": "BRDT3",
+      "empresa": "PETROBRAS BR ON"
+    },
+    {
+      "codigo": "PETR3",
+      "empresa": "PETROBRAS ON"
+    },
+    {
+      "codigo": "PETR4",
+      "empresa": "PETROBRAS PN"
+    },
+    {
+      "codigo": "PTNT4",
+      "empresa": "PETTENATI PN"
+    },
+    {
+      "codigo": "PTNT3",
+      "empresa": "PETTENATI ON"
+    },
+    {
+      "codigo": "PNGU5L",
+      "empresa": "PINGUS PNA"
+    },
+    {
+      "codigo": "PLAS3",
+      "empresa": "PLASCAR PART ON"
+    },
+    {
+      "codigo": "PLAS11",
+      "empresa": "PLASCAR PART ON"
+    },
+    {
+      "codigo": "PPAR3",
+      "empresa": "POLPAR ON"
+    },
+    {
+      "codigo": "FRTA3",
+      "empresa": "POMIFRUTAS ON"
+    },
+    {
+      "codigo": "PSSA3",
+      "empresa": "PORTO SEGURO ON"
+    },
+    {
+      "codigo": "PSVM11",
+      "empresa": "PORTO SUDESTE"
+    },
+    {
+      "codigo": "POSI3",
+      "empresa": "POSITIVO TEC ON"
+    },
+    {
+      "codigo": "PTCA3",
+      "empresa": "PRATICA PNR M2 ON"
+    },
+    {
+      "codigo": "PTCA11",
+      "empresa": "PRATICA PNR M2 PN"
+    },
+    {
+      "codigo": "PMSP13B",
+      "empresa": "PREFEITURA MUNICIPAL SAO..."
+    },
+    {
+      "codigo": "PMSP12BL",
+      "empresa": "CEPAC - PMSP"
+    },
+    {
+      "codigo": "PMSP11B",
+      "empresa": "PREFEITURA MUNICIPAL SAO..."
+    },
+    {
+      "codigo": "PMSP12B",
+      "empresa": "PREFEITURA MUNICIPAL SAO..."
+    },
+    {
+      "codigo": "PRNR3",
+      "empresa": "PRINER ON"
+    },
+    {
+      "codigo": "PRMN3B",
+      "empresa": "PRODUTORES ENERGETICOS M... ON"
+    },
+    {
+      "codigo": "PFRM3",
+      "empresa": "PROFARMA ON"
+    },
+    {
+      "codigo": "PRPT3B",
+      "empresa": "PROMPT PARTICIPACOES ON"
+    },
+    {
+      "codigo": "QUAL3",
+      "empresa": "QUALICORP ON"
+    },
+    {
+      "codigo": "QUSW3",
+      "empresa": "QUALITY SOFTWARE ON"
+    },
+    {
+      "codigo": "RADL3",
+      "empresa": "RAIA DROGASIL ON"
+    },
+    {
+      "codigo": "RAPT3",
+      "empresa": "RANDON PART ON"
+    },
+    {
+      "codigo": "RAPT4",
+      "empresa": "RANDON PART PN"
+    },
+    {
+      "codigo": "RBRY13",
+      "empresa": "RBR PRIVATE CR"
+    },
+    {
+      "codigo": "RCSL4",
+      "empresa": "RECRUSUL PN"
+    },
+    {
+      "codigo": "RCSL3",
+      "empresa": "RECRUSUL ON"
+    },
+    {
+      "codigo": "REDE1",
+      "empresa": "REDE ENERGIA ON"
+    },
+    {
+      "codigo": "REDE3",
+      "empresa": "REDE ENERGIA ON"
+    },
+    {
+      "codigo": "RPMG3",
+      "empresa": "PET MANGUINH ON"
+    },
+    {
+      "codigo": "RNEW4",
+      "empresa": "RENOVA PN"
+    },
+    {
+      "codigo": "RNEW3",
+      "empresa": "RENOVA ON"
+    },
+    {
+      "codigo": "LLIS3",
+      "empresa": "LE LIS BLANC ON"
+    },
+    {
+      "codigo": "RCTA6L",
+      "empresa": "RIO CARTADO PNB"
+    },
+    {
+      "codigo": "GEPA3",
+      "empresa": "GER PARANAP ON"
+    },
+    {
+      "codigo": "GEPA4",
+      "empresa": "GER PARANAP PN"
+    },
+    {
+      "codigo": "RIPC6L",
+      "empresa": "RIOPEC PNC PNB"
+    },
+    {
+      "codigo": "RIPC8L",
+      "empresa": "RIOPEC PNC PND"
+    },
+    {
+      "codigo": "RIPC7L",
+      "empresa": "RIOPEC PNC PNC"
+    },
+    {
+      "codigo": "RDNI3",
+      "empresa": "RNI ON"
+    },
+    {
+      "codigo": "RCST6L",
+      "empresa": "ROCHA SANTOS AGROIND PNB"
+    },
+    {
+      "codigo": "RSID3",
+      "empresa": "ROSSI RESID ON"
+    },
+    {
+      "codigo": "FRRN5B",
+      "empresa": "RUMO MALHA NORTE PNA"
+    },
+    {
+      "codigo": "FRRN6B",
+      "empresa": "RUMO MALHA NORTE PNB"
+    },
+    {
+      "codigo": "FRRN3B",
+      "empresa": "RUMO MALHA NORTE ON"
+    },
+    {
+      "codigo": "RAIL3",
+      "empresa": "RUMO S.A ON"
+    },
+    {
+      "codigo": "SNSY3",
+      "empresa": "SANSUY ON"
+    },
+    {
+      "codigo": "SNSY6",
+      "empresa": "SANSUY PNB"
+    },
+    {
+      "codigo": "SNSY5",
+      "empresa": "SANSUY PNA"
+    },
+    {
+      "codigo": "STBP3",
+      "empresa": "SANTOS BRASIL ON"
+    },
+    {
+      "codigo": "SCAR3",
+      "empresa": "SÃO CARLOS ON"
+    },
+    {
+      "codigo": "CTVL5L",
+      "empresa": "SAO FRANCISCO TEXTIL PNA"
+    },
+    {
+      "codigo": "SMTO3",
+      "empresa": "SÃO MARTINHO ON"
+    },
+    {
+      "codigo": "ALPA4",
+      "empresa": "ALPARGATAS PN"
+    },
+    {
+      "codigo": "ALPA3",
+      "empresa": "ALPARGATAS ON"
+    },
+    {
+      "codigo": "AHEB13",
+      "empresa": "SPTURIS PNB"
+    },
+    {
+      "codigo": "AHEB5",
+      "empresa": "SP TURISMO PNA"
+    },
+    {
+      "codigo": "AHEB6",
+      "empresa": "SP TURISMO PNB"
+    },
+    {
+      "codigo": "AHEB11",
+      "empresa": "SPTURIS PNA"
+    },
+    {
+      "codigo": "AHEB1",
+      "empresa": "SPTURIS ON"
+    },
+    {
+      "codigo": "AHEB3",
+      "empresa": "SP TURISMO ON"
+    },
+    {
+      "codigo": "SLED12",
+      "empresa": "SARAIVA LIVR"
+    },
+    {
+      "codigo": "SLED11",
+      "empresa": "SARAIVA LIVR"
+    },
+    {
+      "codigo": "SLED4",
+      "empresa": "SARAIVA LIVR PN"
+    },
+    {
+      "codigo": "SLED1",
+      "empresa": "SARAIVA LIVR ON"
+    },
+    {
+      "codigo": "SLED3",
+      "empresa": "SARAIVA LIVR ON"
+    },
+    {
+      "codigo": "SLED2",
+      "empresa": "SARAIVA LIVR PN"
+    },
+    {
+      "codigo": "SLED13",
+      "empresa": "SARAIVA LIVR"
+    },
+    {
+      "codigo": "PSEG4",
+      "empresa": "SAUIPE SA (EX PARSEG PAR... PN"
+    },
+    {
+      "codigo": "PSEG3",
+      "empresa": "SAUIPE SA (EX PARSEG PAR... ON"
+    },
+    {
+      "codigo": "SHUL4",
+      "empresa": "SCHULZ PN"
+    },
+    {
+      "codigo": "SHUL3",
+      "empresa": "SCHULZ ON"
+    },
+    {
+      "codigo": "SEER3",
+      "empresa": "SER EDUCACIONAL ON"
+    },
+    {
+      "codigo": "SRAG5L",
+      "empresa": "SERMAR AGRO PNA PNA"
+    },
+    {
+      "codigo": "APTI4",
+      "empresa": "ALIPERTI PN"
+    },
+    {
+      "codigo": "APTI3",
+      "empresa": "ALIPERTI ON"
+    },
+    {
+      "codigo": "SNOP5L",
+      "empresa": "SINOP AGRO QUIMICA PNA"
+    },
+    {
+      "codigo": "SQIA3",
+      "empresa": "SINQIA ON"
+    },
+    {
+      "codigo": "SLCE3",
+      "empresa": "SLC AGRICOLA ON"
+    },
+    {
+      "codigo": "SMLL11",
+      "empresa": "SMALL CAP"
+    },
+    {
+      "codigo": "SMFT6",
+      "empresa": "SMART FIT PNB"
+    },
+    {
+      "codigo": "SMFT3",
+      "empresa": "SMARTFIT ON"
+    },
+    {
+      "codigo": "SMFT13",
+      "empresa": "SMART FIT PNA"
+    },
+    {
+      "codigo": "SMLS3",
+      "empresa": "SMILES ON"
+    },
+    {
+      "codigo": "ALSO3",
+      "empresa": "ALIANSCE SONAE ON"
+    },
+    {
+      "codigo": "SOND5",
+      "empresa": "SONDOTECNICA PNA"
+    },
+    {
+      "codigo": "SOND3",
+      "empresa": "SONDOTECNICA ON"
+    },
+    {
+      "codigo": "SOND6",
+      "empresa": "SONDOTECNICA PNB"
+    },
+    {
+      "codigo": "SPRI6",
+      "empresa": "SPRINGER PNB"
+    },
+    {
+      "codigo": "SPRI3",
+      "empresa": "SPRINGER ON"
+    },
+    {
+      "codigo": "SPRI5",
+      "empresa": "SPRINGER PNA"
+    },
+    {
+      "codigo": "SGPS3",
+      "empresa": "SPRINGS ON"
+    },
+    {
+      "codigo": "STTR3",
+      "empresa": "STARA ON"
+    },
+    {
+      "codigo": "STKF3",
+      "empresa": "STATKRAFT ENERGIAS RENOV... ON"
+    },
+    {
+      "codigo": "OPSE3B",
+      "empresa": "SUDESTE ON"
+    },
+    {
+      "codigo": "SUIA4L",
+      "empresa": "SUINOS AVES NORDESTE SA ... PN"
+    },
+    {
+      "codigo": "OPTS3B",
+      "empresa": "SUL 116 PARTICIPACOES ON"
+    },
+    {
+      "codigo": "SULA3",
+      "empresa": "SUL AMERICA ON"
+    },
+    {
+      "codigo": "SULA4",
+      "empresa": "SUL AMERICA PN"
+    },
+    {
+      "codigo": "NEMO3",
+      "empresa": "SUZANO HOLD ON"
+    },
+    {
+      "codigo": "NEMO5",
+      "empresa": "SUZANO HOLD PNA"
+    },
+    {
+      "codigo": "NEMO6",
+      "empresa": "SUZANO HOLD PNB"
+    },
+    {
+      "codigo": "SUZB3",
+      "empresa": "SUZANO PAPEL ON"
+    },
+    {
+      "codigo": "SHOW3",
+      "empresa": "TIME FOR FUN ON"
+    },
+    {
+      "codigo": "TASA3",
+      "empresa": "FORJA TAURUS ON"
+    },
+    {
+      "codigo": "TASA15",
+      "empresa": "FORJA TAURUS PN"
+    },
+    {
+      "codigo": "TASA4",
+      "empresa": "FORJA TAURUS PN"
+    },
+    {
+      "codigo": "TASA17",
+      "empresa": "FORJA TAURUS PN"
+    },
+    {
+      "codigo": "TASA13",
+      "empresa": "FORJA TAURUS PN"
+    },
+    {
+      "codigo": "TAUR4",
+      "empresa": "TAURUS ARMAS PN"
+    },
+    {
+      "codigo": "TAUR",
+      "empresa": "TAURUS ARMAS ON"
+    },
+    {
+      "codigo": "FJTA15",
+      "empresa": "FORJA TAURUS PN"
+    },
+    {
+      "codigo": "FJTA17",
+      "empresa": "FORJA TAURUS PN"
+    },
+    {
+      "codigo": "FJTA13",
+      "empresa": "FORJA TAURUS PN"
+    },
+    {
+      "codigo": "TXBZ5L",
+      "empresa": "TBM TEXTIL BEZERRA MENEZ... PNA"
+    },
+    {
+      "codigo": "TTEX5L",
+      "empresa": "TECELAGEM TEXITA PNA"
+    },
+    {
+      "codigo": "TECN3",
+      "empresa": "TECHNOS ON"
+    },
+    {
+      "codigo": "TCSA3",
+      "empresa": "TECNISA ON"
+    },
+    {
+      "codigo": "TCNO4",
+      "empresa": "TECNOSOLO PN"
+    },
+    {
+      "codigo": "TCNO3",
+      "empresa": "TECNOSOLO ON"
+    },
+    {
+      "codigo": "TGMA3",
+      "empresa": "TEGMA ON"
+    },
+    {
+      "codigo": "TEKA4",
+      "empresa": "TEKA PN"
+    },
+    {
+      "codigo": "TEKA3",
+      "empresa": "TEKA ON"
+    },
+    {
+      "codigo": "TKNO4",
+      "empresa": "TEKNO PN"
+    },
+    {
+      "codigo": "TKNO3",
+      "empresa": "TEKNO ON"
+    },
+    {
+      "codigo": "TELB4",
+      "empresa": "TELEBRAS PN"
+    },
+    {
+      "codigo": "TELB2",
+      "empresa": "TELEBRAS PN"
+    },
+    {
+      "codigo": "TELB1",
+      "empresa": "TELEBRAS ON"
+    },
+    {
+      "codigo": "TELB3",
+      "empresa": "TELEBRAS ON"
+    },
+    {
+      "codigo": "VIVT4",
+      "empresa": "TELEF BRASIL PN"
+    },
+    {
+      "codigo": "VIVT3",
+      "empresa": "TELEF BRASIL ON"
+    },
+    {
+      "codigo": "MNZC3B",
+      "empresa": "TERMINAL GARAGEM MENEZES... ON"
+    },
+    {
+      "codigo": "TBCC4L",
+      "empresa": "TERRA BRAVIA PN PN"
+    },
+    {
+      "codigo": "TESA3",
+      "empresa": "TERRA SANTA ON"
+    },
+    {
+      "codigo": "TESA12",
+      "empresa": "TERRA SANTA ON"
+    },
+    {
+      "codigo": "TXRX4",
+      "empresa": "TEX RENAUX PN"
+    },
+    {
+      "codigo": "TXRX3",
+      "empresa": "TEX RENAUX ON"
+    },
+    {
+      "codigo": "TIMP3",
+      "empresa": "TIM ON"
+    },
+    {
+      "codigo": "TOTS3",
+      "empresa": "TOTVS ON"
+    },
+    {
+      "codigo": "TPIS3",
+      "empresa": "TRIUNFO PART ON"
+    },
+    {
+      "codigo": "TCTN5L",
+      "empresa": "TRANSCONTINENTAL HOTEIS ... PNA"
+    },
+    {
+      "codigo": "TAEE3",
+      "empresa": "TAESA ON"
+    },
+    {
+      "codigo": "TAEE4",
+      "empresa": "TAESA PN"
+    },
+    {
+      "codigo": "LUXM4",
+      "empresa": "TREVISA PN"
+    },
+    {
+      "codigo": "LUXM3",
+      "empresa": "TREVISA ON"
+    },
+    {
+      "codigo": "TRIS3",
+      "empresa": "TRISUL ON"
+    },
+    {
+      "codigo": "CRPG5",
+      "empresa": "CRISTAL PNA"
+    },
+    {
+      "codigo": "CRPG3",
+      "empresa": "CRISTAL ON"
+    },
+    {
+      "codigo": "CRPG6",
+      "empresa": "CRISTAL PNB"
+    },
+    {
+      "codigo": "TUPY3",
+      "empresa": "TUPY ON"
+    },
+    {
+      "codigo": "UGPA3",
+      "empresa": "ULTRAPAR ON"
+    },
+    {
+      "codigo": "UCAS3",
+      "empresa": "UNICASA ON"
+    },
+    {
+      "codigo": "UNIP5",
+      "empresa": "UNIPAR PNA"
+    },
+    {
+      "codigo": "UNIP6",
+      "empresa": "UNIPAR PNB"
+    },
+    {
+      "codigo": "UNIP3",
+      "empresa": "UNIPAR ON"
+    },
+    {
+      "codigo": "UPKP3B",
+      "empresa": "UPTICK PARTICIPACOES ON"
+    },
+    {
+      "codigo": "USIM6",
+      "empresa": "USIMINAS PNB"
+    },
+    {
+      "codigo": "USIM3",
+      "empresa": "USIMINAS ON"
+    },
+    {
+      "codigo": "USIM5",
+      "empresa": "USIMINAS PNA"
+    },
+    {
+      "codigo": "UTIL11",
+      "empresa": "UTILITIES"
+    },
+    {
+      "codigo": "VLBN6L",
+      "empresa": "VALE BONITO PNB"
+    },
+    {
+      "codigo": "VLID3",
+      "empresa": "VALID ON"
+    },
+    {
+      "codigo": "VVAR3",
+      "empresa": "VIA VAREJO ON"
+    },
+    {
+      "codigo": "VIVA3",
+      "empresa": "VIVARA ON"
+    },
+    {
+      "codigo": "VIVR3",
+      "empresa": "VIVER ON"
+    },
+    {
+      "codigo": "VIVR1",
+      "empresa": "VIVER ON"
+    },
+    {
+      "codigo": "VULC3",
+      "empresa": "VULCABRAS ON"
+    },
+    {
+      "codigo": "WEGE3",
+      "empresa": "WEG ON"
+    },
+    {
+      "codigo": "MWET4",
+      "empresa": "WETZEL PN"
+    },
+    {
+      "codigo": "MWET3",
+      "empresa": "WETZEL ON"
+    },
+    {
+      "codigo": "WHRL4",
+      "empresa": "WHIRLPOOL PN"
+    },
+    {
+      "codigo": "WHRL3",
+      "empresa": "WHIRLPOOL ON"
+    },
+    {
+      "codigo": "WIZS3",
+      "empresa": "WIZ S.A ON"
+    },
+    {
+      "codigo": "WLMM4",
+      "empresa": "WLM PN"
+    },
+    {
+      "codigo": "WLMM3",
+      "empresa": "WLM ON"
+    },
+    {
+      "codigo": "XVTE5L",
+      "empresa": "XAVANTE AGRO PNA PNA"
+    },
+    {
+      "codigo": "XING5L",
+      "empresa": "XINGUARA IND PNA PNA"
+    },
+    {
+      "codigo": "XPLG12",
+      "empresa": "XP LOG FII COTAS"
+    },
+    {
+      "codigo": "XPML13",
+      "empresa": "XP MALLS FD INV"
+    },
+    {
+      "codigo": "YDUQ3",
+      "empresa": "ESTACIO PART ON"
+    },
+    {
+      "codigo": "QVQP3B",
+      "empresa": "524 PARTICIPACOES ON"
+    }
+  ]
+}
