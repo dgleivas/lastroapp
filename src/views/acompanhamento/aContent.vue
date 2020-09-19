@@ -17,6 +17,7 @@ import aresgates from "./content/aResgates"
 import aconta from "./content/aConta"
 import aajuda from "./content/aAjuda"
 import asair from "./content/aSair"
+import upload from "./content/Upload"
 
 export default {
   data() {
@@ -34,7 +35,8 @@ export default {
     aresgates,
     aconta,
     aajuda,
-    asair
+    asair,
+    upload
   },
   watch: {
     $route(newValue) {

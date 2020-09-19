@@ -1,6 +1,6 @@
 <template>
   <div>
-    <form @submit.prevent="adicionar()">
+    <form @submit.prevent="resgatar()">
       <div class="modal fade show" style="display: block">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
@@ -17,7 +17,7 @@
                   <div class="form-group">
                     <label>Tipo:</label>
                     <input
-                      v-model="ativo[0].tipo"
+                    :value="ativo[0].tipo"
                       type="text"
                       class="form-control"
                       id="inputCodigo"
@@ -30,7 +30,7 @@
                 <div class="col-8 form-group">
                   <label>Ativo:</label>
                   <input
-                    v-model="ativo[0].ativo"
+                   :value="`${ativo[0].ativo} - ${ativo[0].empresa}`"
                     type="text"
                     class="form-control"
                     id="inputCodigo"
@@ -53,7 +53,7 @@
                 <div class="form-group col-8">
                   <label for>Segmento:</label>
                   <input
-                    v-model="ativo[0].segmento"
+                    :value="ativo[0].segmento"
                     type="text"
                     class="form-control"
                     id="inputCodigo"

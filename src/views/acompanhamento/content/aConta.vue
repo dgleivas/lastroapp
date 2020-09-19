@@ -129,7 +129,6 @@ export default {
   methods: {
     async atualizar() {
       this.updating = true;
-
       var today = new Date();
       var date =
         today.getDate() +

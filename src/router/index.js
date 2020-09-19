@@ -38,7 +38,7 @@ const routes = [
         name: "Orcamento",
         component: () => import(/* webpackChunkName: "Orcamento" */ "../components/Orcamento.vue"),
         props: true
-      },
+      }
     ]
 
   },

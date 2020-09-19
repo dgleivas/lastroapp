@@ -1,0 +1,927 @@
+{
+   "reits": [{
+      "codigo": "AAT",
+      "price": "25,72"
+    },
+    {
+      "codigo": "ABR",
+      "price": "11,62"
+    },
+    {
+      "codigo": "ABR-PR-C",
+      "price": "N/A"
+    },
+    {
+      "codigo": "ACC",
+      "price": "34,25"
+    },
+    {
+      "codigo": "ACRE",
+      "price": "10,23"
+    },
+    {
+      "codigo": "ADC",
+      "price": "67,43"
+    },
+    {
+      "codigo": "AFIN",
+      "price": "6,97"
+    },
+    {
+      "codigo": "AGNC",
+      "price": "14,14"
+    },
+    {
+      "codigo": "AHH",
+      "price": "10,32"
+    },
+    {
+      "codigo": "AHT",
+      "price": "3,13"
+    },
+    {
+      "codigo": "AIV",
+      "price": "36,38"
+    },
+    {
+      "codigo": "AJX",
+      "price": "9,36"
+    },
+    {
+      "codigo": "AKR",
+      "price": "11,57"
+    },
+    {
+      "codigo": "ALX",
+      "price": "262,01"
+    },
+    {
+      "codigo": "AMH",
+      "price": "28,69"
+    },
+    {
+      "codigo": "AMT",
+      "price": "249,59"
+    },
+    {
+      "codigo": "ANH",
+      "price": "1,75"
+    },
+    {
+      "codigo": "APLE",
+      "price": "10,69"
+    },
+    {
+      "codigo": "APTS",
+      "price": "6,69"
+    },
+    {
+      "codigo": "ARCT",
+      "price": "52,29"
+    },
+    {
+      "codigo": "ARE",
+      "price": "169,71"
+    },
+    {
+      "codigo": "ARI",
+      "price": "9,28"
+    },
+    {
+      "codigo": "ARR",
+      "price": "9,87"
+    },
+    {
+      "codigo": "AVB",
+      "price": "159,62"
+    },
+    {
+      "codigo": "BDN",
+      "price": "11,4"
+    },
+    {
+      "codigo": "BFS",
+      "price": "28,4"
+    },
+    {
+      "codigo": "BHR",
+      "price": "2,52"
+    },
+    {
+      "codigo": "BPR",
+      "price": "N/A"
+    },
+    {
+      "codigo": "BRG",
+      "price": "7,47"
+    },
+    {
+      "codigo": "BRT",
+      "price": "13,47"
+    },
+    {
+      "codigo": "BRX",
+      "price": "11,98"
+    },
+    {
+      "codigo": "BXMT",
+      "price": "24,09"
+    },
+    {
+      "codigo": "BXP",
+      "price": "88,94"
+    },
+    {
+      "codigo": "CBL",
+      "price": "0,19"
+    },
+    {
+      "codigo": "CDOR",
+      "price": "4,42"
+    },
+    {
+      "codigo": "CDR",
+      "price": "0,88"
+    },
+    {
+      "codigo": "CIM",
+      "price": "9,07"
+    },
+    {
+      "codigo": "CIO",
+      "price": "8,19"
+    },
+    {
+      "codigo": "CLDT",
+      "price": "7,35"
+    },
+    {
+      "codigo": "CLI",
+      "price": "12,8"
+    },
+    {
+      "codigo": "CLNC",
+      "price": "6,36"
+    },
+    {
+      "codigo": "CLNS",
+      "price": "N/A"
+    },
+    {
+      "codigo": "CLNY",
+      "price": "2,89"
+    },
+    {
+      "codigo": "CLPR",
+      "price": "6,54"
+    },
+    {
+      "codigo": "CMCT",
+      "price": "10,47"
+    },
+    {
+      "codigo": "CMO",
+      "price": "6,32"
+    },
+    {
+      "codigo": "COLD",
+      "price": "38,5"
+    },
+    {
+      "codigo": "CONE",
+      "price": "82,55"
+    },
+    {
+      "codigo": "COR",
+      "price": "121,78"
+    },
+    {
+      "codigo": "CORR",
+      "price": "9,53"
+    },
+    {
+      "codigo": "CPLG",
+      "price": "5,62"
+    },
+    {
+      "codigo": "CPT",
+      "price": "91,08"
+    },
+    {
+      "codigo": "CSA",
+      "price": "43,47"
+    },
+    {
+      "codigo": "CSAL",
+      "price": "N/A"
+    },
+    {
+      "codigo": "CSG",
+      "price": "50,5"
+    },
+    {
+      "codigo": "CTRE",
+      "price": "19,47"
+    },
+    {
+      "codigo": "CTT",
+      "price": "10,09"
+    },
+    {
+      "codigo": "CUBE",
+      "price": "31,59"
+    },
+    {
+      "codigo": "CUZ",
+      "price": "30,3"
+    },
+    {
+      "codigo": "CWH",
+      "price": "31,62"
+    },
+    {
+      "codigo": "CXP",
+      "price": "12,25"
+    },
+    {
+      "codigo": "DCT",
+      "price": "41,22"
+    },
+    {
+      "codigo": "DDR",
+      "price": "7,51"
+    },
+    {
+      "codigo": "DEA",
+      "price": "24,23"
+    },
+    {
+      "codigo": "DEI",
+      "price": "28,18"
+    },
+    {
+      "codigo": "DLR",
+      "price": "154,29"
+    },
+    {
+      "codigo": "DOC",
+      "price": "18,06"
+    },
+    {
+      "codigo": "DRE",
+      "price": "38,68"
+    },
+    {
+      "codigo": "DRH",
+      "price": "5,63"
+    },
+    {
+      "codigo": "DX",
+      "price": "15,98"
+    },
+    {
+      "codigo": "EARN",
+      "price": "11,6"
+    },
+    {
+      "codigo": "EGP",
+      "price": "134,84"
+    },
+    {
+      "codigo": "ELS",
+      "price": "66,01"
+    },
+    {
+      "codigo": "EPR",
+      "price": "33,15"
+    },
+    {
+      "codigo": "EPRT",
+      "price": "17,22"
+    },
+    {
+      "codigo": "EQC",
+      "price": "31,39"
+    },
+    {
+      "codigo": "EQR",
+      "price": "57,03"
+    },
+    {
+      "codigo": "ESRT",
+      "price": "6,34"
+    },
+    {
+      "codigo": "ESS",
+      "price": "220,64"
+    },
+    {
+      "codigo": "EXR",
+      "price": "106,74"
+    },
+    {
+      "codigo": "FCPT",
+      "price": "25,39"
+    },
+    {
+      "codigo": "FPH",
+      "price": "5,19"
+    },
+    {
+      "codigo": "FPI",
+      "price": "6,79"
+    },
+    {
+      "codigo": "FR",
+      "price": "42,8"
+    },
+    {
+      "codigo": "FRT",
+      "price": "80,45"
+    },
+    {
+      "codigo": "FSP",
+      "price": "4,67"
+    },
+    {
+      "codigo": "GEO",
+      "price": "11,16"
+    },
+    {
+      "codigo": "GLPI",
+      "price": "37,49"
+    },
+    {
+      "codigo": "GMRE",
+      "price": "12,97"
+    },
+    {
+      "codigo": "GOOD",
+      "price": "19,27"
+    },
+    {
+      "codigo": "GOODM",
+      "price": "25,22"
+    },
+    {
+      "codigo": "GOODN",
+      "price": "25,18"
+    },
+    {
+      "codigo": "GOV",
+      "price": "180,1"
+    },
+    {
+      "codigo": "GPMT",
+      "price": "6,98"
+    },
+    {
+      "codigo": "GRP-U",
+      "price": "N/A"
+    },
+    {
+      "codigo": "GTY",
+      "price": "29,37"
+    },
+    {
+      "codigo": "GYRO",
+      "price": "17,5"
+    },
+    {
+      "codigo": "GYRO",
+      "price": "17,5"
+    },
+    {
+      "codigo": "HASI",
+      "price": "42,4"
+    },
+    {
+      "codigo": "HCAP",
+      "price": "3,21"
+    },
+    {
+      "codigo": "HCFT",
+      "price": "2,45"
+    },
+    {
+      "codigo": "HCN",
+      "price": "19,65"
+    },
+    {
+      "codigo": "HCP",
+      "price": "N/A"
+    },
+    {
+      "codigo": "HIW",
+      "price": "37,74"
+    },
+    {
+      "codigo": "HMG",
+      "price": "10,53"
+    },
+    {
+      "codigo": "HPP",
+      "price": "23,8"
+    },
+    {
+      "codigo": "HPT",
+      "price": "N/A"
+    },
+    {
+      "codigo": "HR",
+      "price": "28,51"
+    },
+    {
+      "codigo": "HST",
+      "price": "11,69"
+    },
+    {
+      "codigo": "HT",
+      "price": "6,81"
+    },
+    {
+      "codigo": "HTA",
+      "price": "26,15"
+    },
+    {
+      "codigo": "IHT",
+      "price": "1,19"
+    },
+    {
+      "codigo": "IIPR",
+      "price": "125,21"
+    },
+    {
+      "codigo": "ILPT",
+      "price": "21,85"
+    },
+    {
+      "codigo": "INN",
+      "price": "6,25"
+    },
+    {
+      "codigo": "INVH",
+      "price": "28,66"
+    },
+    {
+      "codigo": "IRET",
+      "price": "70,41"
+    },
+    {
+      "codigo": "IRM",
+      "price": "30,34"
+    },
+    {
+      "codigo": "IRT",
+      "price": "11,86"
+    },
+    {
+      "codigo": "IVR",
+      "price": "3,07"
+    },
+    {
+      "codigo": "JBGS",
+      "price": "27,86"
+    },
+    {
+      "codigo": "JCAP",
+      "price": "17,3"
+    },
+    {
+      "codigo": "KIM",
+      "price": "12,07"
+    },
+    {
+      "codigo": "KRC",
+      "price": "59,9"
+    },
+    {
+      "codigo": "KREF",
+      "price": "18,19"
+    },
+    {
+      "codigo": "KRG",
+      "price": "11,4"
+    },
+    {
+      "codigo": "LADR",
+      "price": "7,77"
+    },
+    {
+      "codigo": "LAND",
+      "price": "15,58"
+    },
+    {
+      "codigo": "LSI",
+      "price": "105,68"
+    },
+    {
+      "codigo": "LTC",
+      "price": "37,14"
+    },
+    {
+      "codigo": "LXP",
+      "price": "11,52"
+    },
+    {
+      "codigo": "MAA",
+      "price": "117,16"
+    },
+    {
+      "codigo": "MAC",
+      "price": "8,09"
+    },
+    {
+      "codigo": "MDH",
+      "price": "37,6"
+    },
+    {
+      "codigo": "MDRR",
+      "price": "1,32"
+    },
+    {
+      "codigo": "MFA",
+      "price": "2,82"
+    },
+    {
+      "codigo": "MGP",
+      "price": "28,79"
+    },
+    {
+      "codigo": "MITT",
+      "price": "2,87"
+    },
+    {
+      "codigo": "MNR",
+      "price": "14,48"
+    },
+    {
+      "codigo": "MPW",
+      "price": "18,57"
+    },
+    {
+      "codigo": "NCT",
+      "price": "14,85"
+    },
+    {
+      "codigo": "NHI",
+      "price": "63,12"
+    },
+    {
+      "codigo": "NLY",
+      "price": "7,46"
+    },
+    {
+      "codigo": "NNN",
+      "price": "36,52"
+    },
+    {
+      "codigo": "NRZ",
+      "price": "7,9"
+    },
+    {
+      "codigo": "NSA",
+      "price": "34,41"
+    },
+    {
+      "codigo": "NXRT",
+      "price": "41,37"
+    },
+    {
+      "codigo": "NYMT",
+      "price": "2,76"
+    },
+    {
+      "codigo": "NYMTO",
+      "price": "21,47"
+    },
+    {
+      "codigo": "O",
+      "price": "63,44"
+    },
+    {
+      "codigo": "OFC",
+      "price": "25,06"
+    },
+    {
+      "codigo": "OHI",
+      "price": "31,52"
+    },
+    {
+      "codigo": "OLP",
+      "price": "19,45"
+    },
+    {
+      "codigo": "OPI",
+      "price": "24,39"
+    },
+    {
+      "codigo": "ORC",
+      "price": "5,15"
+    },
+    {
+      "codigo": "OUT",
+      "price": "17,25"
+    },
+    {
+      "codigo": "PCH",
+      "price": "47,03"
+    },
+    {
+      "codigo": "PDM",
+      "price": "15,66"
+    },
+    {
+      "codigo": "PEB",
+      "price": "12,86"
+    },
+    {
+      "codigo": "PEI",
+      "price": "1,13"
+    },
+    {
+      "codigo": "PGRE",
+      "price": "7,49"
+    },
+    {
+      "codigo": "PK",
+      "price": "9,98"
+    },
+    {
+      "codigo": "PLD",
+      "price": "102,49"
+    },
+    {
+      "codigo": "PLYM",
+      "price": "13,6"
+    },
+    {
+      "codigo": "PMCT",
+      "price": "N/A"
+    },
+    {
+      "codigo": "PMT",
+      "price": "17,57"
+    },
+    {
+      "codigo": "PSA",
+      "price": "213,44"
+    },
+    {
+      "codigo": "PSB",
+      "price": "127,91"
+    },
+    {
+      "codigo": "PW",
+      "price": "20,1"
+    },
+    {
+      "codigo": "QTS",
+      "price": "67,14"
+    },
+    {
+      "codigo": "RC",
+      "price": "10,5"
+    },
+    {
+      "codigo": "REG",
+      "price": "40,44"
+    },
+    {
+      "codigo": "RESI",
+      "price": "9,73"
+    },
+    {
+      "codigo": "REXR",
+      "price": "48,1"
+    },
+    {
+      "codigo": "RHE",
+      "price": "1,37"
+    },
+    {
+      "codigo": "RHP",
+      "price": "39,74"
+    },
+    {
+      "codigo": "RLJ",
+      "price": "9,87"
+    },
+    {
+      "codigo": "ROIC",
+      "price": "11,32"
+    },
+    {
+      "codigo": "RPAI",
+      "price": "6,54"
+    },
+    {
+      "codigo": "RPT",
+      "price": "6,1"
+    },
+    {
+      "codigo": "RSO",
+      "price": "76,93"
+    },
+    {
+      "codigo": "RWT",
+      "price": "7,19"
+    },
+    {
+      "codigo": "RYN",
+      "price": "29,62"
+    },
+    {
+      "codigo": "SACH",
+      "price": "3,6"
+    },
+    {
+      "codigo": "SAFE",
+      "price": "55,18"
+    },
+    {
+      "codigo": "SBRA",
+      "price": "15,05"
+    },
+    {
+      "codigo": "SELF",
+      "price": "3,97"
+    },
+    {
+      "codigo": "SHO",
+      "price": "8,62"
+    },
+    {
+      "codigo": "SITC",
+      "price": "7,79"
+    },
+    {
+      "codigo": "SKT",
+      "price": "5,95"
+    },
+    {
+      "codigo": "SLG",
+      "price": "48,91"
+    },
+    {
+      "codigo": "SNH",
+      "price": "0,05"
+    },
+    {
+      "codigo": "SNHO",
+      "price": "1,21"
+    },
+    {
+      "codigo": "SNR",
+      "price": "4,54"
+    },
+    {
+      "codigo": "SOHO",
+      "price": "2,07"
+    },
+    {
+      "codigo": "SOHOO",
+      "price": "6,98"
+    },
+    {
+      "codigo": "SPG",
+      "price": "69,84"
+    },
+    {
+      "codigo": "SRC",
+      "price": "36,34"
+    },
+    {
+      "codigo": "SRG",
+      "price": "13,83"
+    },
+    {
+      "codigo": "SSS",
+      "price": "1220"
+    },
+    {
+      "codigo": "STAG",
+      "price": "32,53"
+    },
+    {
+      "codigo": "STAR",
+      "price": "12,68"
+    },
+    {
+      "codigo": "STOR",
+      "price": "27,6"
+    },
+    {
+      "codigo": "STWD",
+      "price": "16,01"
+    },
+    {
+      "codigo": "SUI",
+      "price": "149,12"
+    },
+    {
+      "codigo": "TCO",
+      "price": "38,17"
+    },
+    {
+      "codigo": "TRNO",
+      "price": "59,87"
+    },
+    {
+      "codigo": "TRTX",
+      "price": "9,07"
+    },
+    {
+      "codigo": "TTO",
+      "price": "2,32"
+    },
+    {
+      "codigo": "TWO",
+      "price": "5,62"
+    },
+    {
+      "codigo": "UBA",
+      "price": "9,54"
+    },
+    {
+      "codigo": "UBP",
+      "price": "8,55"
+    },
+    {
+      "codigo": "UDR",
+      "price": "35,09"
+    },
+    {
+      "codigo": "UE",
+      "price": "10,92"
+    },
+    {
+      "codigo": "UHT",
+      "price": "69,11"
+    },
+    {
+      "codigo": "UMH",
+      "price": "14,28"
+    },
+    {
+      "codigo": "UNIT",
+      "price": "9,85"
+    },
+    {
+      "codigo": "VER",
+      "price": "6,92"
+    },
+    {
+      "codigo": "VICI",
+      "price": "22,98"
+    },
+    {
+      "codigo": "VNO",
+      "price": "37,16"
+    },
+    {
+      "codigo": "VTR",
+      "price": "42,72"
+    },
+    {
+      "codigo": "WELL",
+      "price": "59,45"
+    },
+    {
+      "codigo": "WHLR",
+      "price": "2,98"
+    },
+    {
+      "codigo": "WMC",
+      "price": "2,37"
+    },
+    {
+      "codigo": "WPC",
+      "price": "71,72"
+    },
+    {
+      "codigo": "WRE",
+      "price": "22,47"
+    },
+    {
+      "codigo": "WRI",
+      "price": "17,76"
+    },
+    {
+      "codigo": "WSR",
+      "price": "6,62"
+    },
+    {
+      "codigo": "XAN",
+      "price": "2,35"
+    },
+    {
+      "codigo": "XHR",
+      "price": "9,51"
+    },
+    {
+      "codigo": "ZFC",
+      "price": "33,88"
+    }
+  ]
+}

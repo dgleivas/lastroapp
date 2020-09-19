@@ -28,7 +28,7 @@ export default {
       this.type = payload.type;
       setTimeout(() => {
         this.close();
-      }, payload.timeout || 4000);
+      }, payload.timeout || 2000);
     });
   },
   methods: {

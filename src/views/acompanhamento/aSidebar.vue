@@ -36,6 +36,11 @@
               <i class="fas fa-piggy-bank"></i> Aportes
             </router-link>
           </li>
+           <li class="nav-item mb-2">
+            <router-link :to="{ name:'ConteudoAcompanhamento', params: { subrota: 'upload'} }">
+              <i class="fas fa-upload"></i> Upload
+            </router-link>
+          </li>
         </ul>
         <p class="nav-item mt-5 font-weight-bold">
           Configurações
