@@ -24,7 +24,7 @@
           <button
             class="btn btn-outline-secondary py-0 mx-2"
             type="button"
-            @click="cotacaoAcoesB3()"
+            @click="cadastroAtivos(cadacoesb3, 'acoesbrl','Cadastro Ações B3')"
           >
             <i class="fas fa-file-upload text-primary"></i>
           </button>
@@ -43,7 +43,7 @@
           <button
             class="btn btn-outline-secondary py-0 mx-2"
             type="button"
-            @click="cotacaoFundos()"
+            @click="cadastroAtivos(cadfundos,'fundos','Cadastro de Fundos Imobiliários')"
           >
             <i class="fas fa-file-upload text-success"></i>
           </button>
@@ -60,7 +60,11 @@
           </button>
         </div>
         <div class="mb-3 col-2 text-danger">
-          <button class="btn btn-outline-secondary py-0 mx-2" type="button" @click="cotacaoReits()">
+          <button
+            class="btn btn-outline-secondary py-0 mx-2"
+            type="button"
+            @click="cadastroAtivos(cadreits, 'reits','Cadastro Reits')"
+          >
             <i class="fas fa-file-upload text-danger"></i>
           </button>
         </div>
@@ -76,7 +80,7 @@
           </button>
         </div>
         <div class="mb-3 col-2 text-warning">
-          <button class="btn btn-outline-secondary py-0 mx-2" type="button" @click="cotacaoEtfs()">
+          <button class="btn btn-outline-secondary py-0 mx-2" type="button" @click="cadastroAtivos(cadetfs, 'etfs','Cadastro Etfs')">
             <i class="fas fa-file-upload text-warning"></i>
           </button>
         </div>
@@ -95,12 +99,23 @@
           <button
             class="btn btn-outline-secondary py-0 mx-2"
             type="button"
-            @click="cotacaoAcoesEua()"
+            @click="cadastroAtivos(cadacoeseua, 'acoeseua','Cadastro Ações Americanas')"
           >
             <i class="fas fa-file-upload text-secondary"></i>
           </button>
         </div>
         <div class="mb-3 col-8 text-secondary">Ações Americanas</div>
+        <div class="mb-3 col-2">-</div>
+        <div class="mb-3 col-2">
+          <button
+            class="btn btn-outline-secondary py-0 mx-2"
+            type="button"
+            @click="cadastroAtivos(cadsegtipo, 'segmentotipo','Cadastro Segmento Tipo')"
+          >
+            <i class="fas fa-file-upload"></i>
+          </button>
+        </div>
+        <div class="mb-3 col-8">Segmentos Tipo</div>
       </div>
     </div>
   </div>
@@ -112,6 +127,12 @@ import jsonAcoesEua from "./respositorio/priceAcoesEua.json";
 import jsonEtfs from "./respositorio/priceEtfs.json";
 import jsonFundos from "./respositorio/priceFundos.json";
 import jsonReits from "./respositorio/priceReits.json";
+import jsonCadAcoesBrl from "./respositorio/cadAcoesBrl.json";
+import jsonCadAcoesEua from "./respositorio/cadAcoesEua.json";
+import jsonCadEtfs from "./respositorio/cadEtfs.json";
+import jsonCadFundos from "./respositorio/cadFundos.json";
+import jsonCadReits from "./respositorio/cadReits.json";
+import jsonCadSegmentoTipo from "./respositorio/cadSegmentoTipo.json";
 export default {
   data() {
     return {
@@ -120,6 +141,12 @@ export default {
       etfs: jsonEtfs,
       fundos: jsonFundos,
       reits: jsonReits,
+      cadacoesb3: jsonCadAcoesBrl,
+      cadacoeseua: jsonCadAcoesEua,
+      cadetfs: jsonCadEtfs,
+      cadfundos: jsonCadFundos,
+      cadreits: jsonCadReits,
+      cadsegtipo: jsonCadSegmentoTipo,
       data: ""
     };
   },
@@ -149,8 +176,7 @@ export default {
           .catch(() => {
             this.$root.$emit("Notification::show", {
               type: "danger",
-              mensagem:
-                "Erro na tentativa de atualizar o BD ${tipo} . Tente novamente."
+              mensagem: `Erro na tentativa de atualizar o BD ${tipo} . Tente novamente.`
             });
           });
       } else {
@@ -159,6 +185,30 @@ export default {
           mensagem: "Selecione uma data."
         });
       }
+    },
+    async cadastroAtivos(arrayDados, docName, tipo) {
+      const db = this.$firebase.firestore();
+      await db
+        .collection("cadastroGeral")
+        .doc(docName)
+        .delete()
+        .then(() => {
+          db.collection("cadastroGeral")
+            .doc(docName)
+            .set(arrayDados)
+            .then(() => {
+              this.$root.$emit("Notification::show", {
+                type: "success",
+                mensagem: `BD ${tipo} atualizado com sucesso!`
+              });
+            });
+        })
+        .catch(() => {
+          this.$root.$emit("Notification::show", {
+            type: "danger",
+            mensagem: `Erro na tentativa de atualizar o BD ${tipo} . Tente novamente.`
+          });
+        });
     }
   }
 };

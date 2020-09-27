@@ -3,7 +3,7 @@
     <p>
       <i class="fas fa-angle-double-right"></i>Dashboard
       <i class="fas fa-angle-double-left"></i>
-      <br>
+      <br />
       {{ uid }}
     </p>
   </div>
@@ -11,13 +11,13 @@
 
 <script>
 export default {
-  data(){
-    return{
-      uid:""
-    }
+  data() {
+    return {
+      uid: ""
+    };
   },
-  created(){
-    this.uid = window.uid
+  created() {
+    this.uid = window.uid;
   }
 };
 </script>

@@ -47,6 +47,6 @@ export default {
   z-index: 1000;
   right: 20px;
   top: 20px;
-  max-width: 400px;
+  max-width: 600px;
 }
 </style>

@@ -15,9 +15,39 @@
               <div class="row mb-2">
                 <div class="col">
                   <div class="form-group">
+                    <label>Selecione um arquivo (.csv):</label>
+                    <div class="form-file">
+                      <input
+                        type="file"
+                        class="form-file-input"
+                        id="customFile"
+                      />
+                      <label class="form-file-label" for="customFile">
+                        <span class="form-file-text">Arquivo...</span>
+                        <span class="form-file-button">Explorer</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <label>ou</label>
+              </div>
+              <div class="row mb-2 mt-2">
+                <div class="col">
+                  <div class="form-group">
                     <label>Tipo:</label>
-                    <select class="form-select" @change="onchangeTipo()" v-model="form.tipo">
-                      <option v-for="(tipo, idx) in tipos" :value="tipo" :key="idx">{{ tipo }}</option>
+                    <select
+                      class="form-select"
+                      @change="onchangeTipo()"
+                      v-model="form.tipo"
+                    >
+                      <option
+                        v-for="(tipo, idx) in tipos"
+                        :value="tipo"
+                        :key="idx"
+                        >{{ tipo }}</option
+                      >
                     </select>
                   </div>
                 </div>
@@ -26,12 +56,17 @@
                 <div class="row mb-2">
                   <div class="col-8 form-group">
                     <label>Ativo:</label>
-                    <select class="form-select" v-model="form.ativo" @change="onchangeAtivo()">
+                    <select
+                      class="form-select"
+                      v-model="form.ativo"
+                      @change="onchangeAtivo()"
+                    >
                       <option
                         v-for="(ativo, idx) in ativos"
                         :value="ativo.codigo"
                         :key="idx"
-                      >{{ ativo.codigo }} - {{ ativo.empresa }}</option>
+                        >{{ ativo.codigo }} - {{ ativo.empresa }}</option
+                      >
                     </select>
                   </div>
                   <div class="col-4 form-group">
@@ -41,8 +76,9 @@
                       v-model="form.operacao"
                       id="operacao"
                       name="operacao"
+                      disabled
                     >
-                      <option value="C">Compra</option>
+                      <option value="C" selected>Compra</option>
                       <option value="V">Venda</option>
                     </select>
                   </div>
@@ -56,7 +92,8 @@
                         v-for="(segmento, idx) in segmentos"
                         :value="segmento"
                         :key="idx"
-                      >{{ segmento }}</option>
+                        >{{ segmento }}</option
+                      >
                     </select>
                   </div>
                   <div class="form-group col-4">
@@ -76,7 +113,7 @@
                       type="number"
                       v-model="form.qtde"
                       min="0"
-                      step="1"
+                      step="0.0010"
                       class="form-control"
                       id="inputCodigo"
                       placeholder="Qtde"
@@ -101,7 +138,13 @@
             </div>
             <template v-if="form.tipo">
               <div class="modal-footer">
-                <button type="button" @click="closeModal()" class="btn btn-secondary">Fechar</button>
+                <button
+                  type="button"
+                  @click="closeModal()"
+                  class="btn btn-secondary"
+                >
+                  Fechar
+                </button>
                 <button class="btn btn-primary" :disabled="adding">
                   <template v-if="adding">
                     <i class="fas fa-circle-notch fa-spin"></i>
@@ -122,80 +165,87 @@
 </template>
 
 <script>
+import datavariable from "../../../mixins/datavariable.js";
 export default {
+  name: "Aportes",
+  mixins: [datavariable],
   data() {
     return {
-      adding: false,
       segmentos: "",
       tipos: "",
       ativos: "",
-      showModal: true,
-      form: {
-        id: "",
-        tipo: "",
-        segmento: "",
-        ativo: "",
-        empresa: "",
-        operacao: "",
-        qtde: 0,
-        subtotal: 0,
-        preco: 0,
-        data_compra: ""
-      }
+      showModal: true
     };
   },
   created() {
     this.getSegmentoTipo();
   },
   methods: {
-    onchangeAtivo(){
-      const ativo =  this.ativos.filter((ativo) => {
-        return ativo.codigo == this.form.ativo
-      })
-      this.form.empresa = ativo[0].empresa
+    onchangeAtivo() {
+      const ativo = this.ativos.filter(ativo => {
+        return ativo.codigo == this.form.ativo;
+      });
+      this.form.empresa = ativo[0].empresa;
+    },
+    sortArrayCodigo(a, b) {
+      //Para vuex
+      const ativoA = a.codigo.toUpperCase();
+      const ativoB = b.codigo.toUpperCase();
+
+      let comparison = 0;
+      if (ativoA > ativoB) {
+        comparison = 1;
+      } else if (ativoA < ativoB) {
+        comparison = -1;
+      }
+      return comparison;
     },
     async onchangeTipo() {
-      let docs  = "";
+      let docs = "";
+      let provisoriAtivos = [];
       switch (this.form.tipo) {
         case "Fundos Imobiliários":
-          docs = "fundos"
+          docs = "fundos";
           break;
         case "Ações Americanas":
-          docs = "acoeseua"
+          docs = "acoeseua";
           break;
         case "Reits":
-          docs = "reits"
+          docs = "reits";
           break;
         case "ETFs":
-           docs = "etfs"
+          docs = "etfs";
           break;
         default:
-           docs = "acoesbrl"
+          docs = "acoesbrl";
       }
-        const db = this.$firebase.firestore();
-        await db
-          .collection("cadastroGeral")
-          .doc(docs)
-          .get()
-          .then(doc => {
-            if (doc.exists) {
-              this.ativos = doc.data().ativos;
-            } else {
-              // doc.data() will be undefined in this case
-              this.$root.$emit("Notification::show", {
-                type: "danger",
-                mensagem: "Erro na tentativa de atualizar o cadastro."
-              });
-            }
-          })
-          .catch(error => {
-            this.msgerror = `Erro na tentativa de atualizar o cadastro. Erro: ${error}`;
-          });
-
-
-
+      const db = this.$firebase.firestore();
+      await db
+        .collection("cadastroGeral")
+        .doc(docs)
+        .get()
+        .then(doc => {
+          if (doc.exists) {
+            provisoriAtivos = doc.data().ativos;
+            console.log(provisoriAtivos);
+            provisoriAtivos.sort(this.sortArrayCodigo);
+            console.log(provisoriAtivos);
+            this.ativos = provisoriAtivos;
+          } else {
+            // doc.data() will be undefined in this case
+            this.$root.$emit("Notification::show", {
+              type: "danger",
+              mensagem: "Erro na tentativa de atualizar o cadastro."
+            });
+          }
+        })
+        .catch(error => {
+          this.msgerror = `Erro na tentativa de atualizar o cadastro. Erro: ${error}`;
+        });
     },
     async getSegmentoTipo() {
+      let provisoriTipos = [];
+      let provisoriSegmento = [];
       this.$root.$emit("Spinner::show");
       if (this.tipos === "" || this.segmentos === "") {
         const db = this.$firebase.firestore();
@@ -205,8 +255,12 @@ export default {
           .get()
           .then(doc => {
             if (doc.exists) {
-              this.tipos = doc.data().tipos;
-              this.segmentos = doc.data().segmentos;
+              provisoriTipos = doc.data().tipos;
+              provisoriSegmento = doc.data().segmentos;
+              provisoriTipos.sort();
+              provisoriSegmento.sort();
+              this.tipos = provisoriTipos;
+              this.segmentos = provisoriSegmento;
             } else {
               // doc.data() will be undefined in this case
               this.$root.$emit("Notification::show", {
@@ -257,7 +311,7 @@ export default {
           });
         });
 
-       this.adding = false;
+      this.adding = false;
     },
     closeModal() {
       this.$router.go(-1);

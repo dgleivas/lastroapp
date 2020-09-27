@@ -38,7 +38,11 @@
           </div>
           <div class="form-group col-4">
             <label>Complemento:</label>
-            <input type="text" v-model="form.complemento" class="form-control" />
+            <input
+              type="text"
+              v-model="form.complemento"
+              class="form-control"
+            />
           </div>
         </div>
         <div class="row mb-3">
@@ -56,7 +60,12 @@
           </div>
           <div class="form-group col-2">
             <label>Estado:</label>
-            <select class="form-select" v-model="form.estado" id="estado" name="estado">
+            <select
+              class="form-select"
+              v-model="form.estado"
+              id="estado"
+              name="estado"
+            >
               <option value="AC">AC</option>
               <option value="AL">AL</option>
               <option value="AP">AP</option>

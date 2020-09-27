@@ -17,7 +17,7 @@
                   <div class="form-group">
                     <label>Tipo:</label>
                     <input
-                    :value="ativo[0].tipo"
+                      :value="ativo[0].tipo"
                       type="text"
                       class="form-control"
                       id="inputCodigo"
@@ -30,7 +30,7 @@
                 <div class="col-8 form-group">
                   <label>Ativo:</label>
                   <input
-                   :value="`${ativo[0].ativo} - ${ativo[0].empresa}`"
+                    :value="`${ativo[0].ativo} - ${ativo[0].empresa}`"
                     type="text"
                     class="form-control"
                     id="inputCodigo"
@@ -100,7 +100,13 @@
               </div>
             </div>
             <div class="modal-footer">
-              <button type="button" @click="closeModal()" class="btn btn-secondary">Fechar</button>
+              <button
+                type="button"
+                @click="closeModal()"
+                class="btn btn-secondary"
+              >
+                Fechar
+              </button>
               <button class="btn btn-danger" :disabled="adding">
                 <template v-if="adding">
                   <i class="fas fa-circle-notch fa-spin"></i>

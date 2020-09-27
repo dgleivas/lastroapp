@@ -1,12 +1,11 @@
 <template>
   <div class="mt-4">
-    <p class="font-weight-bold">{{ tipo }}</p>
     <table class="table table-striped table-hover">
       <thead>
         <tr class="table-dark text-center">
-          <th class="col text-left align-middle">Codigo</th>
+          <th class="col text-left align-middle" width="5%">Codigo</th>
           <th class="col text-lef align-middle">Nome</th>
-          <th class="col align-middle">Qtde.</th>
+          <th class="col align-middle border-right">Qtde.</th>
           <th class="col align-middle">
             Posição
             <br />Inicial
@@ -32,24 +31,35 @@
             Resultado
             <br />do dia
           </th>
-          <th class="col align-middle">Resgate</th>
+          <th class="col align-middle" width="5%">Resgate</th>
         </tr>
       </thead>
       <tbody>
         <tr class="text-center" v-for="acao in acoes" :key="acao.id">
-          <td class="text-left">{{acao.ativo}}</td>
-          <td class="text-left">{{acao.empresa}}</td>
-          <td>{{acao.qtde.toFixed(0)}}</td>
-          <td>R$ {{acao.subtotal.toFixed(2)}}</td>
-          <td>R$ {{ calcMulti(acao.qtde,acao.actualprice) }}</td>
-          <td class="border-right">R$ {{ calcSubtracao(acao.subtotal,acao.qtde*acao.actualprice) }}</td>
-          <td>{{acao.preco.toFixed(2)}}</td>
+          <td class="text-left">{{ acao.ativo }}</td>
+          <td class="text-left">{{ acao.empresa }}</td>
+          <td class="border-right">{{ acao.qtde.toFixed(2) }}</td>
+          <td>{{ acao.subtotal.toFixed(2) }}</td>
+          <td>{{ calcMulti(acao.qtde, acao.actualprice) }}</td>
+          <td class="border-right">
+            {{ calcSubtracao(acao.subtotal, acao.qtde * acao.actualprice) }}
+          </td>
+          <td>{{ calcMedio(acao.subtotal, acao.qtde) }}</td>
           <td>{{ acao.actualprice }}</td>
-          <td class="border-right">{{ calcPercentual(acao.actualprice,acao.preco) }}%</td>
-          <td class="border-right">R$ {{ calcSubtracao(acao.qtde*acao.lastprice,acao.qtde*acao.actualprice) }}</td>
+          <td class="border-right">
+            {{ calcPercentual(acao.actualprice, acao.subtotal / acao.qtde) }}%
+          </td>
+          <td class="border-right">
+            {{
+              calcSubtracao(
+                acao.qtde * acao.lastprice,
+                acao.qtde * acao.actualprice
+              )
+            }}
+          </td>
           <td>
             <a @click="resgate(acao.ativo)">
-              <i class="fas fa-hand-holding-usd text-danger fa-2x"></i>
+              <i class="fas fa-hand-holding-usd text-danger"></i>
             </a>
           </td>
         </tr>
@@ -57,14 +67,16 @@
       <tfoot>
         <tr class="text-center font-weight-bold">
           <td class="text-left" colspan="2">Total</td>
-          <td>{{ geraTotais.qtde.toFixed(0)}}</td>
-          <td>R$ {{ geraTotais.posicaoInicial.toFixed(2)}}</td>
-          <td>R$ {{ geraTotais.posicaoAtual.toFixed(2)}}</td>
-          <td class="border-right">R$ {{ geraTotais.resultTotal.toFixed(2)}}</td>
+          <td class="border-right">{{ geraTotais.qtde.toFixed(2) }}</td>
+          <td>{{ geraTotais.posicaoInicial.toFixed(2) }}</td>
+          <td>{{ geraTotais.posicaoAtual.toFixed(2) }}</td>
+          <td class="border-right">{{ geraTotais.resultTotal.toFixed(2) }}</td>
           <td>-</td>
           <td>-</td>
-          <td class="border-right">{{ geraTotais.resultPercent.toFixed(2)}}%</td>
-          <td class="border-right"> R$ {{ geraTotais.resultHoje.toFixed(2)}}</td>
+          <td class="border-right">
+            {{ geraTotais.resultPercent.toFixed(2) }}%
+          </td>
+          <td class="border-right">{{ geraTotais.resultHoje.toFixed(2) }}</td>
           <td>-</td>
         </tr>
       </tfoot>
@@ -74,13 +86,14 @@
 
 <script>
 import { mapState } from "vuex";
+import dataformat from "../../../../mixins/dataformat.js";
 export default {
   name: "Tabela_da_Carteira",
-  props: ["tipo","cartteira"],
+  props: ["tipo", "cartteira"],
+  mixins: [dataformat],
   data() {
     return {
       ...mapState(["stateAtivo"]),
-      apikey: "BKNKMFD87YSIYUL9",
       acoes: []
     };
   },
@@ -92,7 +105,7 @@ export default {
       const values = {
         qtde: 0,
         posicaoInicial: 0,
-        posicaoOntem:0,
+        posicaoOntem: 0,
         posicaoAtual: 0,
         resultTotal: 0,
         resultHoje: 0,
@@ -109,28 +122,15 @@ export default {
       values.resultTotal = values.posicaoAtual - values.posicaoInicial;
       values.resultPercent =
         (values.posicaoAtual / values.posicaoInicial - 1) * 100;
-        values.resultHoje = values.posicaoAtual - values.posicaoOntem
+      values.resultHoje = values.posicaoAtual - values.posicaoOntem;
       return values;
     }
   },
   methods: {
-    calcMulti(valeu1, value2) {
-      const result = valeu1 * value2;
-      return result.toFixed(2);
-    },
-    calcSubtracao(oldValue, newValue) {
-      const result = newValue - oldValue;
-      return result.toFixed(2);
-    },
-    calcPercentual(numinator, demonimator) {
-      const result = (numinator / demonimator - 1) * 100;
-      return result.toFixed(2);
-    },
     getData() {
-        this.getDataDBCotacao(this.cartteira).then(data2 => {
-          this.acoes = data2
-          console.log(this.acoes)
-          });
+      this.getDataDBCotacao(this.cartteira).then(data2 => {
+        this.acoes = data2;
+      });
     },
     resgate(ativo) {
       this.$store.state.stateAtivo = ativo;
@@ -181,17 +181,16 @@ export default {
       for (let i in data) {
         for (let j in stocksCotacoes[0]) {
           if (stocksCotacoes[0][j]["codigo"] == data[i].ativo) {
-            data[i].actualprice = Number(stocksCotacoes[0][j]["actualprice"])
-            data[i].lastprice =  Number(stocksCotacoes[0][j]["lastprice"])
+            data[i].actualprice = Number(stocksCotacoes[0][j]["actualprice"]);
+            data[i].lastprice = Number(stocksCotacoes[0][j]["lastprice"]);
           }
         }
       }
 
-       return data;
+      return data;
     }
   }
 };
 </script>
 
-<style>
-</style>
+<style scoped></style>

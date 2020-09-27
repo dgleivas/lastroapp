@@ -1,19 +1,61 @@
 <template>
   <div class="container">
-    <template v-if="acoesb3.length">
-      <aCarteirasTabela tipo="Ações B3" :cartteira="acoesb3" ></aCarteirasTabela>
+    <ul class="nav nav-tabs mt-4" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          :class="cartteiraTipo == 'Ações B3' ? 'active' : ''"
+          href="#"
+          @click="cartteiraChange('acoesb3')"
+          >Ações B3</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          :class="cartteiraTipo == 'Fundos Imobiliários' ? 'active' : ''"
+          href="#"
+          @click="cartteiraChange('fundos')"
+          >Fundo Imobiliário</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          :class="cartteiraTipo == 'Ações Americanas' ? 'active' : ''"
+          href="#"
+          @click="cartteiraChange('acoeseua')"
+          >Ações Americanas</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          :class="cartteiraTipo == 'Reits' ? 'active' : ''"
+          href="#"
+          @click="cartteiraChange('reits')"
+          >Reits</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          :class="cartteiraTipo == 'ETFs' ? 'active' : ''"
+          href="#"
+          @click="cartteiraChange('etfs')"
+          >ETFs</a
+        >
+      </li>
+    </ul>
+
+    <template v-if="cartteiraArray.length > 0">
+      <aCarteirasTabela
+        :tipo="cartteiraTipo"
+        :cartteira="cartteiraArray"
+      ></aCarteirasTabela>
     </template>
-    <template v-if="fundos.length">
-      <aCarteirasTabela tipo="Fundos Imobiliários" :cartteira="fundos"></aCarteirasTabela>
-    </template>
-    <template v-if="acoeseua.length">
-      <aCarteirasTabela tipo="Ações Americanas" :cartteira="acoeseua"></aCarteirasTabela>
-    </template>
-    <template v-if="reits.length">
-      <aCarteirasTabela tipo="Reits" :cartteira="reits"></aCarteirasTabela>
-    </template>
-    <template v-if="etfs.length">
-      <aCarteirasTabela tipo="ETFs" :cartteira="etfs"></aCarteirasTabela>
+    <template v-else>
+      <p class="font-weight-bold mt-4">Carteira vazia!</p>
     </template>
   </div>
 </template>
@@ -28,7 +70,9 @@ export default {
       acoeseua: [],
       etfs: [],
       fundos: [],
-      reits: []
+      reits: [],
+      cartteiraArray: [],
+      cartteiraTipo: ""
     };
   },
   components: {
@@ -38,10 +82,46 @@ export default {
     this.getDataDB().then(dados => {
       setTimeout(() => {
         this.preencheArray(dados);
+        if (!this.cartteiraArray.length) {
+          if (this.acoesb3.length) {
+            this.cartteiraTipo = "Ações B3";
+            this.cartteiraArray = this.acoesb3;
+          } else if (this.fundos.length) {
+            this.cartteiraTipo = "Fundos Imobiliários";
+            this.cartteiraArray = this.fundos;
+          } else if (this.acoeseua.length) {
+            this.cartteiraTipo = "Ações Americanas";
+            this.cartteiraArray = this.acoeseua;
+          } else if (this.reits.length) {
+            this.cartteiraTipo = "Reits";
+            this.cartteiraArray = this.reits;
+          } else if (this.etfs.length) {
+            this.cartteiraTipo = "ETFs";
+            this.cartteiraArray = this.etfs;
+          }
+        }
       }, 200);
     });
   },
   methods: {
+    cartteiraChange(tipo) {
+      if (tipo == "acoesb3") {
+        this.cartteiraTipo = "Ações B3";
+        this.cartteiraArray = this.acoesb3;
+      } else if (tipo == "fundos") {
+        this.cartteiraTipo = "Fundos Imobiliários";
+        this.cartteiraArray = this.fundos;
+      } else if (tipo == "acoeseua") {
+        this.cartteiraTipo = "Ações Americanas";
+        this.cartteiraArray = this.acoeseua;
+      } else if (tipo == "reits") {
+        this.cartteiraTipo = "Reits";
+        this.cartteiraArray = this.reits;
+      } else if (tipo == "etfs") {
+        this.cartteiraTipo = "ETFs";
+        this.cartteiraArray = this.etfs;
+      }
+    },
     preencheArray(dados) {
       if (dados.length) {
         for (let i in dados) {

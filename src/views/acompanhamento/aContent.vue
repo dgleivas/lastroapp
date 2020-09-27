@@ -17,6 +17,7 @@ import aresgates from "./content/aResgates"
 import aconta from "./content/aConta"
 import aajuda from "./content/aAjuda"
 import asair from "./content/aSair"
+import aalterar from "./content/aAlterar"
 import upload from "./content/Upload"
 
 export default {
@@ -36,6 +37,7 @@ export default {
     aconta,
     aajuda,
     asair,
+    aalterar,
     upload
   },
   watch: {
